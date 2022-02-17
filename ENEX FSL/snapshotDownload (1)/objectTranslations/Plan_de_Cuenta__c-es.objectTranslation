@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Plan de Cuenta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Plan de Cuentas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Año Plan --></label>
+        <name>A_o_Plan__c</name>
+        <picklistValues>
+            <masterLabel>2013</masterLabel>
+            <translation><!-- 2013 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2014</masterLabel>
+            <translation><!-- 2014 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015</masterLabel>
+            <translation><!-- 2015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2016</masterLabel>
+            <translation><!-- 2016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2017</masterLabel>
+            <translation><!-- 2017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2018</masterLabel>
+            <translation><!-- 2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019</masterLabel>
+            <translation><!-- 2019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2020</masterLabel>
+            <translation><!-- 2020 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Acciones para los próximos 6 meses --></label>
+        <name>Acciones_para_los_proximos_6_meses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amenazas --></label>
+        <name>Amenazas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código JDE --></label>
+        <name>C_digo_JDE__c</name>
+        <relationshipLabel><!-- Plan de Cuentas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Clasificación Nace --></label>
+        <name>Clasificacioon_Nace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contacto --></label>
+        <name>Contacto__c</name>
+        <relationshipLabel><!-- Plan de Cuentas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contrato Combustible --></label>
+        <name>Contrato_Combustible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contrato Lubricantes --></label>
+        <name>Contrato_Lubricantes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Días de Crédito --></label>
+        <name>D_as_de_Cr_dito__c</name>
+    </fields>
+    <fields>
+        <label><!-- Debilidades --></label>
+        <name>Debilidades__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción de Garantías --></label>
+        <name>Descripcion_de_Garantias__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direccion de Despacho --></label>
+        <name>Direccion_de_Despacho__c</name>
+    </fields>
+    <fields>
+        <label><!-- Otras Empresas Combustible --></label>
+        <name>Empresas_Combustible__c</name>
+    </fields>
+    <fields>
+        <label><!-- ¿Es cliente de Enex? --></label>
+        <name>Es_cliente_de_Enex__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estrategia para lograr los objetivo --></label>
+        <name>Estrategia_para_lograr_los_objetivo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facturación --></label>
+        <name>Facturacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fortalezas --></label>
+        <name>Fortalezas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grupo empresarial al que pertenece --></label>
+        <name>Grupo_empresarial_al_que_pertenece__c</name>
+    </fields>
+    <fields>
+        <label><!-- Información de la Competencia --></label>
+        <name>Informacion_de_la_Competencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Límite de Crédito Asignado --></label>
+        <name>L_mite_de_Cr_dito_Asignado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen --></label>
+        <name>Margen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Contacto 1 --></label>
+        <name>Nombre_Contacto_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Objetivo del Cliente --></label>
+        <name>Objetivo_del_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Objetivos de la Compañia --></label>
+        <name>Objetivos_de_la_Compania__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oportunidades --></label>
+        <name>Oportunidades__c</name>
+    </fields>
+    <fields>
+        <label><!-- Otras Empresas Lubricantes --></label>
+        <name>Otras_Empresas_Lubricantes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producto --></label>
+        <name>Producto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proveedor Combustible --></label>
+        <name>Proveedor_Combustible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proveedor Lubricantes --></label>
+        <name>Proveedor_Lubricantes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Razón Social --></label>
+        <name>Raz_n_Social__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resumen Actividad Comercial del Cliente --></label>
+        <name>Resumen_Actividad_Comercial_del_Cliente__c</name>
+    </fields>
+    <fields>
+        <help><!-- ¿Cuáles son los riego de tomarlo? --></help>
+        <label><!-- Riesgos Asociados --></label>
+        <name>Riesgos_Asociados__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rut --></label>
+        <name>Rut__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen --></label>
+        <name>Volumen__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Plan de Cuenta</layout>
+        <sections>
+            <label><!-- FODA --></label>
+            <section>FODA</section>
+        </sections>
+        <sections>
+            <label><!-- INFORMACIÓN CLIENTE --></label>
+            <section>INFORMACIÓN CLIENTE</section>
+        </sections>
+        <sections>
+            <label><!-- INFORMACIÓN GENERAL DEL PLAN --></label>
+            <section>INFORMACIÓN GENERAL DEL PLAN</section>
+        </sections>
+        <sections>
+            <label><!-- Si tiene contrato, fecha de vencimiento --></label>
+            <section>Si tiene contrato, fecha de vencimiento</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

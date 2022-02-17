@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Meta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Metas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Grupo Producto --></label>
+        <name>Grupo_Producto__c</name>
+        <picklistValues>
+            <masterLabel>Asfaltos</masterLabel>
+            <translation><!-- Asfaltos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviacion</masterLabel>
+            <translation><!-- Aviacion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Combustible</masterLabel>
+            <translation><!-- Combustible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lubricantes</masterLabel>
+            <translation><!-- Lubricantes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quimicos</masterLabel>
+            <translation><!-- Quimicos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repuestos</masterLabel>
+            <translation><!-- Repuestos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios</masterLabel>
+            <translation><!-- Servicios --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Id Unico Meta --></label>
+        <name>Id_Unico_Meta_C1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meta C1 --></label>
+        <name>Meta_C1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meta Volumen --></label>
+        <name>Meta_Volumen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Periodo --></label>
+        <name>Periodo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Real C1 --></label>
+        <name>Real_C1_Venta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Real C1 (No usar) --></label>
+        <name>Real_C1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Real Volumen --></label>
+        <name>Real_Volumen_Venta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Real Volumen (No usar) --></label>
+        <name>Real_Volumen__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Meta C1</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

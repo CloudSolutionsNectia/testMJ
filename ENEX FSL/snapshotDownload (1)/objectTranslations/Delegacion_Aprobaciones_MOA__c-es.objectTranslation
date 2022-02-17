@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Delegacion Aprobaciones MOA</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Delegaciones Aprobaciones MOA</value>
+    </caseValues>
+    <fields>
+        <label><!-- Activo --></label>
+        <name>Activo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reemplaza --></label>
+        <name>Reemplaza__c</name>
+        <relationshipLabel><!-- Delegaciones Aprobaciones MOA (Reemplaza) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Titular --></label>
+        <name>Titular__c</name>
+        <relationshipLabel><!-- Delegaciones Aprobaciones MOA (Titular) --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Delegacion Aprobaciones MOA</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- No puede crear Delegaciones si usted no es el usuario Titular --></errorMessage>
+        <name>No_permite_Crear_si_no_es_Titular</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Usted no puede cambiar la Información de la delegación. Solo se puede activar o desactivar. --></errorMessage>
+        <name>No_permite_cambios</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Usted no puede cambiar el campo Activo de este registro si no es quien lo Creo --></errorMessage>
+        <name>Permite_Solo_Activar_Desacivar</name>
+    </validationRules>
+</CustomObjectTranslation>

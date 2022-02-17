@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Historico Precio Planta Precio</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Historico Precios Planta Precio</value>
+    </caseValues>
+    <fields>
+        <label><!-- Costo Flete Primario Promedio Shellcard --></label>
+        <name>Costo_Flete_Primario_Promedio_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Planta Enex --></label>
+        <name>Costo_Planta_Enex_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Días de Compra --></label>
+        <name>Dias_de_Compra_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Días de Stock --></label>
+        <name>Dias_de_Stock_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Inicio Vigencia --></label>
+        <name>Fecha_Inicio_Vigencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Termino Vigencia --></label>
+        <name>Fecha_Termino_Vigencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre de Planta --></label>
+        <name>Nombre_de_Planta__c</name>
+        <relationshipLabel><!-- Historico Precios Planta Precio --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Historico Precio Planta Precio</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

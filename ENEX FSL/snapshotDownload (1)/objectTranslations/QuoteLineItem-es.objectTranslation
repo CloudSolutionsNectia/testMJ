@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Producto de Cotización</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Productos de Cotización</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Descripción</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quotelineitem_description</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Volumen</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quotelineitem_quantity</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Costo Base</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quotelineitem_salesprice</name>
+    </fields>
+    <fields>
+        <label><!-- Aporte Adicional Shell $ --></label>
+        <name>Aporte_Adicional_Shell_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aporte Adicional Shell USD --></label>
+        <name>Aporte_Adicional_Shell_USD_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- C3&gt;BSP --></label>
+        <name>C3_BSP_L2__c</name>
+    </fields>
+    <fields>
+        <label><!-- C3&gt;BSP --></label>
+        <name>C3_BSP_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- C3 Unitario con Aporte --></label>
+        <name>C3_Unitario_con_Aporte_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- C3 unitario aproximado --></label>
+        <name>C3_unitario_aproximado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calculo de Flete --></label>
+        <name>Calculo_de_Flete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clasificación de Riesgo Cuenta --></label>
+        <name>Clasificacion_de_Riesgo_Cuenta_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clasificación del Producto --></label>
+        <name>Clasificacion_del_Producto_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cliente Retira en Planta --></label>
+        <name>Cliente_Retira_en_Planta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Codigo de Producto --></label>
+        <name>Codigo_de_Producto_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comisiones ($/mᶟ) --></label>
+        <name>Comisiones_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comuna Localidad --></label>
+        <name>Comuna_Localidad_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo de Almacenaje ($/lt) --></label>
+        <name>Costo_Almacenaje_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Financiero (Referencial) ($/mᶟ) --></label>
+        <name>Costo_Financiero_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Financiero x Volumen / Total Volum --></label>
+        <name>Costo_Financiero_x_Volumen_Total_Vol_SCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Transporte --></label>
+        <name>Costo_Flete_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Flete Primario Promedio --></label>
+        <name>Costo_Flete_Primario_Promedio_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Flete Primario Promedio Prod2.Plan --></label>
+        <name>Costo_Flete_Primario_Promedio_Prod2_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Operacional Combustible ($/m3) --></label>
+        <name>Costo_Operacional_Combustible_m3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Operacional ($/m3) --></label>
+        <name>Costo_Operacional_sin_Flete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Planta ($/mᶟ) --></label>
+        <name>Costo_Planta_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Planta SCT ($/mᶟ) --></label>
+        <name>Costo_Planta_SCT_m__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Planta ($/mᶟ) Prod2.Planta --></label>
+        <name>Costo_Planta_m_Prod2_Planta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Base ($/m3) --></label>
+        <name>Costo_Producto_Flange_RPC_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Productos Product2 --></label>
+        <name>Costo_Productos_Product2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo de Operación --></label>
+        <name>Costo_de_Operaci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo de Producto ($/lt) --></label>
+        <name>Costo_de_Producto_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo financiero ($/m³) --></label>
+        <name>Costo_financiero_m3_SCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento ($/m³) --></label>
+        <name>Descuento_m3_SCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento x Volumen / Total Volumen --></label>
+        <name>Descuento_x_Volumen_Total_Volumen_SCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Días de Compra + Días de Stock --></label>
+        <name>Dias_de_Compra_Dias_de_Stock__c</name>
+    </fields>
+    <fields>
+        <label><!-- Días de Crédito Efectivo --></label>
+        <name>Dias_de_Credito_Efectivo_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Diferencia con P° Pizarra  ($/mᶟ) --></label>
+        <name>Diferencia_P_Pizarra_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Drop Size Cotización --></label>
+        <name>Drop_Size_Cotizacion_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Envase / Granel --></label>
+        <name>Envase_Granel_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Errores Calculo --></label>
+        <name>Errores_Calculo__c</name>
+    </fields>
+    <fields>
+        <label><!-- FEPP ($/m3) Product2 --></label>
+        <name>FEPP_m3_Product2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fee --></label>
+        <name>Fee_SCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flete Terrestre --></label>
+        <name>Flete_Terrestre__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecast Canal ($/lt) --></label>
+        <name>Forecast_Canal_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Operacional --></label>
+        <name>Gastos_Operacionales_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Horas Disponibles --></label>
+        <name>Horas_Disponibles_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- IE ($/m3) --></label>
+        <name>IE_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- IE Divisa ($/mᶟ) --></label>
+        <name>IE_Divisa_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- IE ($/m3) Producto2 --></label>
+        <name>IE_m3_Producto2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Localidad --></label>
+        <name>Id_Localidad_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- FEPP ($/m3) --></label>
+        <name>Impuesto_FEPP_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lista de Precios Vigente --></label>
+        <name>Lista_de_Precios_Vigente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Llave --></label>
+        <name>Llave__c</name>
+    </fields>
+    <fields>
+        <label><!-- MargenC3 SCE-CF-RC x Volumen / Total Vol --></label>
+        <name>MargenC3_CF_RC_x_Volumen_Total_Vol_SCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen C1 ($/mᶟ) --></label>
+        <name>Margen_C1_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen C1  SCT ($/mᶟ) --></label>
+        <name>Margen_C1_SCT_m__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen C1 por Volumen --></label>
+        <name>Margen_C1_por_Volumen_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen C3+CF+RC ($/mᶟ) --></label>
+        <name>Margen_C3_CF_RC_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen C3+CF+RC SCT ($/mᶟ) --></label>
+        <name>Margen_C3_CF_RC_SCT_m__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen C3 CF RC por Volumen --></label>
+        <name>Margen_C3_CF_RC_por_Volumen_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen C3  ($/mᶟ) --></label>
+        <name>Margen_C3_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen C3 EDS Comisión - Fee --></label>
+        <name>Margen_C3_EDS_Comision_Fee_SCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen C3 EDS --></label>
+        <name>Margen_C3_EDS_SCE__c</name>
+    </fields>
+    <fields>
+        <help><!-- Si la cuenta es pronto pago entonces este valor contempla el descuento de pronto pago del 3% --></help>
+        <label><!-- Margen C3 ($/lt) --></label>
+        <name>Margen_C3_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen C3 (%/lt) --></label>
+        <name>Margen_C3_Percent_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen C3 SCE - CF - RC ($/m³) --></label>
+        <name>Margen_C3_SCE_CF_RC_m3_SCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen C3 SCE ($/m³) --></label>
+        <name>Margen_C3_SCE_m3_SCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen C3 Total ($) --></label>
+        <name>Margen_C3_Total_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen C3 con Aporte Shell --></label>
+        <name>Margen_C3_con_Aporte_Shell_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margen C3 por Volumen --></label>
+        <name>Margen_C3_por_Volumen_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Planta --></label>
+        <name>Nombre_Planta_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Producto --></label>
+        <name>Nombre_Producto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Tipo Registro --></label>
+        <name>Nombre_Tipo_Registro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planta Lubricante --></label>
+        <name>Planta_Lubricante_L__c</name>
+        <relationshipLabel><!-- Partidas de presupuesto --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Precio FInal SCT ($/m3) --></label>
+        <name>Precio_FInal_SCT_m3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Neto Combustible ($/m3) --></label>
+        <name>Precio_Neto_Combustible_m3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Neto $/lt --></label>
+        <name>Precio_Neto_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Neto por Envase --></label>
+        <name>Precio_Neto_por_Envase_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio RM x Volumen Formula --></label>
+        <name>Precio_RM_x_Volumen_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio RM x Volumen --></label>
+        <name>Precio_RM_x_Volumen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Resto Pais x Volumen Formula --></label>
+        <name>Precio_Resto_Pais_x_Volumen_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Resto Pais x Volumen --></label>
+        <name>Precio_Resto_Pais_x_Volumen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio litro aproximado --></label>
+        <name>Precio_litro_aproximado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio por Envase c/IVA --></label>
+        <name>Precio_por_Envase_IVA_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recomendación de revisión de Stock --></label>
+        <name>Recomendacion_de_revision_de_Stock_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Región Metropolitana? --></label>
+        <name>Regi_n_Metropolitana__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retira en Planta --></label>
+        <name>Retira_en_Planta_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revisar VAC --></label>
+        <name>Revisar_VAC_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revisar VAC Número --></label>
+        <name>Revisar_VAC_Numero_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Riesgo Crédito SCT ($/mᶟ) --></label>
+        <name>Riesgo_Cr_dito_SCT_m__c</name>
+    </fields>
+    <fields>
+        <label><!-- Riesgo Crédito ($/mᶟ) --></label>
+        <name>Riesgo_Credito_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Riesgo Credito x Volumen / Total Volumen --></label>
+        <name>Riesgo_Credito_x_Volumen_Total_Volum_SCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Se envió Mensaje falta Flete? --></label>
+        <name>Se_envi_Mensaje_falta_Flete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segmento Asegurado --></label>
+        <name>Segmento_Asegurado_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segmento de Cuenta --></label>
+        <name>Segmento_de_Cuenta_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segmento de Cuenta Id --></label>
+        <name>Segmento_de_Cuenta_Id_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Bodega de Despacho (lt) --></label>
+        <name>Stock_Bodega_Despacho_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Total País (lt) --></label>
+        <name>Stock_Total_Pais_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- StoreList --></label>
+        <name>StoreList_SCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- TIR --></label>
+        <name>TIR_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo Cliente --></label>
+        <name>Tipo_Cliente_C__c</name>
+        <picklistValues>
+            <masterLabel>Antiguo</masterLabel>
+            <translation><!-- Antiguo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nuevo</masterLabel>
+            <translation><!-- Nuevo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo Ecología --></label>
+        <name>Tipo_Ecologia_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Precio --></label>
+        <name>Tipo_Precio_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Producto OPORTUNIDAD --></label>
+        <name>Tipo_de_Producto_OPORTUNIDAD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio FInal ($/m3) --></label>
+        <name>Total_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Costo Producto Con IVA --></label>
+        <name>Total_Costo_Producto_Con_IVA_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Costo Producto Sin IVA --></label>
+        <name>Total_Costo_Producto_Sin_IVA_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Divisa --></label>
+        <name>Total_Divisa_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total IVA ($/m3) --></label>
+        <name>Total_IVA_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total IVA Divisa --></label>
+        <name>Total_IVA_Divisa_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total IVA Sin Riesgo Crédito --></label>
+        <name>Total_IVA_Sin_Riesgo_Credito_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total IVA Sin Riesgo Crédito SCT --></label>
+        <name>Total_IVA_Sin_Riesgo_Credito_SCT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Impuestos --></label>
+        <name>Total_Impuestos_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Final Sin IVA ($/m3) --></label>
+        <name>Total_Neto_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Neto Divisa --></label>
+        <name>Total_Neto_Divisa_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Neto Sin Riesgo Crédito --></label>
+        <name>Total_Neto_Sin_Riesgo_Credito_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total con IVA Sin Riesgo Crédito --></label>
+        <name>Total_con_IVA_Sin_Riesgo_Credito_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unidad de Precio y Costo --></label>
+        <name>Unidad_de_Precio_y_Costo_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usar Campos? --></label>
+        <name>Usar_Campos__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAC (mᶟ/Mes) --></label>
+        <name>VAC_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAC (mᶟ/Mes) Product2 --></label>
+        <name>VAC_m_Mes_Product2__c</name>
+    </fields>
+    <fields>
+        <label><!-- VPN --></label>
+        <name>VPN_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Total $ --></label>
+        <name>Venta_Total_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ventana Entrega Cotización --></label>
+        <name>Ventana_Entrega_Cotizacion_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen (m3/Mes) --></label>
+        <name>Volumen_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen (lt/mes) --></label>
+        <name>Volumen_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen por Envase --></label>
+        <name>Volumen_por_Envase_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zona SCT --></label>
+        <name>Zona_SCT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zona --></label>
+        <name>Zona__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato de partida de presupuesto Combustible</layout>
+        <sections>
+            <label><!-- Sección ShellCard Empresa --></label>
+            <section>Sección ShellCard Empresa</section>
+        </sections>
+        <sections>
+            <label><!-- Sección de Combustibles --></label>
+            <section>Sección de Combustibles</section>
+        </sections>
+        <sections>
+            <label><!-- Sección de Lubricantes --></label>
+            <section>Sección de Lubricantes</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- No puede realizar modificaciones ni agregar productos si lista de precio no esta vigente. Vaya a la cotización y cambie la lista de precios por una vigente. --></errorMessage>
+        <name>No_modificar_si_LP_no_Vigente</name>
+    </validationRules>
+</CustomObjectTranslation>

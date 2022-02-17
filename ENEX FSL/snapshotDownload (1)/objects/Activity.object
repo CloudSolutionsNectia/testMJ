@@ -1,0 +1,2246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AM_PM__c</fullName>
+        <externalId>false</externalId>
+        <label>AM/PM</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AM</fullName>
+                    <default>false</default>
+                    <label>AM</label>
+                </value>
+                <value>
+                    <fullName>PM</fullName>
+                    <default>false</default>
+                    <label>PM</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Accion_de_Recuperacion__c</fullName>
+        <externalId>false</externalId>
+        <label>Acción de Recuperación</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Gestion_Cartera__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Visita vendedor</fullName>
+                    <default>false</default>
+                    <label>Visita vendedor</label>
+                </value>
+                <value>
+                    <fullName>Re cotización</fullName>
+                    <default>false</default>
+                    <label>Re cotización</label>
+                </value>
+                <value>
+                    <fullName>Análisis de línea de Crédito</fullName>
+                    <default>false</default>
+                    <label>Análisis de línea de Crédito</label>
+                </value>
+                <value>
+                    <fullName>Otro</fullName>
+                    <default>false</default>
+                    <label>Otro</label>
+                </value>
+                <value>
+                    <fullName>Llamada</fullName>
+                    <default>false</default>
+                    <label>Llamada</label>
+                </value>
+                <value>
+                    <fullName>Envío Correo</fullName>
+                    <default>false</default>
+                    <label>Envío Correo</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Perdido</controllingFieldValue>
+                <valueName>Visita vendedor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Perdido</controllingFieldValue>
+                <valueName>Re cotización</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Perdido</controllingFieldValue>
+                <valueName>Análisis de línea de Crédito</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Perdido</controllingFieldValue>
+                <valueName>Otro</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Antiguedad__c</fullName>
+        <externalId>false</externalId>
+        <formula>MCEILING(Today() - DATEVALUE(CreatedDate))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Antiguedad</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Area_Generadora__c</fullName>
+        <externalId>false</externalId>
+        <label>Área Generadora</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Marketing</fullName>
+                    <default>false</default>
+                    <label>Marketing</label>
+                </value>
+                <value>
+                    <fullName>Ventas</fullName>
+                    <default>false</default>
+                    <label>Ventas</label>
+                </value>
+                <value>
+                    <fullName>CSC</fullName>
+                    <default>true</default>
+                    <label>CSC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Auditoria_Comentario__c</fullName>
+        <externalId>false</externalId>
+        <label>Auditoria Comentario</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Ayuda_Tarea_o_Reuni_n__c</fullName>
+        <defaultValue>&quot;No modificar campo:&quot;&amp;BR()&amp;&quot;-- Relacionado con --&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Ayuda TAREA o REUNIÓN</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Cantidad_de_Flota__c</fullName>
+        <externalId>false</externalId>
+        <label>Cantidad de Flota</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cantidad_de_Tarjetas__c</fullName>
+        <externalId>false</externalId>
+        <label>Cantidad de Tarjetas</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CheckOutAccuracy__c</fullName>
+        <externalId>false</externalId>
+        <label>Check Out Accuracy (m)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CheckOutDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Check Out Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CheckOutDistanceFromRecordMi__c</fullName>
+        <externalId>false</externalId>
+        <label>Check Out Distance From Record (mi)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CheckOutLatitude__c</fullName>
+        <externalId>false</externalId>
+        <label>Check Out Latitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>15</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CheckOutLongitude__c</fullName>
+        <externalId>false</externalId>
+        <label>Check Out Longitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>15</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Check_in_date_time__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Check In Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Comentario_de_Cierre__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Por favor ingresar detalles de cierre de la tarea.</inlineHelpText>
+        <label>Comentario de Cierre</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CreatedLatitude__c</fullName>
+        <externalId>false</externalId>
+        <label>Created Latitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>15</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CreatedLocationAccuracy__c</fullName>
+        <externalId>false</externalId>
+        <label>Created Location Accuracy (m)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CreatedLocationVerified__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Created Location Verified</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CreatedLongitude__c</fullName>
+        <externalId>false</externalId>
+        <label>Created Longitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>15</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cuenta__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Cuenta</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Actividades</relationshipLabel>
+        <relationshipName>Actividades</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DB_Activity_Type__c</fullName>
+        <description>This is a field that is installed by and used with the Adoption Dashboard AppExchange package.  If your org already has a similar field, you can change the reports that are part of the Adoption Dashboard package to use your custom field and then delete this field.</description>
+        <externalId>false</externalId>
+        <formula>IF(CONTAINS( Subject , &quot;Email&quot;), &quot;Email&quot;, IF(CONTAINS( Subject , &quot;Cold Call&quot;), &quot;Cold Call&quot;, IF(CONTAINS( Subject , &quot;Call&quot;), &quot;Call&quot;, IF(CONTAINS( Subject , &quot;Meeting&quot;), &quot;Meeting&quot;, IF(CONTAINS( Subject , &quot;On Site Visit&quot;), &quot;Site Visit&quot;, IF(CONTAINS( Subject , &quot;Quote&quot;), &quot;Send Letter/Quote&quot;, &quot;Other&quot;))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DB Activity Type</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Detalle_llamado__c</fullName>
+        <externalId>false</externalId>
+        <label>Detalle llamado</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Tipo_de_Contacto__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Antifraude (En evaluación)</fullName>
+                    <default>false</default>
+                    <label>Antifraude (En evaluación)</label>
+                </value>
+                <value>
+                    <fullName>Antifraude (SI fraude)</fullName>
+                    <default>false</default>
+                    <label>Antifraude (SI fraude)</label>
+                </value>
+                <value>
+                    <fullName>Antifraude (NO fraude)</fullName>
+                    <default>false</default>
+                    <label>Antifraude (NO fraude)</label>
+                </value>
+                <value>
+                    <fullName>Capacitación</fullName>
+                    <default>false</default>
+                    <label>Capacitación</label>
+                </value>
+                <value>
+                    <fullName>Sala de Descanso</fullName>
+                    <default>false</default>
+                    <label>Sala de Descanso</label>
+                </value>
+                <value>
+                    <fullName>Fidelización</fullName>
+                    <default>false</default>
+                    <label>Fidelización</label>
+                </value>
+                <value>
+                    <fullName>Contacto sin respuesta</fullName>
+                    <default>false</default>
+                    <label>Contacto sin respuesta</label>
+                </value>
+                <value>
+                    <fullName>Línea de Crédito</fullName>
+                    <default>false</default>
+                    <label>Línea de Crédito</label>
+                </value>
+                <value>
+                    <fullName>Deuda</fullName>
+                    <default>false</default>
+                    <label>Deuda</label>
+                </value>
+                <value>
+                    <fullName>Incobrable</fullName>
+                    <default>false</default>
+                    <label>Incobrable</label>
+                </value>
+                <value>
+                    <fullName>Baja</fullName>
+                    <default>false</default>
+                    <label>Baja</label>
+                </value>
+                <value>
+                    <fullName>Recuperación</fullName>
+                    <default>false</default>
+                    <label>Recuperación</label>
+                </value>
+                <value>
+                    <fullName>Información pedidos</fullName>
+                    <default>false</default>
+                    <label>Información pedidos</label>
+                </value>
+                <value>
+                    <fullName>Prospectos</fullName>
+                    <default>false</default>
+                    <label>Prospectos</label>
+                </value>
+                <value>
+                    <fullName>Bienvenida</fullName>
+                    <default>false</default>
+                    <label>Bienvenida</label>
+                </value>
+                <value>
+                    <fullName>NO</fullName>
+                    <default>false</default>
+                    <label>NO</label>
+                </value>
+                <value>
+                    <fullName>SI</fullName>
+                    <default>false</default>
+                    <label>SI</label>
+                </value>
+                <value>
+                    <fullName>100% Tarjetas sin Consumo</fullName>
+                    <default>false</default>
+                    <label>100% Tarjetas sin Consumo</label>
+                </value>
+                <value>
+                    <fullName>% Parcial de Tarjetas sin Consumo</fullName>
+                    <default>false</default>
+                    <label>% Parcial de Tarjetas sin Consumo</label>
+                </value>
+                <value>
+                    <fullName>Volumen</fullName>
+                    <default>false</default>
+                    <label>Volumen</label>
+                </value>
+                <value>
+                    <fullName>Control Total 2.0</fullName>
+                    <default>false</default>
+                    <label>Control Total 2.0</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>SoW</controllingFieldValue>
+                <controllingFieldValue>Volumen</controllingFieldValue>
+                <controllingFieldValue>Fidelización</controllingFieldValue>
+                <controllingFieldValue>Crédito</controllingFieldValue>
+                <controllingFieldValue>Bienvenida</controllingFieldValue>
+                <controllingFieldValue>FEX</controllingFieldValue>
+                <valueName>Contacto sin respuesta</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SoW</controllingFieldValue>
+                <valueName>100% Tarjetas sin Consumo</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SoW</controllingFieldValue>
+                <valueName>% Parcial de Tarjetas sin Consumo</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Volumen</controllingFieldValue>
+                <valueName>Baja</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Volumen</controllingFieldValue>
+                <valueName>Recuperación</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Fidelización</controllingFieldValue>
+                <valueName>Antifraude (En evaluación)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Fidelización</controllingFieldValue>
+                <valueName>Antifraude (SI fraude)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Fidelización</controllingFieldValue>
+                <valueName>Antifraude (NO fraude)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Fidelización</controllingFieldValue>
+                <valueName>Capacitación</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Fidelización</controllingFieldValue>
+                <valueName>Sala de Descanso</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Fidelización</controllingFieldValue>
+                <valueName>Fidelización</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Fidelización</controllingFieldValue>
+                <valueName>Control Total 2.0</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Crédito</controllingFieldValue>
+                <valueName>Línea de Crédito</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Crédito</controllingFieldValue>
+                <valueName>Deuda</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Crédito</controllingFieldValue>
+                <valueName>Incobrable</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Bienvenida</controllingFieldValue>
+                <valueName>Bienvenida</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FEX</controllingFieldValue>
+                <valueName>Información pedidos</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FEX</controllingFieldValue>
+                <valueName>Prospectos</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FEX</controllingFieldValue>
+                <valueName>Volumen</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DistanceFromRecordMi__c</fullName>
+        <externalId>false</externalId>
+        <label>Distance from Record (mi)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Distancia_del_Check_out__c</fullName>
+        <externalId>false</externalId>
+        <formula>CheckOutDistanceFromRecordMi__c * 1600</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Distancia del Check out</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duracion_de_visita__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+( CheckOutDate__c - CreatedDate)&gt; 0 , 
+(FLOOR( CheckOutDate__c- CreatedDate) *24*60)+ 
+(FLOOR( MOD( (CheckOutDate__c - CreatedDate) * 24, 24 ) ) *60)+ 
+(ROUND( MOD( (CheckOutDate__c - CreatedDate) * 24 * 60, 60 ), 0 ) ),0 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Duración de visita</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Epoca_de_Estacionalidad__c</fullName>
+        <externalId>false</externalId>
+        <label>Epoca de Estacionalidad</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Primavera-Verano</fullName>
+                    <default>false</default>
+                    <label>Primavera-Verano</label>
+                </value>
+                <value>
+                    <fullName>Otoño- Invierno</fullName>
+                    <default>false</default>
+                    <label>Otoño- Invierno</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Es_Recuperable__c</fullName>
+        <externalId>false</externalId>
+        <label>Es Recuperable</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Si</fullName>
+                    <default>false</default>
+                    <label>Si</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FSL__Count_of_Events__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Count of all events</description>
+        <externalId>false</externalId>
+        <formula>IF( IsTask,0,1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Recuento de todos los eventos</inlineHelpText>
+        <label>Count of Events</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSL__Count_of_Tasks__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF( IsTask,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Count of Tasks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSL__Event_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Event Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Service Appointment</fullName>
+                    <default>false</default>
+                    <label>Service Appointment</label>
+                </value>
+                <value>
+                    <fullName>Resource Absence</fullName>
+                    <default>false</default>
+                    <label>Resource Absence</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>F_Asignado__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner:User.FirstName &amp; &quot; &quot; &amp;  Owner:User.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>F Asignado</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fecha_Hora_Cierre__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha / Hora Cierre</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_Hora_Vencimiento_Copia__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha / Hora Vencimiento Copia</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_Hora_Vencimiento_del__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha / Hora Vencimiento</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_de_Pr_xima_Acci_n__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha de Próxima Acción</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Funci_n_Creador__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedBy.UserRole.Name</formula>
+        <label>Función Creador Actividad</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Gestion_Cartera__c</fullName>
+        <externalId>false</externalId>
+        <label>Gestión Cartera</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Activo</fullName>
+                    <default>false</default>
+                    <label>Activo</label>
+                </value>
+                <value>
+                    <fullName>En Riesgo</fullName>
+                    <default>false</default>
+                    <label>En Riesgo</label>
+                </value>
+                <value>
+                    <fullName>Perdido</fullName>
+                    <default>false</default>
+                    <label>Perdido</label>
+                </value>
+                <value>
+                    <fullName>Prospectos</fullName>
+                    <default>false</default>
+                    <label>Prospectos</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HH__c</fullName>
+        <externalId>false</externalId>
+        <label>HH</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>01</fullName>
+                    <default>false</default>
+                    <label>01</label>
+                </value>
+                <value>
+                    <fullName>02</fullName>
+                    <default>false</default>
+                    <label>02</label>
+                </value>
+                <value>
+                    <fullName>03</fullName>
+                    <default>false</default>
+                    <label>03</label>
+                </value>
+                <value>
+                    <fullName>04</fullName>
+                    <default>false</default>
+                    <label>04</label>
+                </value>
+                <value>
+                    <fullName>05</fullName>
+                    <default>false</default>
+                    <label>05</label>
+                </value>
+                <value>
+                    <fullName>06</fullName>
+                    <default>false</default>
+                    <label>06</label>
+                </value>
+                <value>
+                    <fullName>07</fullName>
+                    <default>false</default>
+                    <label>07</label>
+                </value>
+                <value>
+                    <fullName>08</fullName>
+                    <default>false</default>
+                    <label>08</label>
+                </value>
+                <value>
+                    <fullName>09</fullName>
+                    <default>false</default>
+                    <label>09</label>
+                </value>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+                <value>
+                    <fullName>11</fullName>
+                    <default>false</default>
+                    <label>11</label>
+                </value>
+                <value>
+                    <fullName>12</fullName>
+                    <default>false</default>
+                    <label>12</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MM__c</fullName>
+        <externalId>false</externalId>
+        <label>MM</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>01</fullName>
+                    <default>false</default>
+                    <label>01</label>
+                </value>
+                <value>
+                    <fullName>02</fullName>
+                    <default>false</default>
+                    <label>02</label>
+                </value>
+                <value>
+                    <fullName>03</fullName>
+                    <default>false</default>
+                    <label>03</label>
+                </value>
+                <value>
+                    <fullName>04</fullName>
+                    <default>false</default>
+                    <label>04</label>
+                </value>
+                <value>
+                    <fullName>05</fullName>
+                    <default>false</default>
+                    <label>05</label>
+                </value>
+                <value>
+                    <fullName>06</fullName>
+                    <default>false</default>
+                    <label>06</label>
+                </value>
+                <value>
+                    <fullName>07</fullName>
+                    <default>false</default>
+                    <label>07</label>
+                </value>
+                <value>
+                    <fullName>08</fullName>
+                    <default>false</default>
+                    <label>08</label>
+                </value>
+                <value>
+                    <fullName>09</fullName>
+                    <default>false</default>
+                    <label>09</label>
+                </value>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+                <value>
+                    <fullName>11</fullName>
+                    <default>false</default>
+                    <label>11</label>
+                </value>
+                <value>
+                    <fullName>12</fullName>
+                    <default>false</default>
+                    <label>12</label>
+                </value>
+                <value>
+                    <fullName>13</fullName>
+                    <default>false</default>
+                    <label>13</label>
+                </value>
+                <value>
+                    <fullName>14</fullName>
+                    <default>false</default>
+                    <label>14</label>
+                </value>
+                <value>
+                    <fullName>15</fullName>
+                    <default>false</default>
+                    <label>15</label>
+                </value>
+                <value>
+                    <fullName>16</fullName>
+                    <default>false</default>
+                    <label>16</label>
+                </value>
+                <value>
+                    <fullName>17</fullName>
+                    <default>false</default>
+                    <label>17</label>
+                </value>
+                <value>
+                    <fullName>18</fullName>
+                    <default>false</default>
+                    <label>18</label>
+                </value>
+                <value>
+                    <fullName>19</fullName>
+                    <default>false</default>
+                    <label>19</label>
+                </value>
+                <value>
+                    <fullName>20</fullName>
+                    <default>false</default>
+                    <label>20</label>
+                </value>
+                <value>
+                    <fullName>21</fullName>
+                    <default>false</default>
+                    <label>21</label>
+                </value>
+                <value>
+                    <fullName>22</fullName>
+                    <default>false</default>
+                    <label>22</label>
+                </value>
+                <value>
+                    <fullName>23</fullName>
+                    <default>false</default>
+                    <label>23</label>
+                </value>
+                <value>
+                    <fullName>24</fullName>
+                    <default>false</default>
+                    <label>24</label>
+                </value>
+                <value>
+                    <fullName>25</fullName>
+                    <default>false</default>
+                    <label>25</label>
+                </value>
+                <value>
+                    <fullName>26</fullName>
+                    <default>false</default>
+                    <label>26</label>
+                </value>
+                <value>
+                    <fullName>27</fullName>
+                    <default>false</default>
+                    <label>27</label>
+                </value>
+                <value>
+                    <fullName>28</fullName>
+                    <default>false</default>
+                    <label>28</label>
+                </value>
+                <value>
+                    <fullName>29</fullName>
+                    <default>false</default>
+                    <label>29</label>
+                </value>
+                <value>
+                    <fullName>30</fullName>
+                    <default>false</default>
+                    <label>30</label>
+                </value>
+                <value>
+                    <fullName>31</fullName>
+                    <default>false</default>
+                    <label>31</label>
+                </value>
+                <value>
+                    <fullName>32</fullName>
+                    <default>false</default>
+                    <label>32</label>
+                </value>
+                <value>
+                    <fullName>33</fullName>
+                    <default>false</default>
+                    <label>33</label>
+                </value>
+                <value>
+                    <fullName>34</fullName>
+                    <default>false</default>
+                    <label>34</label>
+                </value>
+                <value>
+                    <fullName>35</fullName>
+                    <default>false</default>
+                    <label>35</label>
+                </value>
+                <value>
+                    <fullName>36</fullName>
+                    <default>false</default>
+                    <label>36</label>
+                </value>
+                <value>
+                    <fullName>37</fullName>
+                    <default>false</default>
+                    <label>37</label>
+                </value>
+                <value>
+                    <fullName>38</fullName>
+                    <default>false</default>
+                    <label>38</label>
+                </value>
+                <value>
+                    <fullName>39</fullName>
+                    <default>false</default>
+                    <label>39</label>
+                </value>
+                <value>
+                    <fullName>40</fullName>
+                    <default>false</default>
+                    <label>40</label>
+                </value>
+                <value>
+                    <fullName>41</fullName>
+                    <default>false</default>
+                    <label>41</label>
+                </value>
+                <value>
+                    <fullName>42</fullName>
+                    <default>false</default>
+                    <label>42</label>
+                </value>
+                <value>
+                    <fullName>43</fullName>
+                    <default>false</default>
+                    <label>43</label>
+                </value>
+                <value>
+                    <fullName>44</fullName>
+                    <default>false</default>
+                    <label>44</label>
+                </value>
+                <value>
+                    <fullName>45</fullName>
+                    <default>false</default>
+                    <label>45</label>
+                </value>
+                <value>
+                    <fullName>46</fullName>
+                    <default>false</default>
+                    <label>46</label>
+                </value>
+                <value>
+                    <fullName>47</fullName>
+                    <default>false</default>
+                    <label>47</label>
+                </value>
+                <value>
+                    <fullName>48</fullName>
+                    <default>false</default>
+                    <label>48</label>
+                </value>
+                <value>
+                    <fullName>49</fullName>
+                    <default>false</default>
+                    <label>49</label>
+                </value>
+                <value>
+                    <fullName>50</fullName>
+                    <default>false</default>
+                    <label>50</label>
+                </value>
+                <value>
+                    <fullName>51</fullName>
+                    <default>false</default>
+                    <label>51</label>
+                </value>
+                <value>
+                    <fullName>52</fullName>
+                    <default>false</default>
+                    <label>52</label>
+                </value>
+                <value>
+                    <fullName>53</fullName>
+                    <default>false</default>
+                    <label>53</label>
+                </value>
+                <value>
+                    <fullName>54</fullName>
+                    <default>false</default>
+                    <label>54</label>
+                </value>
+                <value>
+                    <fullName>55</fullName>
+                    <default>false</default>
+                    <label>55</label>
+                </value>
+                <value>
+                    <fullName>56</fullName>
+                    <default>false</default>
+                    <label>56</label>
+                </value>
+                <value>
+                    <fullName>57</fullName>
+                    <default>false</default>
+                    <label>57</label>
+                </value>
+                <value>
+                    <fullName>58</fullName>
+                    <default>false</default>
+                    <label>58</label>
+                </value>
+                <value>
+                    <fullName>59</fullName>
+                    <default>false</default>
+                    <label>59</label>
+                </value>
+                <value>
+                    <fullName>60</fullName>
+                    <default>false</default>
+                    <label>60</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Monto_Deuda__c</fullName>
+        <externalId>false</externalId>
+        <label>Monto Deuda</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>N_Factura__c</fullName>
+        <externalId>false</externalId>
+        <label>N° Factura</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>N_de_OC__c</fullName>
+        <externalId>false</externalId>
+        <label>N° de OC</label>
+        <length>30</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Nombre_Vendedor__c</fullName>
+        <externalId>false</externalId>
+        <label>Nombre Vendedor</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>* P02 - Carlos Aguirre</fullName>
+                    <default>false</default>
+                    <label>* P02 - Carlos Aguirre</label>
+                </value>
+                <value>
+                    <fullName>* P03 - Rodrigo Andrade</fullName>
+                    <default>false</default>
+                    <label>* P03 - Rodrigo Andrade</label>
+                </value>
+                <value>
+                    <fullName>* P04 - Juan huerta</fullName>
+                    <default>false</default>
+                    <label>* P04 - Juan Huerta</label>
+                </value>
+                <value>
+                    <fullName>* P05 - Gabriel Laborié</fullName>
+                    <default>false</default>
+                    <label>* P05 - Gabriel Laborié</label>
+                </value>
+                <value>
+                    <fullName>* P06 - Joaquin Muñoz</fullName>
+                    <default>false</default>
+                    <label>* P06 - Joaquin Muñoz</label>
+                </value>
+                <value>
+                    <fullName>* P07 - Ernesto Villena</fullName>
+                    <default>false</default>
+                    <label>* P07 - Ernesto Villena</label>
+                </value>
+                <value>
+                    <fullName>* P08 - Cristian Cuevas</fullName>
+                    <default>false</default>
+                    <label>* P08 - Cristian Cuevas</label>
+                </value>
+                <value>
+                    <fullName>* P09 - Robinson Montero</fullName>
+                    <default>false</default>
+                    <label>* P09 - Robinson Montero</label>
+                </value>
+                <value>
+                    <fullName>* P10 - Victor Hugo</fullName>
+                    <default>false</default>
+                    <label>* P10 - Victor Hugo Teuber</label>
+                </value>
+                <value>
+                    <fullName>* P11 - Claudio Vasquez</fullName>
+                    <default>false</default>
+                    <label>* P11 - Claudio Vasquez</label>
+                </value>
+                <value>
+                    <fullName>* P12 - Anibal Gonzalez</fullName>
+                    <default>false</default>
+                    <label>* P12 - Anibal Gonzalez</label>
+                </value>
+                <value>
+                    <fullName>* P13 - Elías Calderón</fullName>
+                    <default>false</default>
+                    <label>* P13 - Elías Calderón</label>
+                </value>
+                <value>
+                    <fullName>* P14 - Miguel Angel Chang</fullName>
+                    <default>false</default>
+                    <label>* P14 - Miguel Angel Chang</label>
+                </value>
+                <value>
+                    <fullName>* P15 - Jose Alveal</fullName>
+                    <default>false</default>
+                    <label>* P15 - Jose Alveal</label>
+                </value>
+                <value>
+                    <fullName>* P16 - John Llanos</fullName>
+                    <default>false</default>
+                    <label>* P16 - John Llanos</label>
+                </value>
+                <value>
+                    <fullName>* P17 - Nelson Gonzalez</fullName>
+                    <default>false</default>
+                    <label>* P17 - Nelson Gonzalez</label>
+                </value>
+                <value>
+                    <fullName>* P18 - Roberto Casanova</fullName>
+                    <default>false</default>
+                    <label>* P18 - Roberto Casanova</label>
+                </value>
+                <value>
+                    <fullName>* P19 - Cristian Santander</fullName>
+                    <default>false</default>
+                    <label>* P19 - Cristian Santander</label>
+                </value>
+                <value>
+                    <fullName>* P20 - Gonzalo Muñoz</fullName>
+                    <default>false</default>
+                    <label>* P20 - Gonzalo Muñoz</label>
+                </value>
+                <value>
+                    <fullName>* P21 - Javier Valenzuela</fullName>
+                    <default>false</default>
+                    <label>* P21 - Javier Valenzuela</label>
+                </value>
+                <value>
+                    <fullName>* P22 - José Miguel Solano</fullName>
+                    <default>false</default>
+                    <label>* P22 - José Miguel Solano</label>
+                </value>
+                <value>
+                    <fullName>- Adrián Milla</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>- Adrián Milla</label>
+                </value>
+                <value>
+                    <fullName>- Javier Rojas</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>- Javier Rojas</label>
+                </value>
+                <value>
+                    <fullName>- Jorge Cardenas</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>- Jorge Cardenas</label>
+                </value>
+                <value>
+                    <fullName>- Jose Antonio Infante</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>- Jose Antonio Infante</label>
+                </value>
+                <value>
+                    <fullName>Ejecutiva TMK</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Ejecutiva TMK</label>
+                </value>
+                <value>
+                    <fullName>Jefe de Zona</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Jefe de Zona</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Proxima_Accion__c</fullName>
+        <externalId>false</externalId>
+        <label>Próxima Acción</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Visita Vendedor</fullName>
+                    <default>false</default>
+                    <label>Visita Vendedor</label>
+                </value>
+                <value>
+                    <fullName>Recotización</fullName>
+                    <default>false</default>
+                    <label>Recotización</label>
+                </value>
+                <value>
+                    <fullName>Análisis de Línea de Crédito</fullName>
+                    <default>false</default>
+                    <label>Análisis de Línea de Crédito</label>
+                </value>
+                <value>
+                    <fullName>Llamada</fullName>
+                    <default>false</default>
+                    <label>Llamada</label>
+                </value>
+                <value>
+                    <fullName>Envío Correo</fullName>
+                    <default>false</default>
+                    <label>Envío Correo</label>
+                </value>
+                <value>
+                    <fullName>Otro</fullName>
+                    <default>false</default>
+                    <label>Otro</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Razon_de_Perdido__c</fullName>
+        <externalId>false</externalId>
+        <label>Razón de Perdido*</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Gestion_Cartera__c</controllingField>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Crédito</fullName>
+                    <default>false</default>
+                    <label>Crédito</label>
+                </value>
+                <value>
+                    <fullName>Deuda</fullName>
+                    <default>false</default>
+                    <label>Deuda</label>
+                </value>
+                <value>
+                    <fullName>Estacionalidad</fullName>
+                    <default>false</default>
+                    <label>Estacionalidad</label>
+                </value>
+                <value>
+                    <fullName>Falta de cobertura</fullName>
+                    <default>false</default>
+                    <label>Falta de cobertura</label>
+                </value>
+                <value>
+                    <fullName>Mal servicio entregado</fullName>
+                    <default>false</default>
+                    <label>Mal servicio entregado</label>
+                </value>
+                <value>
+                    <fullName>Migración de Producto</fullName>
+                    <default>false</default>
+                    <label>Migración de Producto</label>
+                </value>
+                <value>
+                    <fullName>Otra Razón Social</fullName>
+                    <default>false</default>
+                    <label>Otra Razón Social</label>
+                </value>
+                <value>
+                    <fullName>Precio</fullName>
+                    <default>false</default>
+                    <label>Precio</label>
+                </value>
+                <value>
+                    <fullName>Quiebra</fullName>
+                    <default>false</default>
+                    <label>Quiebra</label>
+                </value>
+                <value>
+                    <fullName>Siniestrado</fullName>
+                    <default>false</default>
+                    <label>Siniestrado</label>
+                </value>
+                <value>
+                    <fullName>Término de faena</fullName>
+                    <default>false</default>
+                    <label>Término de faena</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Perdido</controllingFieldValue>
+                <valueName>Crédito</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Perdido</controllingFieldValue>
+                <valueName>Deuda</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Perdido</controllingFieldValue>
+                <valueName>Estacionalidad</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Perdido</controllingFieldValue>
+                <valueName>Falta de cobertura</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Perdido</controllingFieldValue>
+                <valueName>Mal servicio entregado</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Perdido</controllingFieldValue>
+                <valueName>Migración de Producto</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Perdido</controllingFieldValue>
+                <valueName>Otra Razón Social</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Perdido</controllingFieldValue>
+                <valueName>Precio</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Perdido</controllingFieldValue>
+                <valueName>Quiebra</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Perdido</controllingFieldValue>
+                <valueName>Siniestrado</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Perdido</controllingFieldValue>
+                <valueName>Término de faena</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Responder_solo_si_Razon_Perdido_es_Otro__c</fullName>
+        <externalId>false</externalId>
+        <label>Responder sólo si Razón Perdido es Otro</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Tipo_Gesti_n_Cobranza_Lubricantes__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo Gestión Cobranza Lubricantes</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Abono</fullName>
+                    <default>false</default>
+                    <label>Abono</label>
+                </value>
+                <value>
+                    <fullName>Cheque en Cartera</fullName>
+                    <default>false</default>
+                    <label>Cheque en Cartera</label>
+                </value>
+                <value>
+                    <fullName>Cheque en Tesorería</fullName>
+                    <default>false</default>
+                    <label>Cheque en Tesorería</label>
+                </value>
+                <value>
+                    <fullName>Cheque Retirado</fullName>
+                    <default>false</default>
+                    <label>Cheque Retirado</label>
+                </value>
+                <value>
+                    <fullName>Compromiso Cliente</fullName>
+                    <default>false</default>
+                    <label>Compromiso Cliente</label>
+                </value>
+                <value>
+                    <fullName>Compromiso JJZZ</fullName>
+                    <default>false</default>
+                    <label>Compromiso JJZZ</label>
+                </value>
+                <value>
+                    <fullName>Compromiso vendedor</fullName>
+                    <default>false</default>
+                    <label>Compromiso vendedor</label>
+                </value>
+                <value>
+                    <fullName>Consulta JJZZ</fullName>
+                    <default>false</default>
+                    <label>Consulta JJZZ</label>
+                </value>
+                <value>
+                    <fullName>Consulta Tesorería</fullName>
+                    <default>false</default>
+                    <label>Consulta Tesorería</label>
+                </value>
+                <value>
+                    <fullName>Consulta Vendedor</fullName>
+                    <default>false</default>
+                    <label>Consulta Vendedor</label>
+                </value>
+                <value>
+                    <fullName>Estado de Cuenta</fullName>
+                    <default>false</default>
+                    <label>Estado de Cuenta</label>
+                </value>
+                <value>
+                    <fullName>Fono fuera de servicio</fullName>
+                    <default>false</default>
+                    <label>Fono fuera de servicio</label>
+                </value>
+                <value>
+                    <fullName>Llamar nuevamente</fullName>
+                    <default>false</default>
+                    <label>Llamar nuevamente</label>
+                </value>
+                <value>
+                    <fullName>NC pendiente</fullName>
+                    <default>false</default>
+                    <label>NC pendiente</label>
+                </value>
+                <value>
+                    <fullName>No cumple compromiso</fullName>
+                    <default>false</default>
+                    <label>No cumple compromiso</label>
+                </value>
+                <value>
+                    <fullName>Otro</fullName>
+                    <default>false</default>
+                    <label>Otro</label>
+                </value>
+                <value>
+                    <fullName>Pago</fullName>
+                    <default>false</default>
+                    <label>Pago</label>
+                </value>
+                <value>
+                    <fullName>Pago disponible</fullName>
+                    <default>false</default>
+                    <label>Pago disponible</label>
+                </value>
+                <value>
+                    <fullName>Prejudicial</fullName>
+                    <default>false</default>
+                    <label>Prejudicial</label>
+                </value>
+                <value>
+                    <fullName>Sin respuesta telefónica</fullName>
+                    <default>false</default>
+                    <label>Sin respuesta telefónica</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_Contacto__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de Contacto</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Fidelización</fullName>
+                    <default>false</default>
+                    <label>Fidelización</label>
+                </value>
+                <value>
+                    <fullName>Crédito</fullName>
+                    <default>false</default>
+                    <label>Crédito</label>
+                </value>
+                <value>
+                    <fullName>Volumen</fullName>
+                    <default>false</default>
+                    <label>Volumen</label>
+                </value>
+                <value>
+                    <fullName>FEX</fullName>
+                    <default>false</default>
+                    <label>FEX</label>
+                </value>
+                <value>
+                    <fullName>Bienvenida</fullName>
+                    <default>false</default>
+                    <label>Bienvenida</label>
+                </value>
+                <value>
+                    <fullName>SoW</fullName>
+                    <default>false</default>
+                    <label>SoW</label>
+                </value>
+                <value>
+                    <fullName>Antifraude</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Antifraude</label>
+                </value>
+                <value>
+                    <fullName>Capacitación</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Capacitación</label>
+                </value>
+                <value>
+                    <fullName>Cliente a recuperar</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Cliente a recuperar</label>
+                </value>
+                <value>
+                    <fullName>Contacto Sin Respuesta</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Contacto Sin Respuesta</label>
+                </value>
+                <value>
+                    <fullName>Correo envío de información</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Correo envío de información</label>
+                </value>
+                <value>
+                    <fullName>Correo solicitud de información</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Correo solicitud de información</label>
+                </value>
+                <value>
+                    <fullName>Deuda – Incobrable</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Deuda – Incobrable</label>
+                </value>
+                <value>
+                    <fullName>Información de pedido FEX</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Información de pedido FEX</label>
+                </value>
+                <value>
+                    <fullName>Llamada Cliente Con Deuda</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Llamada Cliente Con Deuda</label>
+                </value>
+                <value>
+                    <fullName>Llamada Cliente perdido</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Llamada Cliente perdido</label>
+                </value>
+                <value>
+                    <fullName>Llamada Incobrable</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Llamada Incobrable</label>
+                </value>
+                <value>
+                    <fullName>Llamada Pago</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Llamada Pago</label>
+                </value>
+                <value>
+                    <fullName>Llamada Recuperación Cliente</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Llamada Recuperación Cliente</label>
+                </value>
+                <value>
+                    <fullName>Llamada de Mantención</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Llamada de Mantención</label>
+                </value>
+                <value>
+                    <fullName>Llamada de Presentación</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Llamada de Presentación</label>
+                </value>
+                <value>
+                    <fullName>Sala de Descanso</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Sala de Descanso</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_Gestion__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de Gestión</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Llamada de salida</fullName>
+                    <default>false</default>
+                    <label>Llamada de salida</label>
+                </value>
+                <value>
+                    <fullName>Llamada entrante</fullName>
+                    <default>false</default>
+                    <label>Llamada entrante</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>Otro</fullName>
+                    <default>false</default>
+                    <label>Otro</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>chqin__Check_In_Distance__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Check In Distance</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>chqin__Check_In_Location__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Check-In Location</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>chqin__Check_In_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Check-In Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>chqin__Check_Out_Distance__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Check Out Distance</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>chqin__Check_Out_Location__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Check-Out Location</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>chqin__Check_Out_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Check-Out Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>chqin__CheckinStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Checkin Status</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Check-in</fullName>
+                    <default>false</default>
+                    <label>Check-in</label>
+                </value>
+                <value>
+                    <fullName>Check-out</fullName>
+                    <default>false</default>
+                    <label>Check-out</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>chqin__Locate_Mobile_Phone__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Locate Mobile Phone</label>
+        <referenceTo>chqin__Locate_Mobile_Phone__c</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>chqin__Visit_Duration_Minutes__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Visit Duration in Minutes. 
+If Check-in Time is later than Check-out Time, visit duration is 0. This situation may arise if carrier network location is used.</description>
+        <externalId>false</externalId>
+        <formula>IF(((chqin__Check_Out_Time__c - chqin__Check_In_Time__c )*24*60+1)&gt;0,(chqin__Check_Out_Time__c - chqin__Check_In_Time__c )*24*60+1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Visit Duration (Minutes)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ilinktcsf__CallDisposition2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field will be used if two-stage wrap-up codes are supported.
+The value of this field is related to the value of the Task&apos;s or Event&apos;s CallDisposition  field. So it can be considered as &quot;Sub-Wrap-up&quot; code.</description>
+        <externalId>false</externalId>
+        <label>CallDisposition2</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ilinktcsf__CallDisposition__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This custom field is created to have a similar field as Task CallDisposition-field.
+With this field we can store Call wrap-up codes if e.g. Events are used as Activities.</description>
+        <externalId>false</externalId>
+        <label>CallDisposition</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ilinktcsf__CallObject__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This custom field is created to have a similar field as Task CallObject-field.
+This field will be used to contain the acutal datetime, which will later serve to sort the queried latest activities.</description>
+        <externalId>false</externalId>
+        <label>CallObject</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ilinktcsf__CallTags__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Tags related to the activity&apos;s call.</description>
+        <externalId>false</externalId>
+        <label>Call tags</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ilinktcsf__CallType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This custom field is created to have a similar field as Task CallType-field.
+Here we can store the information about the call type inbound, outbound, etc.</description>
+        <externalId>false</externalId>
+        <label>CallType</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Inbound</fullName>
+                    <default>false</default>
+                    <label>Inbound</label>
+                </value>
+                <value>
+                    <fullName>Outbound</fullName>
+                    <default>false</default>
+                    <label>Outbound</label>
+                </value>
+                <value>
+                    <fullName>internal</fullName>
+                    <default>false</default>
+                    <label>internal</label>
+                </value>
+                <value>
+                    <fullName>external</fullName>
+                    <default>false</default>
+                    <label>external</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ilinktcsf__Call_Duration_hh_mm_ss__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This formula converts the integer contained in the field &apos;CallDurationInSeconds&apos; to a text in the following format hh:mm:ss</description>
+        <externalId>false</externalId>
+        <formula>IF(MOD(FLOOR(CallDurationInSeconds/3600),24) &lt; 10, &quot;0&quot;+TEXT(MOD(FLOOR(CallDurationInSeconds/3600),24)),TEXT(MOD(FLOOR(CallDurationInSeconds/3600),24)))+&quot;:&quot;+
+IF(MOD(FLOOR(CallDurationInSeconds/60),60) &lt; 10, &quot;0&quot;+TEXT(MOD(FLOOR(CallDurationInSeconds/60),60)),TEXT(MOD(FLOOR(CallDurationInSeconds/60),60)))+&quot;:&quot;+
+IF(MOD(CallDurationInSeconds,60) &lt; 10, &quot;0&quot;+TEXT(MOD(CallDurationInSeconds,60)),TEXT(MOD(CallDurationInSeconds,60)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Call Duration (hh:mm:ss)</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ilinktcsf__Called__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Called phone number.</description>
+        <externalId>false</externalId>
+        <label>Called</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ilinktcsf__Caller__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The calling phone number.</description>
+        <externalId>false</externalId>
+        <label>Caller</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ilinktcsf__Duration_In_Seconds__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This custom field will contain the amount of seconds a call took. It can be used to store the call duration in seconds within a Salesforce Activity Object (such as Event), which don&apos;t include a standard field containing seconds.
+Indeed, Event objects contain the standard field &quot;DurationInMinutes&quot;, but because using OpenCTI saveLog we can only save AllDay Events, where this field is automatically filled with 1440. So we cannot use it.</description>
+        <externalId>false</externalId>
+        <label>Duration in seconds</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ilinktcsf__LastRedirecting__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Contains the transferring phone number..</description>
+        <externalId>false</externalId>
+        <label>Last Hop</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ilinktcsf__Legible_Call_Duration__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This formula converts the integer contained in the custom field &apos;ilinktcsf__Duration_In_Seconds__c&apos; to a text with the following format hh:mm:ss</description>
+        <externalId>false</externalId>
+        <formula>IF(MOD(FLOOR(ilinktcsf__Duration_In_Seconds__c/3600),24) &lt; 10, &quot;0&quot;+TEXT(MOD(FLOOR(ilinktcsf__Duration_In_Seconds__c/3600),24)),TEXT(MOD(FLOOR(ilinktcsf__Duration_In_Seconds__c/3600),24)))+&quot;:&quot;+
+IF(MOD(FLOOR(ilinktcsf__Duration_In_Seconds__c/60),60) &lt; 10, &quot;0&quot;+TEXT(MOD(FLOOR(ilinktcsf__Duration_In_Seconds__c/60),60)),TEXT(MOD(FLOOR(ilinktcsf__Duration_In_Seconds__c/60),60)))+&quot;:&quot;+
+IF(MOD(ilinktcsf__Duration_In_Seconds__c,60) &lt; 10, &quot;0&quot;+TEXT(MOD(ilinktcsf__Duration_In_Seconds__c,60)),TEXT(MOD(ilinktcsf__Duration_In_Seconds__c,60)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Legible call duration</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ilinktcsf__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This custom field is a picklist containing the same values as Task Status-field.
+This custom field can be used if the Activity to be saved is e.g. an Event.</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>false</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Waiting on someone else</fullName>
+                    <default>false</default>
+                    <label>Waiting on someone else</label>
+                </value>
+                <value>
+                    <fullName>Deferred</fullName>
+                    <default>false</default>
+                    <label>Deferred</label>
+                </value>
+                <value>
+                    <fullName>Not Answered</fullName>
+                    <default>false</default>
+                    <label>Not Answered</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ilinktcsf__UCID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Universal Call ID</description>
+        <externalId>false</externalId>
+        <label>UCID</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ilinktcsf__isTCSFTask__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The value of this field will serve to identify Tasks generated using &quot;TeamCall Salesforce.com&quot; Software from other Tasks.</description>
+        <externalId>false</externalId>
+        <label>is TCSF Task</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ilinktcsf__isWrapupIncomplete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used within ilink TeamCall Salesforce.com.
+And allows us to check if the wrap-up of the considered Activity was completed or not.</description>
+        <externalId>false</externalId>
+        <label>is Wrap-up Incomplete</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sma__BaseObjectId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>MapAnything Base Object</label>
+        <referenceTo>sma__MABaseObject__c</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>BaseObjectIds</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sma__LayerId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Layer Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>MyActivities</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyDelegatedActivities</fullName>
+        <filterScope>Delegated</filterScope>
+        <label>My Delegated Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyTeamsActivities</fullName>
+        <filterScope>Team</filterScope>
+        <label>My Team&apos;s Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>TodaysTasks</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TOMORROW</value>
+        </filters>
+        <label>Today&apos;s Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>UpcomingEvents</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>greaterThan</operation>
+            <value>YESTERDAY</value>
+        </filters>
+        <label>Upcoming Events</label>
+    </listViews>
+    <searchLayouts>
+        <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

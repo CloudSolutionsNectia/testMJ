@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Grupo Servicio</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Grupo Servicio</value>
+    </caseValues>
+    <fields>
+        <label><!-- Activo --></label>
+        <name>Activo__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Grupo Servicio --></label>
+        <name>ID_Grupo_Servicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producto --></label>
+        <name>Producto_CSC__c</name>
+        <relationshipLabel><!-- Grupo Servicio --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Grupo Servicio</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

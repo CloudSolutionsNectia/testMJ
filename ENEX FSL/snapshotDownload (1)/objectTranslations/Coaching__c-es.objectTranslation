@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Coaching</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Coachings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Comentario Apertura --></label>
+        <name>Comentario_Apertura__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario Cierre --></label>
+        <name>Comentario_Cierre__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario Monitoreo --></label>
+        <name>Comentario_Monitoreo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario Objeciones y Preocupaciones --></label>
+        <name>Comentario_Objeciones_y_Preocupaciones__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario Preparación --></label>
+        <name>Comentario_Preparaci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario Presentación --></label>
+        <name>Comentario_Presentaci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario Profesionalismo --></label>
+        <name>Comentario_Profesionalismo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario Recoleccion de Información --></label>
+        <name>Comentario_Recoleccion_de_Informaci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentarios del Evaluador --></label>
+        <name>Comentarios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conceptos Apertura --></label>
+        <name>Conceptos_Apertura__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conceptos Cierre --></label>
+        <name>Conceptos_Cierre__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conceptos Objeciones y Preocupaciones --></label>
+        <name>Conceptos_Objeciones_y_Preocupaciones__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conceptos Preparación --></label>
+        <name>Conceptos_Preparaci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conceptos Presentación --></label>
+        <name>Conceptos_Presentaci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conceptos Profesionalismo --></label>
+        <name>Conceptos_Profesionalismo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conceptos Recolección de Información --></label>
+        <name>Conceptos_Recoleccion_de_Informaci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conceptos Monitoreo --></label>
+        <name>Conceptos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Escala de Puntuación --></label>
+        <name>Escala_de_Puntuaci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evaluado por --></label>
+        <name>Evaluado_por__c</name>
+        <relationshipLabel><!-- Coachings (Evaluado por) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fecha --></label>
+        <name>Fecha__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fortalezas --></label>
+        <name>Fortalezas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nota Apertura --></label>
+        <name>Nota_Apertura__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nota Cierre --></label>
+        <name>Nota_Cierre__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nota Monitoreo --></label>
+        <name>Nota_Monitoreo__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nota Objeciones y Preocupaciones --></label>
+        <name>Nota_Objeciones_y_Preocupaciones__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nota Preparación --></label>
+        <name>Nota_Preparaci_n__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nota Presentación --></label>
+        <name>Nota_Presentaci_n__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nota Profesionalismo --></label>
+        <name>Nota_Profesionalismo__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nota Recoleccion de Información --></label>
+        <name>Nota_Recoleccion_de_la_Informacion__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Plan de Acción --></label>
+        <name>Plan_de_Acci_n__c</name>
+    </fields>
+    <fields>
+        <help><!-- ewvwevwrvw --></help>
+        <label><!-- Preparación --></label>
+        <name>Preparaci_n_del__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Persona a evaluar --></label>
+        <name>Usuario_Coaching__c</name>
+        <relationshipLabel><!-- Coachings (Persona a evaluar) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Áreas por Desarrollar --></label>
+        <name>reas_por_Desarrollar__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Coaching</layout>
+        <sections>
+            <label><!-- Apertura --></label>
+            <section>Apertura</section>
+        </sections>
+        <sections>
+            <label><!-- Cierre --></label>
+            <section>Cierre</section>
+        </sections>
+        <sections>
+            <label><!-- Monitoreo --></label>
+            <section>Monitoreo</section>
+        </sections>
+        <sections>
+            <label><!-- Objeciones y Preocupaciones --></label>
+            <section>Objeciones y Preocupaciones</section>
+        </sections>
+        <sections>
+            <label><!-- Preparación --></label>
+            <section>Preparación</section>
+        </sections>
+        <sections>
+            <label><!-- Presentación --></label>
+            <section>Presentación</section>
+        </sections>
+        <sections>
+            <label><!-- Profesionalismo --></label>
+            <section>Profesionalismo</section>
+        </sections>
+        <sections>
+            <label><!-- Recolección de la Información --></label>
+            <section>Recolección de la Información</section>
+        </sections>
+        <sections>
+            <label><!-- Tabla Resumen --></label>
+            <section>Tabla Resumen</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

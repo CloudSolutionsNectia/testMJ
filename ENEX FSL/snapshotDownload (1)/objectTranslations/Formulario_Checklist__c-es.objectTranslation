@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Formulario Checklist Retail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Formularios Checklist Retail</value>
+    </caseValues>
+    <fields>
+        <label><!-- Cantidad Preguntas Bajo Marquesina --></label>
+        <name>Cantidad_Preguntas_Bajo_Marquesina__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cantidad Preguntas Calidad y Servicio --></label>
+        <name>Cantidad_Preguntas_Calidad_y_Servicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cantidad Preguntas Fuera Marquesina --></label>
+        <name>Cantidad_Preguntas_Fuera_Marquesina__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cantidad Preguntas Kerosene --></label>
+        <name>Cantidad_Preguntas_Kerosene__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cantidad Preguntas Lavado --></label>
+        <name>Cantidad_Preguntas_Lavado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cantidad Preguntas Lubricación --></label>
+        <name>Cantidad_Preguntas_Lubricacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cantidad Preguntas Otros --></label>
+        <name>Cantidad_Preguntas_Otros__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cantidad Preguntas Presentación Personal --></label>
+        <name>Cantidad_Preguntas_Presentacion_Personal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cantidad Preguntas SSMA --></label>
+        <name>Cantidad_Preguntas_SSMA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cantidad Preguntas Tienda --></label>
+        <name>Cantidad_Preguntas_Tienda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cargo HFV --></label>
+        <name>Cargo_HFV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checklist --></label>
+        <name>Checklist__c</name>
+        <relationshipLabel><!-- Formularios Checklist Retail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Es del Distribuidor --></label>
+        <name>Es_del_Distribuidor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado --></label>
+        <name>Estado__c</name>
+        <picklistValues>
+            <masterLabel>Borrador</masterLabel>
+            <translation><!-- Borrador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completado</masterLabel>
+            <translation><!-- Completado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En Curso</masterLabel>
+            <translation><!-- En Curso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vencido</masterLabel>
+            <translation><!-- Vencido --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- File Estación de Servicio --></label>
+        <name>File_Estaci_n_de_Servicio__c</name>
+        <relationshipLabel><!-- Formularios Checklist Retail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Firmado --></label>
+        <name>Firmado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Foto Firma --></label>
+        <name>Foto_Firma__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hora de Inicio --></label>
+        <name>Hora_de_Inicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hora de Término --></label>
+        <name>Hora_de_Termino__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nota Lavado --></label>
+        <name>Lavado_Lavado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nota Bajo Marquesina --></label>
+        <name>Nota_Bajo_Marquesina__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nota Calidad y Servicio --></label>
+        <name>Nota_Calidad_y_Servicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nota Fuera Marquesina --></label>
+        <name>Nota_Fuera_Marquesina__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nota General --></label>
+        <name>Nota_General__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nota Kerosene --></label>
+        <name>Nota_Kerosene__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nota Lubricación --></label>
+        <name>Nota_Lubricacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nota Otros --></label>
+        <name>Nota_Otros__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nota Presentación Personal --></label>
+        <name>Nota_Presentacion_Personal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nota SSMA --></label>
+        <name>Nota_SSMA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nota Tienda --></label>
+        <name>Nota_Tienda__c</name>
+    </fields>
+    <fields>
+        <label><!-- ¿Quién Firma? --></label>
+        <name>Quien_Firma__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requiere GPS --></label>
+        <name>Requiere_GPS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rol del Usuario --></label>
+        <name>Rol_del_Usuario__c</name>
+        <picklistValues>
+            <masterLabel>Administrador</masterLabel>
+            <translation><!-- Administrador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capacitador C&amp;S</masterLabel>
+            <translation><!-- Capacitador C&amp;S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capacitador Franquicia</masterLabel>
+            <translation><!-- Capacitador Franquicia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribuidor</masterLabel>
+            <translation><!-- Distribuidor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipo C&amp;S</masterLabel>
+            <translation><!-- Equipo C&amp;S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gerente</masterLabel>
+            <translation><!-- Gerente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jefe Lavado</masterLabel>
+            <translation><!-- Jefe Lavado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jefe Lubs</masterLabel>
+            <translation><!-- Jefe Lubs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jefe de Zona Retail</masterLabel>
+            <translation><!-- Jefe de Zona Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subgerente Ventas</masterLabel>
+            <translation><!-- Subgerente Ventas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supervisión Operaciones Franquicia</masterLabel>
+            <translation><!-- Supervisión Operaciones Franquicia --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Suma Bajo Marquesina --></label>
+        <name>Suma_Bajo_Marquesina__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suma Calidad y Servicio --></label>
+        <name>Suma_Calidad_y_Servicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suma Fuera Marquesina --></label>
+        <name>Suma_Fuera_Marquesina__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suma Kerosene --></label>
+        <name>Suma_Kerosene__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suma Lavado --></label>
+        <name>Suma_Lavado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suma Lubricación --></label>
+        <name>Suma_Lubricacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suma Otros --></label>
+        <name>Suma_Otros__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suma Presentación Personal --></label>
+        <name>Suma_Presentacion_Personal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suma SSMA --></label>
+        <name>Suma_SSMA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suma Tienda --></label>
+        <name>Suma_Tienda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Checklist --></label>
+        <name>Tipo_de_Checklist__c</name>
+        <picklistValues>
+            <masterLabel>Checklist C&amp;S</masterLabel>
+            <translation><!-- Checklist C&amp;S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checklist Capacitación Franquicia</masterLabel>
+            <translation><!-- Checklist Capacitación Franquicia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checklist Lavado</masterLabel>
+            <translation><!-- Checklist Lavado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checklist Lubricante</masterLabel>
+            <translation><!-- Checklist Lubricante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checklist Operacional Corto</masterLabel>
+            <translation><!-- Checklist Operacional Corto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checklist Operacional Largo</masterLabel>
+            <translation><!-- Checklist Operacional Largo --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Formulario Checklist</layout>
+        <sections>
+            <label><!-- Estado del Checklist --></label>
+            <section>Estado del Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Notas --></label>
+            <section>Notas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formulario Checklist Administrador</layout>
+        <sections>
+            <label><!-- Estado del Checklist --></label>
+            <section>Estado del Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Notas --></label>
+            <section>Notas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formulario Checklist Portal</layout>
+        <sections>
+            <label><!-- Estado del Checklist --></label>
+            <section>Estado del Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Nota --></label>
+            <section>Nota</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Finalizar --></label>
+        <name>Finalizar</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Iniciar --></label>
+        <name>Iniciar</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Siguiente Pregunta --></label>
+        <name>Nuevo_Checklist_2_0</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Siguiente Pregunta --></label>
+        <name>Siguiente_Pregunta</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar un checklist una vez completado. --></errorMessage>
+        <name>Checklist_Cerrado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No tiene permiso para crear ni modificar checklists de este tipo. --></errorMessage>
+        <name>Permiso_Checklist_CS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No tiene permiso para crear ni modificar checklists de este tipo. --></errorMessage>
+        <name>Permiso_Checklist_Capacitacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No tiene permiso para crear ni modificar checklists de este tipo. --></errorMessage>
+        <name>Permiso_Checklist_Lavado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No tiene permiso para crear ni modificar checklists de este tipo. --></errorMessage>
+        <name>Permiso_Checklist_Lubricante</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No tiene permiso para crear ni modificar checklists de este tipo. --></errorMessage>
+        <name>Permiso_Checklist_Operacional</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede crear un checklist con este file. --></errorMessage>
+        <name>Solo_File_Que_Corresponde</name>
+    </validationRules>
+</CustomObjectTranslation>

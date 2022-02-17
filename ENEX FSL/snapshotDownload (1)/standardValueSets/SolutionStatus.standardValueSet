@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>BORRADOR</fullName>
+        <default>true</default>
+        <label>BORRADOR</label>
+        <reviewed>false</reviewed>
+    </standardValue>
+    <standardValue>
+        <fullName>REVISADA</fullName>
+        <default>false</default>
+        <label>REVISADA</label>
+        <reviewed>true</reviewed>
+    </standardValue>
+</StandardValueSet>

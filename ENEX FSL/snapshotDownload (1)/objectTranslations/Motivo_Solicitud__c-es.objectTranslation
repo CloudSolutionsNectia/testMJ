@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Motivo Solicitud</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Motivo Solicitud</value>
+    </caseValues>
+    <fields>
+        <label><!-- ASUNTO_CASO --></label>
+        <name>ASUNTO_CASO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activo --></label>
+        <name>Activo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grupo Servicio --></label>
+        <name>Grupo_Servicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Motivo Solicitud --></label>
+        <name>ID_Motivo_Solicitud__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producto --></label>
+        <name>Producto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Servicio --></label>
+        <name>Servicio__c</name>
+        <relationshipLabel><!-- Motivo Solicitud --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Motivo Solicitud</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

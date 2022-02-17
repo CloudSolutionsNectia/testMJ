@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Parametros Planes</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Parametros Planes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Ajuste Gastos Generales --></label>
+        <name>Ajuste_Gastos_Generales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comision Combustibles --></label>
+        <name>Comision_Combustibles__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comision Gasolina % Mayor --></label>
+        <name>Comision_Gasolina_Mayor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comision Gasolina % Menor --></label>
+        <name>Comision_Gasolina_Menor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comision Shellcard --></label>
+        <name>Comision_Shellcard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Porcentaje Mayor --></label>
+        <name>Porcentaje_Mayor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Porcentaje Menor --></label>
+        <name>Porcentaje_Menor__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

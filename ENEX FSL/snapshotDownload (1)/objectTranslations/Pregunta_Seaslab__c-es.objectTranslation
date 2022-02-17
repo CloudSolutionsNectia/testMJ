@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pregunta Seaslab</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Preguntas Seaslabs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Evaluacion --></label>
+        <name>Evaluacion__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>n/a</masterLabel>
+            <translation><!-- n/a --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Item Evaluado --></label>
+        <name>Item_Evaluado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observaciones --></label>
+        <name>Observaciones__c</name>
+    </fields>
+    <fields>
+        <label><!-- SeasLab --></label>
+        <name>SeasLab__c</name>
+        <relationshipLabel><!-- Preguntas Seaslabs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sección --></label>
+        <name>Secci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subseccion --></label>
+        <name>Subseccion__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

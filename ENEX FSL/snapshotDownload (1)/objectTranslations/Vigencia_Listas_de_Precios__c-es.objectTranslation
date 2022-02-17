@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vigencia Listas de Precios</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Vigencia Listas de Precios</value>
+    </caseValues>
+    <fields>
+        <label><!-- IdLista1 --></label>
+        <name>IdLista1__c</name>
+    </fields>
+    <fields>
+        <label><!-- IdLista2 --></label>
+        <name>IdLista2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inicio Vigencia Lista1 --></label>
+        <name>Inicio_Vigencia_Lista1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inicio Vigencia Lista2 --></label>
+        <name>Inicio_Vigencia_Lista2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termino de Vigencia Lista1 --></label>
+        <name>Termino_de_Vigencia_Lista1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termino de Vigencia Lista2 --></label>
+        <name>Termino_de_Vigencia_Lista2__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

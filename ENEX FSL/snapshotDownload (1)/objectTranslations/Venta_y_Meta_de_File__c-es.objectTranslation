@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Venta y Meta de File</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ventas y Metas de File</value>
+    </caseValues>
+    <fields>
+        <label><!-- Fecha --></label>
+        <name>Fecha__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Estación de Servicio --></label>
+        <name>File_Estaci_n_de_Servicio__c</name>
+        <relationshipLabel><!-- Ventas y Metas de File --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Id Externo --></label>
+        <name>Id_Externo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meta Combustible (litros) --></label>
+        <name>Meta_Combustible_litros__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meta Lubricante (litros) --></label>
+        <name>Meta_Lubricante_litros__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Combustible Año Anterior (litros) --></label>
+        <name>Venta_Real_Combustible_2013_litros__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Real Combustible (litros) --></label>
+        <name>Venta_Real_Combustible_litros__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Lubricante Año Anterior (litros) --></label>
+        <name>Venta_Real_Lubricante_2013_litros__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Real Lubricante (litros) --></label>
+        <name>Venta_Real_Lubricante_litros__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Venta y Meta de File</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

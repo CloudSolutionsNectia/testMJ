@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Control de Stock File</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Controles de Stock File</value>
+    </caseValues>
+    <fields>
+        <label><!-- Abrir Adjunto 1 --></label>
+        <name>Abrir_Adjunto_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Abrir Adjunto 2 --></label>
+        <name>Abrir_Adjunto_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Abrir Adjunto 3 --></label>
+        <name>Abrir_Adjunto_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Abrir Adjunto 4 --></label>
+        <name>Abrir_Adjunto_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- AdBlue --></label>
+        <name>AdBlue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario --></label>
+        <name>Comentario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Diesel --></label>
+        <name>Diesel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Diferencia --></label>
+        <name>Diferencia__c</name>
+        <picklistValues>
+            <masterLabel>Dentro de rango aceptable</masterLabel>
+            <translation><!-- Dentro de rango aceptable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuera de rango aceptable</masterLabel>
+            <translation><!-- Fuera de rango aceptable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fecha Control --></label>
+        <name>Fecha_Control__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Estación de Servicio --></label>
+        <name>File_Estacion_de_Servicio__c</name>
+        <relationshipLabel><!-- Controles de Stock File --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Gas93 --></label>
+        <name>Gas93__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gas95 --></label>
+        <name>Gas95__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gas97 --></label>
+        <name>Gas97__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kero --></label>
+        <name>Kero__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manipulación de Stock --></label>
+        <name>Manipulacion_de_Stock__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si</masterLabel>
+            <translation><!-- Si --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Modificado Por el Controller --></label>
+        <name>Modificado_Por_el_Controller__c</name>
+    </fields>
+    <fields>
+        <label><!-- N° FILE --></label>
+        <name>N_FILE__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Control de Stock File</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- No puede modificar estos campos, solo el comentario (puede borrar e registro completo si lo desea). --></errorMessage>
+        <name>NoPermiteModificar</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Branding/Exhibición Lubes</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Branding/Exhibición Lubes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agencia Licitada --></label>
+        <name>Agencia_Licitada__c</name>
+        <picklistValues>
+            <masterLabel>Distribuidor de la Zona</masterLabel>
+            <translation><!-- Distribuidor de la Zona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hernán Viña</masterLabel>
+            <translation><!-- Hernán Viña --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madford</masterLabel>
+            <translation><!-- Madford --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mimagen</masterLabel>
+            <translation><!-- Mimagen --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Codigo JDE --></label>
+        <name>Codigo_JDE__c</name>
+        <relationshipLabel><!-- Branding/Exhibición Lubes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comentarios General --></label>
+        <name>Comentarios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dirección de Despacho --></label>
+        <name>Direccion_de_Despacho__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estatus Branding --></label>
+        <name>Estatus_Branding__c</name>
+        <picklistValues>
+            <masterLabel>Evaluación</masterLabel>
+            <translation><!-- Evaluación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proceso</masterLabel>
+            <translation><!-- Proceso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminado</masterLabel>
+            <translation><!-- Terminado --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fecha Termino --></label>
+        <name>Fecha_Termino__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de termino branding --></label>
+        <name>Fecha_de_termino_branding__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Estación de Servicio --></label>
+        <name>File_Estaci_n_de_Servicio__c</name>
+        <relationshipLabel><!-- Branding/Exhibición Lubes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Foto Lubricentro Antes --></label>
+        <name>Foto_LubricentroAntes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Foto Lubricentro Depues --></label>
+        <name>Foto_despues_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Litros potenciales cliente --></label>
+        <name>Litros_potenciales_cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monto Inversión --></label>
+        <name>Monto_Inversion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motivo de Branding --></label>
+        <name>Motivo_de_Branding__c</name>
+        <picklistValues>
+            <masterLabel>Cliente Fiel</masterLabel>
+            <translation><!-- Cliente Fiel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Litros Potenciales</masterLabel>
+            <translation><!-- Litros Potenciales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ubicación</masterLabel>
+            <translation><!-- Ubicación --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nombre --></label>
+        <name>Nombre__c</name>
+    </fields>
+    <fields>
+        <label><!-- Paso Aprobacion --></label>
+        <name>Paso_Aprobacion__c</name>
+        <picklistValues>
+            <masterLabel>Aprobado Primer Nivel</masterLabel>
+            <translation><!-- Aprobado Primer Nivel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aprobado Segundo Nivel</masterLabel>
+            <translation><!-- Aprobado Segundo Nivel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rechazado Primer Nivel</masterLabel>
+            <translation><!-- Rechazado Primer Nivel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rechazado Segundo Nivel</masterLabel>
+            <translation><!-- Rechazado Segundo Nivel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Razón Social --></label>
+        <name>Razon_Social__c</name>
+    </fields>
+    <fields>
+        <label><!-- Región --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rut Cliente (Sellout) --></help>
+        <label><!-- Rut Cliente Distribuidor --></label>
+        <name>Rut_Cliente_Distribuidor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submercado --></label>
+        <name>Submercado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Branding --></label>
+        <name>Tipo_de_Branding__c</name>
+        <picklistValues>
+            <masterLabel>Exterior</masterLabel>
+            <translation><!-- Exterior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interior</masterLabel>
+            <translation><!-- Interior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otro</masterLabel>
+            <translation><!-- Otro --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Branding Lubricantes</layout>
+        <sections>
+            <label><!-- Información del Cliente --></label>
+            <section>Información del Cliente</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing --></label>
+            <section>Marketing</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Debe llenar Rut Cliente Distribuidor --></errorMessage>
+        <name>Exige_Rut_Cliente_Distribuidor</name>
+    </validationRules>
+</CustomObjectTranslation>

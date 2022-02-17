@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pregunta Checklist</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Preguntas Checklist</value>
+    </caseValues>
+    <fields>
+        <label><!-- Acepta Comentarios --></label>
+        <name>Acepta_Comentarios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asignado Tarea --></label>
+        <name>Asignado_Tarea__c</name>
+        <picklistValues>
+            <masterLabel>Distribuidor</masterLabel>
+            <translation><!-- Distribuidor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jefe de Zona</masterLabel>
+            <translation><!-- Jefe de Zona --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Checklist --></label>
+        <name>Checklist__c</name>
+        <relationshipLabel><!-- Preguntas Checklist --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Consejo --></label>
+        <name>Consejo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Genera Alerta --></label>
+        <name>Genera_Alerta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Genera Tarea --></label>
+        <name>Genera_Tarea__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número Numérico --></label>
+        <name>Numero_Numerico__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plazo en Días SLA --></label>
+        <name>Plazo_en_Dias_SLA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ponderación --></label>
+        <name>Ponderaci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pregunta --></label>
+        <name>Pregunta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requiere Foto --></label>
+        <name>Requiere_Foto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sección --></label>
+        <name>Secci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Alerta --></label>
+        <name>Tipo_de_Alerta__c</name>
+        <picklistValues>
+            <masterLabel>Mantención</masterLabel>
+            <translation><!-- Mantención --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Pregunta --></label>
+        <name>Tipo_de_Pregunta__c</name>
+        <picklistValues>
+            <masterLabel>Comentarios</masterLabel>
+            <translation><!-- Comentarios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contiene Sección</masterLabel>
+            <translation><!-- Contiene Sección --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dotación</masterLabel>
+            <translation><!-- Dotación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Numérico</masterLabel>
+            <translation><!-- Numérico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requiere OT</masterLabel>
+            <translation><!-- Requiere OT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI / NO</masterLabel>
+            <translation><!-- SI / NO --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Pregunta Checklist</layout>
+        <sections>
+            <label><!-- Tarea --></label>
+            <section>Tarea</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

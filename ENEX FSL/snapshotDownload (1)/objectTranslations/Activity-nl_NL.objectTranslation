@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AM/PM --></label>
+        <name>AM_PM__c</name>
+        <picklistValues>
+            <masterLabel>AM</masterLabel>
+            <translation><!-- AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PM</masterLabel>
+            <translation><!-- PM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Acción de Recuperación --></label>
+        <name>Accion_de_Recuperacion__c</name>
+        <picklistValues>
+            <masterLabel>Análisis de línea de Crédito</masterLabel>
+            <translation><!-- Análisis de línea de Crédito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envío Correo</masterLabel>
+            <translation><!-- Envío Correo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamada</masterLabel>
+            <translation><!-- Llamada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otro</masterLabel>
+            <translation><!-- Otro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re cotización</masterLabel>
+            <translation><!-- Re cotización --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visita vendedor</masterLabel>
+            <translation><!-- Visita vendedor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Antiguedad --></label>
+        <name>Antiguedad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Área Generadora --></label>
+        <name>Area_Generadora__c</name>
+        <picklistValues>
+            <masterLabel>CSC</masterLabel>
+            <translation><!-- CSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ventas</masterLabel>
+            <translation><!-- Ventas --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Auditoria Comentario --></label>
+        <name>Auditoria_Comentario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ayuda TAREA o REUNIÓN --></label>
+        <name>Ayuda_Tarea_o_Reuni_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cantidad de Flota --></label>
+        <name>Cantidad_de_Flota__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cantidad de Tarjetas --></label>
+        <name>Cantidad_de_Tarjetas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check Out Accuracy (m) --></label>
+        <name>CheckOutAccuracy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check Out Date --></label>
+        <name>CheckOutDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check Out Distance From Record (mi) --></label>
+        <name>CheckOutDistanceFromRecordMi__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check Out Latitude --></label>
+        <name>CheckOutLatitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check Out Longitude --></label>
+        <name>CheckOutLongitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check In Date --></label>
+        <name>Check_in_date_time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Por favor ingresar detalles de cierre de la tarea. --></help>
+        <label><!-- Comentario de Cierre --></label>
+        <name>Comentario_de_Cierre__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Latitude --></label>
+        <name>CreatedLatitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Location Accuracy (m) --></label>
+        <name>CreatedLocationAccuracy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Location Verified --></label>
+        <name>CreatedLocationVerified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Longitude --></label>
+        <name>CreatedLongitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuenta --></label>
+        <name>Cuenta__c</name>
+        <relationshipLabel><!-- Actividades --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DB Activity Type --></label>
+        <name>DB_Activity_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detalle llamado --></label>
+        <name>Detalle_llamado__c</name>
+        <picklistValues>
+            <masterLabel>% Parcial de Tarjetas sin Consumo</masterLabel>
+            <translation><!-- % Parcial de Tarjetas sin Consumo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100% Tarjetas sin Consumo</masterLabel>
+            <translation><!-- 100% Tarjetas sin Consumo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antifraude (En evaluación)</masterLabel>
+            <translation><!-- Antifraude (En evaluación) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antifraude (NO fraude)</masterLabel>
+            <translation><!-- Antifraude (NO fraude) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antifraude (SI fraude)</masterLabel>
+            <translation><!-- Antifraude (SI fraude) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baja</masterLabel>
+            <translation><!-- Baja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bienvenida</masterLabel>
+            <translation><!-- Bienvenida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capacitación</masterLabel>
+            <translation><!-- Capacitación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contacto sin respuesta</masterLabel>
+            <translation><!-- Contacto sin respuesta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control Total 2.0</masterLabel>
+            <translation><!-- Control Total 2.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deuda</masterLabel>
+            <translation><!-- Deuda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fidelización</masterLabel>
+            <translation><!-- Fidelización --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incobrable</masterLabel>
+            <translation><!-- Incobrable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Información pedidos</masterLabel>
+            <translation><!-- Información pedidos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Línea de Crédito</masterLabel>
+            <translation><!-- Línea de Crédito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospectos</masterLabel>
+            <translation><!-- Prospectos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recuperación</masterLabel>
+            <translation><!-- Recuperación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sala de Descanso</masterLabel>
+            <translation><!-- Sala de Descanso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volumen</masterLabel>
+            <translation><!-- Volumen --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Distance from Record (mi) --></label>
+        <name>DistanceFromRecordMi__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distancia del Check out --></label>
+        <name>Distancia_del_Check_out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duración de visita --></label>
+        <name>Duracion_de_visita__c</name>
+    </fields>
+    <fields>
+        <label><!-- Epoca de Estacionalidad --></label>
+        <name>Epoca_de_Estacionalidad__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otoño- Invierno</masterLabel>
+            <translation><!-- Otoño- Invierno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primavera-Verano</masterLabel>
+            <translation><!-- Primavera-Verano --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Es Recuperable --></label>
+        <name>Es_Recuperable__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si</masterLabel>
+            <translation><!-- Si --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Telling van alle events</help>
+        <label><!-- Count of Events --></label>
+        <name>FSL__Count_of_Events__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Tasks --></label>
+        <name>FSL__Count_of_Tasks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>FSL__Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Resource Absence</masterLabel>
+            <translation>Afwezigheid resource</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Appointment</masterLabel>
+            <translation>Serviceafspraak</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- F Asignado --></label>
+        <name>F_Asignado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha / Hora Cierre --></label>
+        <name>Fecha_Hora_Cierre__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha / Hora Vencimiento Copia --></label>
+        <name>Fecha_Hora_Vencimiento_Copia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha / Hora Vencimiento --></label>
+        <name>Fecha_Hora_Vencimiento_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de Próxima Acción --></label>
+        <name>Fecha_de_Pr_xima_Acci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Función Creador Actividad --></label>
+        <name>Funci_n_Creador__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gestión Cartera --></label>
+        <name>Gestion_Cartera__c</name>
+        <picklistValues>
+            <masterLabel>Activo</masterLabel>
+            <translation><!-- Activo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En Riesgo</masterLabel>
+            <translation><!-- En Riesgo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perdido</masterLabel>
+            <translation><!-- Perdido --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospectos</masterLabel>
+            <translation><!-- Prospectos --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- HH --></label>
+        <name>HH__c</name>
+        <picklistValues>
+            <masterLabel>01</masterLabel>
+            <translation><!-- 01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02</masterLabel>
+            <translation><!-- 02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03</masterLabel>
+            <translation><!-- 03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04</masterLabel>
+            <translation><!-- 04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05</masterLabel>
+            <translation><!-- 05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>06</masterLabel>
+            <translation><!-- 06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>07</masterLabel>
+            <translation><!-- 07 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>08</masterLabel>
+            <translation><!-- 08 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>09</masterLabel>
+            <translation><!-- 09 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MM --></label>
+        <name>MM__c</name>
+        <picklistValues>
+            <masterLabel>01</masterLabel>
+            <translation><!-- 01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02</masterLabel>
+            <translation><!-- 02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03</masterLabel>
+            <translation><!-- 03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04</masterLabel>
+            <translation><!-- 04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05</masterLabel>
+            <translation><!-- 05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>06</masterLabel>
+            <translation><!-- 06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>07</masterLabel>
+            <translation><!-- 07 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>08</masterLabel>
+            <translation><!-- 08 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>09</masterLabel>
+            <translation><!-- 09 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation><!-- 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation><!-- 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation><!-- 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation><!-- 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation><!-- 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation><!-- 24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation><!-- 26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27</masterLabel>
+            <translation><!-- 27 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28</masterLabel>
+            <translation><!-- 28 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>29</masterLabel>
+            <translation><!-- 29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31</masterLabel>
+            <translation><!-- 31 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32</masterLabel>
+            <translation><!-- 32 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>33</masterLabel>
+            <translation><!-- 33 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>34</masterLabel>
+            <translation><!-- 34 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35</masterLabel>
+            <translation><!-- 35 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>36</masterLabel>
+            <translation><!-- 36 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>37</masterLabel>
+            <translation><!-- 37 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>38</masterLabel>
+            <translation><!-- 38 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>39</masterLabel>
+            <translation><!-- 39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>41</masterLabel>
+            <translation><!-- 41 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>42</masterLabel>
+            <translation><!-- 42 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>43</masterLabel>
+            <translation><!-- 43 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>44</masterLabel>
+            <translation><!-- 44 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45</masterLabel>
+            <translation><!-- 45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>46</masterLabel>
+            <translation><!-- 46 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>47</masterLabel>
+            <translation><!-- 47 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>48</masterLabel>
+            <translation><!-- 48 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>49</masterLabel>
+            <translation><!-- 49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>51</masterLabel>
+            <translation><!-- 51 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>52</masterLabel>
+            <translation><!-- 52 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>53</masterLabel>
+            <translation><!-- 53 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>54</masterLabel>
+            <translation><!-- 54 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>55</masterLabel>
+            <translation><!-- 55 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>56</masterLabel>
+            <translation><!-- 56 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>57</masterLabel>
+            <translation><!-- 57 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>58</masterLabel>
+            <translation><!-- 58 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>59</masterLabel>
+            <translation><!-- 59 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Monto Deuda --></label>
+        <name>Monto_Deuda__c</name>
+    </fields>
+    <fields>
+        <label><!-- N° Factura --></label>
+        <name>N_Factura__c</name>
+    </fields>
+    <fields>
+        <label><!-- N° de OC --></label>
+        <name>N_de_OC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Vendedor --></label>
+        <name>Nombre_Vendedor__c</name>
+        <picklistValues>
+            <masterLabel>* P02 - Carlos Aguirre</masterLabel>
+            <translation><!-- * P02 - Carlos Aguirre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P03 - Rodrigo Andrade</masterLabel>
+            <translation><!-- * P03 - Rodrigo Andrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P04 - Juan Huerta</masterLabel>
+            <translation><!-- * P04 - Juan Huerta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P05 - Gabriel Laborié</masterLabel>
+            <translation><!-- * P05 - Gabriel Laborié --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P06 - Joaquin Muñoz</masterLabel>
+            <translation><!-- * P06 - Joaquin Muñoz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P07 - Ernesto Villena</masterLabel>
+            <translation><!-- * P07 - Ernesto Villena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P08 - Cristian Cuevas</masterLabel>
+            <translation><!-- * P08 - Cristian Cuevas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P09 - Robinson Montero</masterLabel>
+            <translation><!-- * P09 - Robinson Montero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P10 - Victor Hugo Teuber</masterLabel>
+            <translation><!-- * P10 - Victor Hugo Teuber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P11 - Claudio Vasquez</masterLabel>
+            <translation><!-- * P11 - Claudio Vasquez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P12 - Anibal Gonzalez</masterLabel>
+            <translation><!-- * P12 - Anibal Gonzalez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P13 - Elías Calderón</masterLabel>
+            <translation><!-- * P13 - Elías Calderón --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P14 - Miguel Angel Chang</masterLabel>
+            <translation><!-- * P14 - Miguel Angel Chang --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P15 - Jose Alveal</masterLabel>
+            <translation><!-- * P15 - Jose Alveal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P16 - John Llanos</masterLabel>
+            <translation><!-- * P16 - John Llanos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P17 - Nelson Gonzalez</masterLabel>
+            <translation><!-- * P17 - Nelson Gonzalez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P18 - Roberto Casanova</masterLabel>
+            <translation><!-- * P18 - Roberto Casanova --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P19 - Cristian Santander</masterLabel>
+            <translation><!-- * P19 - Cristian Santander --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P20 - Gonzalo Muñoz</masterLabel>
+            <translation><!-- * P20 - Gonzalo Muñoz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P21 - Javier Valenzuela</masterLabel>
+            <translation><!-- * P21 - Javier Valenzuela --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>* P22 - José Miguel Solano</masterLabel>
+            <translation><!-- * P22 - José Miguel Solano --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Próxima Acción --></label>
+        <name>Proxima_Accion__c</name>
+        <picklistValues>
+            <masterLabel>Análisis de Línea de Crédito</masterLabel>
+            <translation><!-- Análisis de Línea de Crédito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envío Correo</masterLabel>
+            <translation><!-- Envío Correo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamada</masterLabel>
+            <translation><!-- Llamada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otro</masterLabel>
+            <translation><!-- Otro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recotización</masterLabel>
+            <translation><!-- Recotización --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visita Vendedor</masterLabel>
+            <translation><!-- Visita Vendedor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Razón de Perdido* --></label>
+        <name>Razon_de_Perdido__c</name>
+        <picklistValues>
+            <masterLabel>Crédito</masterLabel>
+            <translation><!-- Crédito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deuda</masterLabel>
+            <translation><!-- Deuda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estacionalidad</masterLabel>
+            <translation><!-- Estacionalidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falta de cobertura</masterLabel>
+            <translation><!-- Falta de cobertura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mal servicio entregado</masterLabel>
+            <translation><!-- Mal servicio entregado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Migración de Producto</masterLabel>
+            <translation><!-- Migración de Producto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otra Razón Social</masterLabel>
+            <translation><!-- Otra Razón Social --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio</masterLabel>
+            <translation><!-- Precio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quiebra</masterLabel>
+            <translation><!-- Quiebra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siniestrado</masterLabel>
+            <translation><!-- Siniestrado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Término de faena</masterLabel>
+            <translation><!-- Término de faena --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Responder sólo si Razón Perdido es Otro --></label>
+        <name>Responder_solo_si_Razon_Perdido_es_Otro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo Gestión Cobranza Lubricantes --></label>
+        <name>Tipo_Gesti_n_Cobranza_Lubricantes__c</name>
+        <picklistValues>
+            <masterLabel>Abono</masterLabel>
+            <translation><!-- Abono --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque Retirado</masterLabel>
+            <translation><!-- Cheque Retirado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque en Cartera</masterLabel>
+            <translation><!-- Cheque en Cartera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque en Tesorería</masterLabel>
+            <translation><!-- Cheque en Tesorería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compromiso Cliente</masterLabel>
+            <translation><!-- Compromiso Cliente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compromiso JJZZ</masterLabel>
+            <translation><!-- Compromiso JJZZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compromiso vendedor</masterLabel>
+            <translation><!-- Compromiso vendedor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulta JJZZ</masterLabel>
+            <translation><!-- Consulta JJZZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulta Tesorería</masterLabel>
+            <translation><!-- Consulta Tesorería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulta Vendedor</masterLabel>
+            <translation><!-- Consulta Vendedor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estado de Cuenta</masterLabel>
+            <translation><!-- Estado de Cuenta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fono fuera de servicio</masterLabel>
+            <translation><!-- Fono fuera de servicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamar nuevamente</masterLabel>
+            <translation><!-- Llamar nuevamente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC pendiente</masterLabel>
+            <translation><!-- NC pendiente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No cumple compromiso</masterLabel>
+            <translation><!-- No cumple compromiso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otro</masterLabel>
+            <translation><!-- Otro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pago</masterLabel>
+            <translation><!-- Pago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pago disponible</masterLabel>
+            <translation><!-- Pago disponible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prejudicial</masterLabel>
+            <translation><!-- Prejudicial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin respuesta telefónica</masterLabel>
+            <translation><!-- Sin respuesta telefónica --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Contacto --></label>
+        <name>Tipo_de_Contacto__c</name>
+        <picklistValues>
+            <masterLabel>Bienvenida</masterLabel>
+            <translation><!-- Bienvenida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crédito</masterLabel>
+            <translation><!-- Crédito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FEX</masterLabel>
+            <translation><!-- FEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fidelización</masterLabel>
+            <translation><!-- Fidelización --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SoW</masterLabel>
+            <translation><!-- SoW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volumen</masterLabel>
+            <translation><!-- Volumen --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Gestión --></label>
+        <name>Tipo_de_Gestion__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamada de salida</masterLabel>
+            <translation><!-- Llamada de salida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamada entrante</masterLabel>
+            <translation><!-- Llamada entrante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otro</masterLabel>
+            <translation><!-- Otro --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

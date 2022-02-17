@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Check list Shellcard Empresa</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Check list Shellcard Empresa</value>
+    </caseValues>
+    <fields>
+        <label><!-- Día --></label>
+        <name>Dia__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Estación de Servicio --></label>
+        <name>FILE__c</name>
+        <relationshipLabel><!-- Check list ShellcardEmpresa --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Nombre atendedor --></label>
+        <name>Nombre_atendedor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Otros Comentarios SCE --></label>
+        <name>Otros_Comentarios_SCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- P Atención 7 --></label>
+        <name>P_Atenci_n_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- P Atención 8 --></label>
+        <name>P_Atenci_n_8__c</name>
+    </fields>
+    <fields>
+        <label><!-- P Atención 1 --></label>
+        <name>P_Atencion_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- P Atención 2 --></label>
+        <name>P_Atencion_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- P Atención 3 --></label>
+        <name>P_Atencion_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- P Atención 4 --></label>
+        <name>P_Atencion_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- P Atención 5 --></label>
+        <name>P_Atencion_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- P Atención 6 --></label>
+        <name>P_Atencion_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ponderación % --></label>
+        <name>Ponderaci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- RPSE1 --></label>
+        <name>RPSE1__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RPSE2 --></label>
+        <name>RPSE2__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RPSE3 --></label>
+        <name>RPSE3__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RPSE4 --></label>
+        <name>RPSE4__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RPSE5 --></label>
+        <name>RPSE5__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RPSE6 --></label>
+        <name>RPSE6__c</name>
+        <picklistValues>
+            <masterLabel>Error de comunicación</masterLabel>
+            <translation><!-- Error de comunicación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No aplica</masterLabel>
+            <translation><!-- No aplica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otro (campo para especificar)</masterLabel>
+            <translation><!-- Otro (campo para especificar) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarjeta Desconocida</masterLabel>
+            <translation><!-- Tarjeta Desconocida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarjeta bloqueada</masterLabel>
+            <translation><!-- Tarjeta bloqueada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarjeta sin saldo/Problema de configuración.</masterLabel>
+            <translation><!-- Tarjeta sin saldo/Problema de configuración. --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RPSE7 --></label>
+        <name>RPSE7__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RPSE8 --></label>
+        <name>RPSE8__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Check list Shellcard Empresa</layout>
+        <sections>
+            <label><!-- Informacion Adicional --></label>
+            <section>Informacion Adicional</section>
+        </sections>
+        <sections>
+            <label><!-- Procedimiento del vendedor --></label>
+            <section>Procedimiento del vendedor</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

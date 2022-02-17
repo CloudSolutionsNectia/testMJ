@@ -1,0 +1,3839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>C1 Total Anual CLP</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>amount_opportunity</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Jefe de Zona (Propietario)</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Propietarios de oportunidades</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_owner</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>SPANCOP</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>stage_opportunity</name>
+    </fields>
+    <fields>
+        <label><!-- AFE --></label>
+        <name>AFE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actualiza AFE --></label>
+        <name>Actualiza_AFE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actualiza Adblue --></label>
+        <name>Actualiza_Adblue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actualiza Automatización --></label>
+        <name>Actualiza_Automatizaci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actualiza Cantidad de vehículos --></label>
+        <name>Actualiza_Cantidad_de_veh_culos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actualiza Cause de Agua --></label>
+        <name>Actualiza_Cause_de_Agua__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actualiza Definición Marquesina --></label>
+        <name>Actualiza_Definici_n_Marquesina__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actualiza Descripción --></label>
+        <name>Actualiza_Descripci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actualiza Estanques --></label>
+        <name>Actualiza_Estanques__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actualiza Instalacion --></label>
+        <name>Actualiza_Instalacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actualiza Inversion --></label>
+        <name>Actualiza_Inversion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actualiza Número de Estanques --></label>
+        <name>Actualiza_N_mero_de_Estanques__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actualiza Trámite Eléctrico --></label>
+        <name>Actualiza_Tr_mite_El_ctrico__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adblue --></label>
+        <name>Adblue__c</name>
+        <picklistValues>
+            <masterLabel>2500 LTS</masterLabel>
+            <translation><!-- 2500 LTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4000 LTS</masterLabel>
+            <translation><!-- 4000 LTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5000 LTS</masterLabel>
+            <translation><!-- 5000 LTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIN AD BLUE</masterLabel>
+            <translation><!-- SIN AD BLUE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Adjudicación Contratista --></label>
+        <name>Adjudicacion_Contratista__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asesor de Venta --></label>
+        <name>Asesor_de_Venta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Automatización --></label>
+        <name>Automatizaci_n__c</name>
+        <picklistValues>
+            <masterLabel>Automatización con TAG</masterLabel>
+            <translation><!-- Automatización con TAG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automatización con anillos</masterLabel>
+            <translation><!-- Automatización con anillos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin Automatización</masterLabel>
+            <translation><!-- Sin Automatización --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Autoriza Días Crédito --></label>
+        <name>Autoriza_Dias_Credito_CL__c</name>
+        <relationshipLabel><!-- Oportunidades (Autoriza Días Crédito) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Autoriza días crédito --></label>
+        <name>Autoriza_Dias_Credito_Combustible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Autoriza días crédito --></label>
+        <name>Autoriza_Dias_Credito_Lubricante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Autoriza Precio --></label>
+        <name>Autoriza_Precio_CL__c</name>
+        <relationshipLabel><!-- Oportunidades (Autoriza Precio) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Autoriza precios --></label>
+        <name>Autoriza_Precios_Combustible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Autoriza precios --></label>
+        <name>Autoriza_Precios_Lubricante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Tank --></label>
+        <name>Base_Tank__c</name>
+    </fields>
+    <fields>
+        <label><!-- Borrar_Volumen Lts/Kgs Anual --></label>
+        <name>Borrar_Volumen_Lts_Kgs_Dimensionado_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- C1 Unitario CLP --></label>
+        <name>C1_Dimensionado_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- C1 Unitario CLP --></label>
+        <name>C1_Dimensionado__c</name>
+    </fields>
+    <fields>
+        <label><!-- C1 Productividad --></label>
+        <name>C1_Productividad__c</name>
+    </fields>
+    <fields>
+        <label><!-- C3 Unitario CLP --></label>
+        <name>C3_Dimensionado_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- C3 Unitario CLP --></label>
+        <name>C3_Dimensionado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ingreso Total Anual CLP --></label>
+        <name>C3_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campo Ingenieria --></label>
+        <name>Campo_Ingenieria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cantidad OP --></label>
+        <name>Cantidad_OP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cantidad de vehículos --></label>
+        <name>Cantidad_de_veh_culos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Categoria --></label>
+        <name>Categoria__c</name>
+        <picklistValues>
+            <masterLabel>Cambio de Distribuidor</masterLabel>
+            <translation><!-- Cambio de Distribuidor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cambio de Plataforma</masterLabel>
+            <translation><!-- Cambio de Plataforma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dotaciones</masterLabel>
+            <translation><!-- Dotaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financieros</masterLabel>
+            <translation><!-- Financieros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Imagen</masterLabel>
+            <translation><!-- Imagen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inversión</masterLabel>
+            <translation><!-- Inversión --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lavado</masterLabel>
+            <translation><!-- Lavado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legales</masterLabel>
+            <translation><!-- Legales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lubricantes</masterLabel>
+            <translation><!-- Lubricantes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medios Pago</masterLabel>
+            <translation><!-- Medios Pago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precios</masterLabel>
+            <translation><!-- Precios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Producto</masterLabel>
+            <translation><!-- Producto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rentabilidad</masterLabel>
+            <translation><!-- Rentabilidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSMA</masterLabel>
+            <translation><!-- SSMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicio</masterLabel>
+            <translation><!-- Servicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ShellCard</masterLabel>
+            <translation><!-- ShellCard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tienda</masterLabel>
+            <translation><!-- Tienda --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Si el terreno está cerca de cause de agua, la instalación deja de ser tipológica --></help>
+        <label><!-- Cause de Agua --></label>
+        <name>Cause_de_Agua__c</name>
+        <picklistValues>
+            <masterLabel>Desconozco</masterLabel>
+            <translation><!-- Desconozco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si</masterLabel>
+            <translation><!-- Si --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ciudad de Despacho --></label>
+        <name>Ciudad_de_Despacho__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clasificación Cliente --></label>
+        <name>Clasificacion_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clasificacion Nace --></label>
+        <name>Clasificacion_Nace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clasificación Riesgo --></label>
+        <name>Clasificacion_Riesgo_Lubricante__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Clasificacion --></label>
+        <name>Clasificacion__c</name>
+        <picklistValues>
+            <masterLabel>Adblue</masterLabel>
+            <translation><!-- Adblue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calama</masterLabel>
+            <translation><!-- Calama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chillán</masterLabel>
+            <translation><!-- Chillán --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diala</masterLabel>
+            <translation><!-- Diala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helix</masterLabel>
+            <translation><!-- Helix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iquique</masterLabel>
+            <translation><!-- Iquique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Krynex (Anticongelante)</masterLabel>
+            <translation><!-- Krynex (Anticongelante) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lautaro</masterLabel>
+            <translation><!-- Lautaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Los Angeles</masterLabel>
+            <translation><!-- Los Angeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omala</masterLabel>
+            <translation><!-- Omala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pennzoil</masterLabel>
+            <translation><!-- Pennzoil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhenus</masterLabel>
+            <translation><!-- Rhenus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rimula</masterLabel>
+            <translation><!-- Rimula --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santiago</masterLabel>
+            <translation><!-- Santiago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spirax</masterLabel>
+            <translation><!-- Spirax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tactic</masterLabel>
+            <translation><!-- Tactic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tellus</masterLabel>
+            <translation><!-- Tellus --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Clasificación de Riesgo --></label>
+        <name>Clasificacion_de_Riesgo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentarios --></label>
+        <name>Comentarios_Combustible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentarios --></label>
+        <name>Comentarios_Lubricante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comuna Dirección Entrega --></label>
+        <name>Comuna_Direccion_Entrega_Combustible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comuna de Despacho --></label>
+        <name>Comuna_de_Despacho__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condición Crédito Actual --></label>
+        <name>Condicion_Credito_Actual__c</name>
+        <picklistValues>
+            <masterLabel>Crédito 15 - 30 días</masterLabel>
+            <translation><!-- Crédito 15 - 30 días --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crédito 7 - 15 días</masterLabel>
+            <translation><!-- Crédito 7 - 15 días --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crédito &lt; 7 días</masterLabel>
+            <translation><!-- Crédito &lt; 7 días --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crédito &gt; 30 días</masterLabel>
+            <translation><!-- Crédito &gt; 30 días --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepago / Contado</masterLabel>
+            <translation><!-- Prepago / Contado --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Condición de Crédito --></label>
+        <name>Condicion_Credito_CL__c</name>
+        <picklistValues>
+            <masterLabel>15S</masterLabel>
+            <translation><!-- 15S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21S</masterLabel>
+            <translation><!-- 21S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30S</masterLabel>
+            <translation><!-- 30S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C14</masterLabel>
+            <translation><!-- C14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C21</masterLabel>
+            <translation><!-- C21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C30</masterLabel>
+            <translation><!-- C30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C35</masterLabel>
+            <translation><!-- C35 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C45</masterLabel>
+            <translation><!-- C45 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Condición de Crédito --></label>
+        <name>Condicion_Credito_Combustible__c</name>
+        <picklistValues>
+            <masterLabel>15S</masterLabel>
+            <translation><!-- 15S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21S</masterLabel>
+            <translation><!-- 21S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30S</masterLabel>
+            <translation><!-- 30S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C14</masterLabel>
+            <translation><!-- C14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C21</masterLabel>
+            <translation><!-- C21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C30</masterLabel>
+            <translation><!-- C30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C35</masterLabel>
+            <translation><!-- C35 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C45</masterLabel>
+            <translation><!-- C45 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Condición de Crédito --></label>
+        <name>Condicion_Credito_Lubricante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumo de Lubricantes --></label>
+        <name>Consumo_de_Lubricantes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contador de Avances --></label>
+        <name>Contador_de_Avances__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Financiero --></label>
+        <name>Costo_Financiero__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cotizaciones Sin Estado Borrador --></label>
+        <name>Cotizaciones_Sin_Estado_Borrador__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cotizaciones --></label>
+        <name>Cotizaciones__c</name>
+    </fields>
+    <fields>
+        <label><!-- Creada en la  Conversión de un Candidato --></label>
+        <name>Creada_en_la_Conversion_de_un_Candidato__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuenta Pronto Pago --></label>
+        <name>Cuenta_Pronto_Pago_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuenta Pronto Pago --></label>
+        <name>Cuenta_Pronto_Pago_Lubricante__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si</masterLabel>
+            <translation><!-- Si --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cuenta Virtual --></label>
+        <name>Cuenta_Virtual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuentas D --></label>
+        <name>Cuentas_D_Lubricante__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Competitor --></label>
+        <name>DB_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Competitor A</masterLabel>
+            <translation><!-- Competitor A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor B</masterLabel>
+            <translation><!-- Competitor B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor C</masterLabel>
+            <translation><!-- Competitor C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Definición Marquesina --></label>
+        <name>Definici_n_Marquesina__c</name>
+        <picklistValues>
+            <masterLabel>Marquesina Chica</masterLabel>
+            <translation><!-- Marquesina Chica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marquesina Grande</masterLabel>
+            <translation><!-- Marquesina Grande --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marquesina Mediana</masterLabel>
+            <translation><!-- Marquesina Mediana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin Marquesina</masterLabel>
+            <translation><!-- Sin Marquesina --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Descripción Prospecto --></label>
+        <name>Descripcion_Prospecto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Días de Crédito Efectivo --></label>
+        <name>Dias_de_Credito_Efectivo_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direccion de Despacho 1 --></label>
+        <name>Direccion_de_Despacho_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duración Contrato [años] --></label>
+        <name>Duracion_Contrato_anos__c</name>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Marcar cuando cliente recibe tarjetas --></help>
+        <label><!-- Entrega de Tarjetas --></label>
+        <name>Entrega_de_Tarjetas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entrega desarrollo de ingeniería --></label>
+        <name>Entrega_desarrollo_de_ingenieria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entrega puesta en marcha --></label>
+        <name>Entrega_puesta_en_marcha__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado Cotización SCE/FEX --></label>
+        <name>Estado_Cotizacion_SCE__c</name>
+        <picklistValues>
+            <masterLabel>Aceptada</masterLabel>
+            <translation><!-- Aceptada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aprobada</masterLabel>
+            <translation><!-- Aprobada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denegada</masterLabel>
+            <translation><!-- Denegada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En Revisión</masterLabel>
+            <translation><!-- En Revisión --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rechazada</masterLabel>
+            <translation><!-- Rechazada --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Estado de la Inversion --></label>
+        <name>Estado_de_la_Inversion__c</name>
+        <picklistValues>
+            <masterLabel>DESECHADO</masterLabel>
+            <translation><!-- DESECHADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EN EVALUACIÓN</masterLabel>
+            <translation><!-- EN EVALUACIÓN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EN PROCESO DE EJECUCIÓN</masterLabel>
+            <translation><!-- EN PROCESO DE EJECUCIÓN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENVIO ESTIMADO COSTO (EC)</masterLabel>
+            <translation><!-- ENVIO ESTIMADO COSTO (EC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENVIO REVALUACION (EC)</masterLabel>
+            <translation><!-- ENVIO REVALUACION (EC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TERMINADA</masterLabel>
+            <translation><!-- TERMINADA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Una vez firmado el contrato, subir a la oportunidad. --></help>
+        <label><!-- FEX con Inversión --></label>
+        <name>FEX_con_Inversion__c</name>
+    </fields>
+    <fields>
+        <help><!-- Facturación Repuestos --></help>
+        <label><!-- Facturación Repuestos --></label>
+        <name>Facturaci_n_Repuestos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Familia --></label>
+        <name>Familia__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PENNZOIL</masterLabel>
+            <translation><!-- PENNZOIL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Solicitar construcción --></label>
+        <name>Fecha_Ejecutar_Construcci_n__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ingresar fecha que está registrando la actividad, es decir, hoy. --></help>
+        <label><!-- Fecha solicitud estimado de costo --></label>
+        <name>Fecha_Estimado_Costo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Referencia Precio --></label>
+        <name>Fecha_Referencia_Precio__c</name>
+    </fields>
+    <fields>
+        <help><!-- Este campo lo completa INGENIERÍA --></help>
+        <label><!-- Fecha respuesta  inicio construccion --></label>
+        <name>Fecha_respuesta_inicio_construccion__c</name>
+    </fields>
+    <fields>
+        <help><!-- Este campo lo completa INGENIERÍA --></help>
+        <label><!-- Fecha respuesta para estimacion de costo --></label>
+        <name>Fecha_respuesta_para_estimacion_de_costo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha termino Construcción --></label>
+        <name>Fecha_termino_Construcci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha vencimiento contrato --></label>
+        <name>Fecha_vencimiento_contrato__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Estación de Servicio --></label>
+        <name>File_Estaci_n_de_Servicio__c</name>
+        <relationshipLabel><!-- Oportunidades --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Forma de Pago --></label>
+        <name>Forma_de_Pago__c</name>
+        <picklistValues>
+            <masterLabel>Post-Pago</masterLabel>
+            <translation><!-- Post-Pago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Pago</masterLabel>
+            <translation><!-- Pre-Pago --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Frecuencia Facturación --></label>
+        <name>Frecuencia_Facturacion_Combustible__c</name>
+        <picklistValues>
+            <masterLabel>Inmediata</masterLabel>
+            <translation><!-- Inmediata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mensual</masterLabel>
+            <translation><!-- Mensual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepago</masterLabel>
+            <translation><!-- Prepago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quincenal</masterLabel>
+            <translation><!-- Quincenal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semanal</masterLabel>
+            <translation><!-- Semanal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Frecuencia Facturación --></label>
+        <name>Frecuencia_Facturacion_Lubricante__c</name>
+        <picklistValues>
+            <masterLabel>Inmediata</masterLabel>
+            <translation><!-- Inmediata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mensual</masterLabel>
+            <translation><!-- Mensual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Frecuencia de Facturación --></label>
+        <name>Frecuencia_de_Facturacion_CL__c</name>
+        <picklistValues>
+            <masterLabel>Inmediata</masterLabel>
+            <translation><!-- Inmediata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mensual</masterLabel>
+            <translation><!-- Mensual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepago</masterLabel>
+            <translation><!-- Prepago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quincenal</masterLabel>
+            <translation><!-- Quincenal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semanal</masterLabel>
+            <translation><!-- Semanal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funcion Propietario Opor --></label>
+        <name>Funcion_Propietario_Opor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grandes Volumenes Competencia --></label>
+        <name>Grandes_Volumenes_Competencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grasas y especialidades --></label>
+        <name>Grasas_y_especialiades__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ingeniero a cargo --></label>
+        <name>Ingeniero_a_cargo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instalación --></label>
+        <name>Instalacion__c</name>
+        <picklistValues>
+            <masterLabel>BaseTank</masterLabel>
+            <translation><!-- BaseTank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazo de Carga</masterLabel>
+            <translation><!-- Brazo de Carga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ModularTank</masterLabel>
+            <translation><!-- ModularTank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Estanques --></label>
+        <name>Inversi_n_No_tipo_requiere_costo_Ing__c</name>
+        <picklistValues>
+            <masterLabel>Estanque 20</masterLabel>
+            <translation><!-- Estanque 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estanque 30</masterLabel>
+            <translation><!-- Estanque 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estanque 40</masterLabel>
+            <translation><!-- Estanque 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estanque 50</masterLabel>
+            <translation><!-- Estanque 50 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Estanques --></label>
+        <name>Inversi_n_No_tipo_requiere_costo_Ing_del__c</name>
+        <picklistValues>
+            <masterLabel>0-100 m3 - BTank 20m3</masterLabel>
+            <translation><!-- 0-100 m3 - BTank 20m3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>101-150 m3 - BTank 30m3</masterLabel>
+            <translation><!-- 101-150 m3 - BTank 30m3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>151- 200 m3 - BTank 40m3</masterLabel>
+            <translation><!-- 151- 200 m3 - BTank 40m3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>201-250 m3 - BTank 50m3</masterLabel>
+            <translation><!-- 201-250 m3 - BTank 50m3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MTank 10m3</masterLabel>
+            <translation><!-- MTank 10m3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MTank 1m3</masterLabel>
+            <translation><!-- MTank 1m3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MTank 2,5m3</masterLabel>
+            <translation><!-- MTank 2,5m3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MTank 20m3</masterLabel>
+            <translation><!-- MTank 20m3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MTank 30m3</masterLabel>
+            <translation><!-- MTank 30m3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MTank 5m3</masterLabel>
+            <translation><!-- MTank 5m3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MTank 7,5m3</masterLabel>
+            <translation><!-- MTank 7,5m3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Inversión  No Tipo --></label>
+        <name>Inversion_Combustible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inversión --></label>
+        <name>Inversion__c</name>
+        <picklistValues>
+            <masterLabel>NO TIPO</masterLabel>
+            <translation><!-- NO TIPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TIPO</masterLabel>
+            <translation><!-- TIPO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Jefe de Zona --></label>
+        <name>Jefe_Zona_Combustible__c</name>
+        <picklistValues>
+            <masterLabel>A. Barahona</masterLabel>
+            <translation><!-- A. Barahona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A. Jara</masterLabel>
+            <translation><!-- A. Jara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A. Milla</masterLabel>
+            <translation><!-- A. Milla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B. Guash</masterLabel>
+            <translation><!-- B. Guash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C. Albornoz</masterLabel>
+            <translation><!-- C. Albornoz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C. Alvear</masterLabel>
+            <translation><!-- C. Alvear --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C. Arend</masterLabel>
+            <translation><!-- C. Arend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C. Bañados</masterLabel>
+            <translation><!-- C. Bañados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C. Carreño</masterLabel>
+            <translation><!-- C. Carreño --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C. Montecino</masterLabel>
+            <translation><!-- C. Montecino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C. Parada</masterLabel>
+            <translation><!-- C. Parada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C. Salinas</masterLabel>
+            <translation><!-- C. Salinas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C. San Martín</masterLabel>
+            <translation><!-- C. San Martín --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D. Bustos</masterLabel>
+            <translation><!-- D. Bustos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D. Eldán</masterLabel>
+            <translation><!-- D. Eldán --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E. Gonzalez</masterLabel>
+            <translation><!-- E. Gonzalez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E. Guzmán</masterLabel>
+            <translation><!-- E. Guzmán --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F. Cruz</masterLabel>
+            <translation><!-- F. Cruz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F. Pereira</masterLabel>
+            <translation><!-- F. Pereira --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G. García</masterLabel>
+            <translation><!-- G. García --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G. Nuñez</masterLabel>
+            <translation><!-- G. Nuñez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H. Toro</masterLabel>
+            <translation><!-- H. Toro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I. Suzarte</masterLabel>
+            <translation><!-- I. Suzarte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J. A. Infante</masterLabel>
+            <translation><!-- J. A. Infante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J. Ossa</masterLabel>
+            <translation><!-- J. Ossa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J. Oyarzún</masterLabel>
+            <translation><!-- J. Oyarzún --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J. Triantafilo</masterLabel>
+            <translation><!-- J. Triantafilo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J.D. Budge</masterLabel>
+            <translation><!-- J.D. Budge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L. Alvarado</masterLabel>
+            <translation><!-- L. Alvarado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M. Arredondo</masterLabel>
+            <translation><!-- M. Arredondo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M. Camus</masterLabel>
+            <translation><!-- M. Camus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M. Del Canto</masterLabel>
+            <translation><!-- M. Del Canto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M. Guerrero</masterLabel>
+            <translation><!-- M. Guerrero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M. Pastene</masterLabel>
+            <translation><!-- M. Pastene --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M. Pino</masterLabel>
+            <translation><!-- M. Pino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M. Ruz</masterLabel>
+            <translation><!-- M. Ruz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M. Stuckrath</masterLabel>
+            <translation><!-- M. Stuckrath --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P. Merino</masterLabel>
+            <translation><!-- P. Merino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R. Acuña</masterLabel>
+            <translation><!-- R. Acuña --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R. Debarca</masterLabel>
+            <translation><!-- R. Debarca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R. Fernández</masterLabel>
+            <translation><!-- R. Fernández --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R. Forno</masterLabel>
+            <translation><!-- R. Forno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R. Soza</masterLabel>
+            <translation><!-- R. Soza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R. Veloso</masterLabel>
+            <translation><!-- R. Veloso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S.  Fernandez</masterLabel>
+            <translation><!-- S.  Fernandez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V. Peirano</masterLabel>
+            <translation><!-- V. Peirano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W. Pafian</masterLabel>
+            <translation><!-- W. Pafian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X. Vasquez</masterLabel>
+            <translation><!-- X. Vasquez --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Localidad de despacho --></label>
+        <name>Localidad_Despacho_Lubricante__c</name>
+        <picklistValues>
+            <masterLabel>Achao</masterLabel>
+            <translation><!-- Achao --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Algarrobo</masterLabel>
+            <translation><!-- Algarrobo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alto Hospicio</masterLabel>
+            <translation><!-- Alto Hospicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alto del Carmen</masterLabel>
+            <translation><!-- Alto del Carmen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ancud</masterLabel>
+            <translation><!-- Ancud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andacollo</masterLabel>
+            <translation><!-- Andacollo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angol</masterLabel>
+            <translation><!-- Angol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antofagasta</masterLabel>
+            <translation><!-- Antofagasta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antuco</masterLabel>
+            <translation><!-- Antuco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arauco</masterLabel>
+            <translation><!-- Arauco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arica</masterLabel>
+            <translation><!-- Arica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baquedano</masterLabel>
+            <translation><!-- Baquedano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buin</masterLabel>
+            <translation><!-- Buin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulnes</masterLabel>
+            <translation><!-- Bulnes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cabildo</masterLabel>
+            <translation><!-- Cabildo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cabrero</masterLabel>
+            <translation><!-- Cabrero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calama</masterLabel>
+            <translation><!-- Calama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calbuco</masterLabel>
+            <translation><!-- Calbuco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caldera</masterLabel>
+            <translation><!-- Caldera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calera de Tango</masterLabel>
+            <translation><!-- Calera de Tango --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calle Larga</masterLabel>
+            <translation><!-- Calle Larga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cameron</masterLabel>
+            <translation><!-- Cameron --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camiña</masterLabel>
+            <translation><!-- Camiña --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canela Baja</masterLabel>
+            <translation><!-- Canela Baja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carahue</masterLabel>
+            <translation><!-- Carahue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cartagena</masterLabel>
+            <translation><!-- Cartagena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casablanca</masterLabel>
+            <translation><!-- Casablanca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Castro</masterLabel>
+            <translation><!-- Castro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catemu</masterLabel>
+            <translation><!-- Catemu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cauquenes</masterLabel>
+            <translation><!-- Cauquenes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cañete</masterLabel>
+            <translation><!-- Cañete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cerro Castillo</masterLabel>
+            <translation><!-- Cerro Castillo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cerro Sombrero</masterLabel>
+            <translation><!-- Cerro Sombrero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chaitén</masterLabel>
+            <translation><!-- Chaitén --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chanco</masterLabel>
+            <translation><!-- Chanco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chañaral</masterLabel>
+            <translation><!-- Chañaral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chiguayante</masterLabel>
+            <translation><!-- Chiguayante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile Chico</masterLabel>
+            <translation><!-- Chile Chico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chillan Viejo</masterLabel>
+            <translation><!-- Chillan Viejo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chillán</masterLabel>
+            <translation><!-- Chillán --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chimbarongo</masterLabel>
+            <translation><!-- Chimbarongo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cholchol</masterLabel>
+            <translation><!-- Cholchol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chonchi</masterLabel>
+            <translation><!-- Chonchi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chépica</masterLabel>
+            <translation><!-- Chépica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cobquecura</masterLabel>
+            <translation><!-- Cobquecura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cochrane</masterLabel>
+            <translation><!-- Cochrane --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Codegua</masterLabel>
+            <translation><!-- Codegua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coelemu</masterLabel>
+            <translation><!-- Coelemu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coihueco</masterLabel>
+            <translation><!-- Coihueco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coinco</masterLabel>
+            <translation><!-- Coinco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colbún</masterLabel>
+            <translation><!-- Colbún --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colchane</masterLabel>
+            <translation><!-- Colchane --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colina</masterLabel>
+            <translation><!-- Colina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collipulli</masterLabel>
+            <translation><!-- Collipulli --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coltauco</masterLabel>
+            <translation><!-- Coltauco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Combarbalá</masterLabel>
+            <translation><!-- Combarbalá --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concepción</masterLabel>
+            <translation><!-- Concepción --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concón</masterLabel>
+            <translation><!-- Concón --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Constitución</masterLabel>
+            <translation><!-- Constitución --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contulmo</masterLabel>
+            <translation><!-- Contulmo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copiapó</masterLabel>
+            <translation><!-- Copiapó --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coquimbo</masterLabel>
+            <translation><!-- Coquimbo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coronel</masterLabel>
+            <translation><!-- Coronel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corral</masterLabel>
+            <translation><!-- Corral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coyhaique</masterLabel>
+            <translation><!-- Coyhaique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cumpeo</masterLabel>
+            <translation><!-- Cumpeo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cunco</masterLabel>
+            <translation><!-- Cunco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Curacautín</masterLabel>
+            <translation><!-- Curacautín --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Curacaví</masterLabel>
+            <translation><!-- Curacaví --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Curaco de Vélez</masterLabel>
+            <translation><!-- Curaco de Vélez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Curanilahue</masterLabel>
+            <translation><!-- Curanilahue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Curanipe</masterLabel>
+            <translation><!-- Curanipe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Curarrehue</masterLabel>
+            <translation><!-- Curarrehue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Curepto</masterLabel>
+            <translation><!-- Curepto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Curicó</masterLabel>
+            <translation><!-- Curicó --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cuya</masterLabel>
+            <translation><!-- Cuya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dalcahue</masterLabel>
+            <translation><!-- Dalcahue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diego de Almagro</masterLabel>
+            <translation><!-- Diego de Almagro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doñihue</masterLabel>
+            <translation><!-- Doñihue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Carmen</masterLabel>
+            <translation><!-- El Carmen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Monte</masterLabel>
+            <translation><!-- El Monte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Quisco</masterLabel>
+            <translation><!-- El Quisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Tabo</masterLabel>
+            <translation><!-- El Tabo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empedrado</masterLabel>
+            <translation><!-- Empedrado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entre Lagos</masterLabel>
+            <translation><!-- Entre Lagos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ercilla</masterLabel>
+            <translation><!-- Ercilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freire</masterLabel>
+            <translation><!-- Freire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freirina</masterLabel>
+            <translation><!-- Freirina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fresia</masterLabel>
+            <translation><!-- Fresia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frutillar</masterLabel>
+            <translation><!-- Frutillar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Futaleufú</masterLabel>
+            <translation><!-- Futaleufú --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Futrono</masterLabel>
+            <translation><!-- Futrono --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Galvarino</masterLabel>
+            <translation><!-- Galvarino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gorbea</masterLabel>
+            <translation><!-- Gorbea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Graneros</masterLabel>
+            <translation><!-- Graneros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hijuelas</masterLabel>
+            <translation><!-- Hijuelas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hualañé</masterLabel>
+            <translation><!-- Hualañé --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hualpén</masterLabel>
+            <translation><!-- Hualpén --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hualqui</masterLabel>
+            <translation><!-- Hualqui --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Huara</masterLabel>
+            <translation><!-- Huara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Huasco</masterLabel>
+            <translation><!-- Huasco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Huepil</masterLabel>
+            <translation><!-- Huepil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Illapel</masterLabel>
+            <translation><!-- Illapel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iquique</masterLabel>
+            <translation><!-- Iquique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Isla de Maipo</masterLabel>
+            <translation><!-- Isla de Maipo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>La Calera</masterLabel>
+            <translation><!-- La Calera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>La Cruz</masterLabel>
+            <translation><!-- La Cruz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>La Estrella</masterLabel>
+            <translation><!-- La Estrella --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>La Higuera</masterLabel>
+            <translation><!-- La Higuera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>La Laja</masterLabel>
+            <translation><!-- La Laja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>La Ligua</masterLabel>
+            <translation><!-- La Ligua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>La Serena</masterLabel>
+            <translation><!-- La Serena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>La Unión</masterLabel>
+            <translation><!-- La Unión --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lago Ranco</masterLabel>
+            <translation><!-- Lago Ranco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lago Verde</masterLabel>
+            <translation><!-- Lago Verde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lampa</masterLabel>
+            <translation><!-- Lampa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lanco</masterLabel>
+            <translation><!-- Lanco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Las Cabras</masterLabel>
+            <translation><!-- Las Cabras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lautaro</masterLabel>
+            <translation><!-- Lautaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lebu</masterLabel>
+            <translation><!-- Lebu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Licantén</masterLabel>
+            <translation><!-- Licantén --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limache</masterLabel>
+            <translation><!-- Limache --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Linares</masterLabel>
+            <translation><!-- Linares --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Litueche</masterLabel>
+            <translation><!-- Litueche --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llaillay</masterLabel>
+            <translation><!-- Llaillay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llanquihue</masterLabel>
+            <translation><!-- Llanquihue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lolol</masterLabel>
+            <translation><!-- Lolol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loncoche</masterLabel>
+            <translation><!-- Loncoche --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Longaví</masterLabel>
+            <translation><!-- Longaví --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lonquimay</masterLabel>
+            <translation><!-- Lonquimay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Los Alamos</masterLabel>
+            <translation><!-- Los Alamos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Los Andes</masterLabel>
+            <translation><!-- Los Andes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Los Lagos</masterLabel>
+            <translation><!-- Los Lagos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Los Muermos</masterLabel>
+            <translation><!-- Los Muermos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Los Sauces</masterLabel>
+            <translation><!-- Los Sauces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Los Vilos</masterLabel>
+            <translation><!-- Los Vilos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Los Ángeles</masterLabel>
+            <translation><!-- Los Ángeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lota</masterLabel>
+            <translation><!-- Lota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lumaco</masterLabel>
+            <translation><!-- Lumaco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machalí</masterLabel>
+            <translation><!-- Machalí --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malloa</masterLabel>
+            <translation><!-- Malloa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marchigüe</masterLabel>
+            <translation><!-- Marchigüe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>María Elena</masterLabel>
+            <translation><!-- María Elena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>María Pinto</masterLabel>
+            <translation><!-- María Pinto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maule</masterLabel>
+            <translation><!-- Maule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maullín</masterLabel>
+            <translation><!-- Maullín --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mejillones</masterLabel>
+            <translation><!-- Mejillones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Melinka</masterLabel>
+            <translation><!-- Melinka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Melipilla</masterLabel>
+            <translation><!-- Melipilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mellipeuco</masterLabel>
+            <translation><!-- Mellipeuco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Molina</masterLabel>
+            <translation><!-- Molina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monte Patria</masterLabel>
+            <translation><!-- Monte Patria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mulchén</masterLabel>
+            <translation><!-- Mulchén --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Máfil</masterLabel>
+            <translation><!-- Máfil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nacimiento</masterLabel>
+            <translation><!-- Nacimiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nancagua</masterLabel>
+            <translation><!-- Nancagua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Navidad</masterLabel>
+            <translation><!-- Navidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negrete</masterLabel>
+            <translation><!-- Negrete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ninhue</masterLabel>
+            <translation><!-- Ninhue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nogales</masterLabel>
+            <translation><!-- Nogales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nueva Imperial</masterLabel>
+            <translation><!-- Nueva Imperial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nueva Toltén</masterLabel>
+            <translation><!-- Nueva Toltén --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Olivar Alto</masterLabel>
+            <translation><!-- Olivar Alto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ollague</masterLabel>
+            <translation><!-- Ollague --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Olmué</masterLabel>
+            <translation><!-- Olmué --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Osorno</masterLabel>
+            <translation><!-- Osorno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ovalle</masterLabel>
+            <translation><!-- Ovalle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Padre Hurtado</masterLabel>
+            <translation><!-- Padre Hurtado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Padre Las Casas</masterLabel>
+            <translation><!-- Padre Las Casas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paihuano</masterLabel>
+            <translation><!-- Paihuano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paillaco</masterLabel>
+            <translation><!-- Paillaco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paine</masterLabel>
+            <translation><!-- Paine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palena</masterLabel>
+            <translation><!-- Palena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palmilla</masterLabel>
+            <translation><!-- Palmilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panguipulli</masterLabel>
+            <translation><!-- Panguipulli --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panquehue</masterLabel>
+            <translation><!-- Panquehue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Papudo</masterLabel>
+            <translation><!-- Papudo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paredones</masterLabel>
+            <translation><!-- Paredones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parral</masterLabel>
+            <translation><!-- Parral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pelarco</masterLabel>
+            <translation><!-- Pelarco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pemuco</masterLabel>
+            <translation><!-- Pemuco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pencahue</masterLabel>
+            <translation><!-- Pencahue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Penco</masterLabel>
+            <translation><!-- Penco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peralillo</masterLabel>
+            <translation><!-- Peralillo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perquenco</masterLabel>
+            <translation><!-- Perquenco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petorca</masterLabel>
+            <translation><!-- Petorca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peumo</masterLabel>
+            <translation><!-- Peumo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peñaflor</masterLabel>
+            <translation><!-- Peñaflor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pica</masterLabel>
+            <translation><!-- Pica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pichidegua</masterLabel>
+            <translation><!-- Pichidegua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pichilemu</masterLabel>
+            <translation><!-- Pichilemu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pinto</masterLabel>
+            <translation><!-- Pinto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pirque</masterLabel>
+            <translation><!-- Pirque --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pitrufquen</masterLabel>
+            <translation><!-- Pitrufquen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Placilla</masterLabel>
+            <translation><!-- Placilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portezuelo</masterLabel>
+            <translation><!-- Portezuelo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Porvenir</masterLabel>
+            <translation><!-- Porvenir --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pozo Almonte</masterLabel>
+            <translation><!-- Pozo Almonte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puaucho</masterLabel>
+            <translation><!-- Puaucho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puchuncaví</masterLabel>
+            <translation><!-- Puchuncaví --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pucón</masterLabel>
+            <translation><!-- Pucón --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puelo</masterLabel>
+            <translation><!-- Puelo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puente Alto</masterLabel>
+            <translation><!-- Puente Alto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Aysén</masterLabel>
+            <translation><!-- Puerto Aysén --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Cisnes</masterLabel>
+            <translation><!-- Puerto Cisnes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Ingeniero Ibáñez</masterLabel>
+            <translation><!-- Puerto Ingeniero Ibáñez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Montt</masterLabel>
+            <translation><!-- Puerto Montt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Natales</masterLabel>
+            <translation><!-- Puerto Natales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Octay</masterLabel>
+            <translation><!-- Puerto Octay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Saavedra</masterLabel>
+            <translation><!-- Puerto Saavedra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Varas</masterLabel>
+            <translation><!-- Puerto Varas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Williams</masterLabel>
+            <translation><!-- Puerto Williams --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pumanque</masterLabel>
+            <translation><!-- Pumanque --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Punitaqui</masterLabel>
+            <translation><!-- Punitaqui --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Punta Arenas</masterLabel>
+            <translation><!-- Punta Arenas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Punta Delgada</masterLabel>
+            <translation><!-- Punta Delgada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puqueldón</masterLabel>
+            <translation><!-- Puqueldón --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purranque</masterLabel>
+            <translation><!-- Purranque --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purén</masterLabel>
+            <translation><!-- Purén --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Putaendo</masterLabel>
+            <translation><!-- Putaendo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Putre</masterLabel>
+            <translation><!-- Putre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queilén</masterLabel>
+            <translation><!-- Queilén --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quellón</masterLabel>
+            <translation><!-- Quellón --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quemchi</masterLabel>
+            <translation><!-- Quemchi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quilaco</masterLabel>
+            <translation><!-- Quilaco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quilleco</masterLabel>
+            <translation><!-- Quilleco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quillota</masterLabel>
+            <translation><!-- Quillota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quillón</masterLabel>
+            <translation><!-- Quillón --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quilpué</masterLabel>
+            <translation><!-- Quilpué --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quinta de Tilcoco</masterLabel>
+            <translation><!-- Quinta de Tilcoco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quintero</masterLabel>
+            <translation><!-- Quintero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quirihue</masterLabel>
+            <translation><!-- Quirihue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ralco</masterLabel>
+            <translation><!-- Ralco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rancagua</masterLabel>
+            <translation><!-- Rancagua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rauco</masterLabel>
+            <translation><!-- Rauco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renaico</masterLabel>
+            <translation><!-- Renaico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rengo</masterLabel>
+            <translation><!-- Rengo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requínoa</masterLabel>
+            <translation><!-- Requínoa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retiro</masterLabel>
+            <translation><!-- Retiro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rinconada</masterLabel>
+            <translation><!-- Rinconada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rocas de Santo Domingo</masterLabel>
+            <translation><!-- Rocas de Santo Domingo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romeral</masterLabel>
+            <translation><!-- Romeral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Río Bueno</masterLabel>
+            <translation><!-- Río Bueno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Río Negro Osorno</masterLabel>
+            <translation><!-- Río Negro Osorno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Río Negro Palena</masterLabel>
+            <translation><!-- Río Negro Palena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Río Verde</masterLabel>
+            <translation><!-- Río Verde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sagrada Familia</masterLabel>
+            <translation><!-- Sagrada Familia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salamanca</masterLabel>
+            <translation><!-- Salamanca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samo Alto</masterLabel>
+            <translation><!-- Samo Alto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Antonio</masterLabel>
+            <translation><!-- San Antonio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Bernardo</masterLabel>
+            <translation><!-- San Bernardo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Carlos</masterLabel>
+            <translation><!-- San Carlos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Clemente</masterLabel>
+            <translation><!-- San Clemente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Esteban</masterLabel>
+            <translation><!-- San Esteban --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Fabián de Alico</masterLabel>
+            <translation><!-- San Fabián de Alico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Felipe</masterLabel>
+            <translation><!-- San Felipe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Fernando</masterLabel>
+            <translation><!-- San Fernando --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Francisco de Mostazal</masterLabel>
+            <translation><!-- San Francisco de Mostazal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Gregorio de Ñiquén</masterLabel>
+            <translation><!-- San Gregorio de Ñiquén --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Ignacio</masterLabel>
+            <translation><!-- San Ignacio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Javier</masterLabel>
+            <translation><!-- San Javier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San José de Maipo</masterLabel>
+            <translation><!-- San José de Maipo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San José de la Mariquina</masterLabel>
+            <translation><!-- San José de la Mariquina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Nicolás</masterLabel>
+            <translation><!-- San Nicolás --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Pablo</masterLabel>
+            <translation><!-- San Pablo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Pedro</masterLabel>
+            <translation><!-- San Pedro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Pedro de Atacama</masterLabel>
+            <translation><!-- San Pedro de Atacama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Pedro de la Paz</masterLabel>
+            <translation><!-- San Pedro de la Paz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Rafael</masterLabel>
+            <translation><!-- San Rafael --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Rosendo</masterLabel>
+            <translation><!-- San Rosendo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Vicente de Tagua Tagua</masterLabel>
+            <translation><!-- San Vicente de Tagua Tagua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santa Bárbara</masterLabel>
+            <translation><!-- Santa Bárbara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santa Cruz</masterLabel>
+            <translation><!-- Santa Cruz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santa Juana</masterLabel>
+            <translation><!-- Santa Juana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santa María</masterLabel>
+            <translation><!-- Santa María --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santiago</masterLabel>
+            <translation><!-- Santiago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talagante</masterLabel>
+            <translation><!-- Talagante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talca</masterLabel>
+            <translation><!-- Talca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talcahuano</masterLabel>
+            <translation><!-- Talcahuano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taltal</masterLabel>
+            <translation><!-- Taltal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temuco</masterLabel>
+            <translation><!-- Temuco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teno</masterLabel>
+            <translation><!-- Teno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teodoro Schmidt</masterLabel>
+            <translation><!-- Teodoro Schmidt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tierra Amarilla</masterLabel>
+            <translation><!-- Tierra Amarilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiltil</masterLabel>
+            <translation><!-- Tiltil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tirúa</masterLabel>
+            <translation><!-- Tirúa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tocopilla</masterLabel>
+            <translation><!-- Tocopilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tomé</masterLabel>
+            <translation><!-- Tomé --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tortel</masterLabel>
+            <translation><!-- Tortel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traiguén</masterLabel>
+            <translation><!-- Traiguén --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treguaco</masterLabel>
+            <translation><!-- Treguaco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valdivia</masterLabel>
+            <translation><!-- Valdivia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vallenar</masterLabel>
+            <translation><!-- Vallenar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valparaíso</masterLabel>
+            <translation><!-- Valparaíso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vichuquén</masterLabel>
+            <translation><!-- Vichuquén --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Victoria</masterLabel>
+            <translation><!-- Victoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vicuña</masterLabel>
+            <translation><!-- Vicuña --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vilcún</masterLabel>
+            <translation><!-- Vilcún --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Villa Alegre</masterLabel>
+            <translation><!-- Villa Alegre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Villa Alemana</masterLabel>
+            <translation><!-- Villa Alemana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Villa Alhué</masterLabel>
+            <translation><!-- Villa Alhué --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Villa O&apos;higgins</masterLabel>
+            <translation><!-- Villa O&apos;higgins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Villa Tehuelches</masterLabel>
+            <translation><!-- Villa Tehuelches --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Villarrica</masterLabel>
+            <translation><!-- Villarrica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visviri</masterLabel>
+            <translation><!-- Visviri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viña del Mar</masterLabel>
+            <translation><!-- Viña del Mar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yerbas Buenas</masterLabel>
+            <translation><!-- Yerbas Buenas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yumbel</masterLabel>
+            <translation><!-- Yumbel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yungay</masterLabel>
+            <translation><!-- Yungay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zapallar</masterLabel>
+            <translation><!-- Zapallar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ñipas</masterLabel>
+            <translation><!-- Ñipas --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Localidad --></label>
+        <name>Localidad__c</name>
+        <relationshipLabel><!-- Oportunidades --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Margen Mínimo --></label>
+        <name>Margen_Minimo_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meta Incre. C1 --></label>
+        <name>Meta_Incre_C1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meta Incre. Vol --></label>
+        <name>Meta_Incre_Vol__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ingresar 2017 y presionar &quot;Buscar&quot; (lupa) --></help>
+        <label><!-- Meta Incremental --></label>
+        <name>Meta_Incremental__c</name>
+        <relationshipLabel><!-- Oportunidades --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Monto --></label>
+        <name>Monto_Combustible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monto Inversión --></label>
+        <name>Monto_Inversion_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- N° de Vehículos --></label>
+        <name>N_de_Vehiculos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número de Datapass --></label>
+        <name>N_mero_de_Datapass__c</name>
+    </fields>
+    <fields>
+        <help><!-- Se consideran instalaciones tipológicas solo aquellas instalaciones de un estanque --></help>
+        <label><!-- Número de Estanques --></label>
+        <name>N_mero_de_Estanques__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>o más</masterLabel>
+            <translation><!-- o más --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Número de Nanopass --></label>
+        <name>N_mero_de_Nano__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Localidad de Despacho --></label>
+        <name>Nombre_Localidad_de_Despacho__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nro Meses alcanza volúmen --></label>
+        <name>Nro_Meses_AV_Combustible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nro Oportunidad --></label>
+        <name>Nro_Oportunidad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número de Productos por Revisar VAC --></label>
+        <name>Numero_de_Productos_por_Revisar_VAC_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oportunidad Pennzoil --></label>
+        <name>Oportunidad_Pennzoil__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan 10K --></label>
+        <name>Plan_10K__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan de Cuenta --></label>
+        <name>Plan_de_Cuenta__c</name>
+        <relationshipLabel><!-- Oportunidades --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Plazo (meses) --></label>
+        <name>Plazo_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plazo (meses) --></label>
+        <name>Plazo_Combustible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plazo Ejecución programado --></label>
+        <name>Plazo_Ejecuci_n_programado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio/Descuento Competencia [$/lt] --></label>
+        <name>Precio_Descuento_Competencia_lt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Probabilidad x Volumen --></label>
+        <name>Probabilidad_x_Volumen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producto --></label>
+        <name>Producto__c</name>
+        <picklistValues>
+            <masterLabel>Combustible</masterLabel>
+            <translation><!-- Combustible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lavado</masterLabel>
+            <translation><!-- Lavado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lubricantes</masterLabel>
+            <translation><!-- Lubricantes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tienda</masterLabel>
+            <translation><!-- Tienda --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Promotor --></label>
+        <name>Promotor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proveedor Actual Lubes --></label>
+        <name>Proveedor_Actual_Lubes__c</name>
+        <picklistValues>
+            <masterLabel>Lubrax</masterLabel>
+            <translation><!-- Lubrax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobil</masterLabel>
+            <translation><!-- Mobil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ninguno</masterLabel>
+            <translation><!-- Ninguno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total</masterLabel>
+            <translation><!-- Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valvoline</masterLabel>
+            <translation><!-- Valvoline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YPF</masterLabel>
+            <translation><!-- YPF --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proveedor --></label>
+        <name>Proveedor__c</name>
+        <picklistValues>
+            <masterLabel>Otro</masterLabel>
+            <translation><!-- Otro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shell Lubricantes</masterLabel>
+            <translation><!-- Shell Lubricantes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proveedor actual --></label>
+        <name>Proveedor_actual__c</name>
+        <picklistValues>
+            <masterLabel>Base Industrial Propia</masterLabel>
+            <translation><!-- Base Industrial Propia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cupón Electrónico - Copec</masterLabel>
+            <translation><!-- Cupón Electrónico - Copec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Tiene</masterLabel>
+            <translation><!-- No Tiene --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peddler GE [Petroamérica, Petrochile, Coagra, Copeval, etc].</masterLabel>
+            <translation><!-- Peddler GE [Petroamérica, Petrochile, Coagra, Copeval, etc]. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peddler Local</masterLabel>
+            <translation><!-- Peddler Local --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shell Card Empresa</masterLabel>
+            <translation><!-- Shell Card Empresa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAE | En Ruta - Copec</masterLabel>
+            <translation><!-- TAE | En Ruta - Copec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCT - Copec</masterLabel>
+            <translation><!-- TCT - Copec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarjeta Petrobras Flota</masterLabel>
+            <translation><!-- Tarjeta Petrobras Flota --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RUT --></label>
+        <name>RUT_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Razón social --></label>
+        <name>Raz_n_social__c</name>
+    </fields>
+    <fields>
+        <label><!-- Razones Claves para perder/ganar negocio --></label>
+        <name>Razones_Claves_para_perder_ganar_negocio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reajustabilidad --></label>
+        <name>Reajustabilidad_CL__c</name>
+        <picklistValues>
+            <masterLabel>Mensual</masterLabel>
+            <translation><!-- Mensual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Aplica</masterLabel>
+            <translation><!-- No Aplica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price Managment</masterLabel>
+            <translation><!-- Price Managment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Según Lista de Precios</masterLabel>
+            <translation><!-- Según Lista de Precios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semestral</masterLabel>
+            <translation><!-- Semestral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trimestral</masterLabel>
+            <translation><!-- Trimestral --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reajustabilidad --></label>
+        <name>Reajustabilidad_Combustible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reajustabilidad --></label>
+        <name>Reajustabilidad_Lubricante__c</name>
+        <picklistValues>
+            <masterLabel>Mensual</masterLabel>
+            <translation><!-- Mensual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Según Lista de Precio</masterLabel>
+            <translation><!-- Según Lista de Precio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semestral</masterLabel>
+            <translation><!-- Semestral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trimestral</masterLabel>
+            <translation><!-- Trimestral --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reconquista --></label>
+        <name>Reconquista__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requerimiento de Ingeneria --></label>
+        <name>Requerimiento_de_Ingeneria__c</name>
+        <picklistValues>
+            <masterLabel>Ejecutar construcción</masterLabel>
+            <translation><!-- Ejecutar construcción --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estimado de costo</masterLabel>
+            <translation><!-- Estimado de costo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Retira en Planta --></label>
+        <name>Retira_en_Planta_C__c</name>
+    </fields>
+    <fields>
+        <help><!-- Esto indique que se debe revisar el VAC de alguno de los productos de esta oportunidad. --></help>
+        <label><!-- Revisar VAC --></label>
+        <name>Revisar_VAC_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Riesgo --></label>
+        <name>Riesgo_Combustible__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AA</masterLabel>
+            <translation><!-- AA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B+</masterLabel>
+            <translation><!-- B+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B-</masterLabel>
+            <translation><!-- B- --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C+</masterLabel>
+            <translation><!-- C+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C-</masterLabel>
+            <translation><!-- C- --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Riesgo Crédito --></label>
+        <name>Riesgo_Credito_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- SPANCOP --></label>
+        <name>SPANCOP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segmento --></label>
+        <name>Segmento_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segmento --></label>
+        <name>Segmento_Combustible__c</name>
+        <picklistValues>
+            <masterLabel>Construcción</masterLabel>
+            <translation><!-- Construcción --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contratista minero (dentro de la faena)</masterLabel>
+            <translation><!-- Contratista minero (dentro de la faena) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eléctricas</masterLabel>
+            <translation><!-- Eléctricas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrias</masterLabel>
+            <translation><!-- Industrias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marinos</masterLabel>
+            <translation><!-- Marinos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minería</masterLabel>
+            <translation><!-- Minería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peddler B2B</masterLabel>
+            <translation><!-- Peddler B2B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shellcard</masterLabel>
+            <translation><!-- Shellcard --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Segmento Lubricantes --></label>
+        <name>Segmento_Lubes_del__c</name>
+        <picklistValues>
+            <masterLabel>Acuícola</masterLabel>
+            <translation><!-- Acuícola --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agricola</masterLabel>
+            <translation><!-- Agricola --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construcción</masterLabel>
+            <translation><!-- Construcción --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FWS/Rental</masterLabel>
+            <translation><!-- FWS/Rental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forestal</masterLabel>
+            <translation><!-- Forestal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industria</masterLabel>
+            <translation><!-- Industria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maquinarias</masterLabel>
+            <translation><!-- Maquinarias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marinos</masterLabel>
+            <translation><!-- Marinos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minería</masterLabel>
+            <translation><!-- Minería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OEM</masterLabel>
+            <translation><!-- OEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Power</masterLabel>
+            <translation><!-- Power --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transporte</masterLabel>
+            <translation><!-- Transporte --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reunion (Ing) --></label>
+        <name>Semana_1_Ing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reunion (Area Comercial) --></label>
+        <name>Semana_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub-Producto --></label>
+        <name>Sub_Producto__c</name>
+        <picklistValues>
+            <masterLabel>Comercial</masterLabel>
+            <translation><!-- Comercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diesel</masterLabel>
+            <translation><!-- Diesel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ejecutiva</masterLabel>
+            <translation><!-- Ejecutiva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emulsiones asfálticas</masterLabel>
+            <translation><!-- Emulsiones asfálticas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Especial</masterLabel>
+            <translation><!-- Especial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuel Oil</masterLabel>
+            <translation><!-- Fuel Oil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gasolinas</masterLabel>
+            <translation><!-- Gasolinas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation><!-- Normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Productos calientes</masterLabel>
+            <translation><!-- Productos calientes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Productos fríos</masterLabel>
+            <translation><!-- Productos fríos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Químicos</masterLabel>
+            <translation><!-- Químicos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios</masterLabel>
+            <translation><!-- Servicios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soporte Ténico</masterLabel>
+            <translation><!-- Soporte Ténico --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Submercado --></label>
+        <name>Submercado__c</name>
+    </fields>
+    <fields>
+        <help><!-- Corresponde a la TIR mínima de todos los productos de la cotización. Si la TIR no tiene ningún valor esto indica que está indefinida debido a que la cantidad de días crédito efectivo es menor a la suma de los dias stock y los dias compra de la planta. --></help>
+        <label><!-- TIR --></label>
+        <name>TIR_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- TIpo Inversión --></label>
+        <name>TIpo_Inversion_C__c</name>
+        <picklistValues>
+            <masterLabel>Base</masterLabel>
+            <translation><!-- Base --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control en Ruta</masterLabel>
+            <translation><!-- Control en Ruta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estanques</masterLabel>
+            <translation><!-- Estanques --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otro</masterLabel>
+            <translation><!-- Otro --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tamaño de Entrega (dropsize) [m3] --></label>
+        <name>Tamano_de_Entrega_dropsize_m3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tiempo Transcurrido (de ingreso AFE) --></label>
+        <name>Tiempo_Transcurrido_de_ingreso_AFE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tiene Inversión --></label>
+        <name>Tiene_Inversion_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Cliente --></label>
+        <name>Tipo_Cliente_Lubricante__c</name>
+        <picklistValues>
+            <masterLabel>Bronce</masterLabel>
+            <translation><!-- Bronce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oro</masterLabel>
+            <translation><!-- Oro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plata</masterLabel>
+            <translation><!-- Plata --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo --></label>
+        <name>Tipo_Combustible__c</name>
+        <picklistValues>
+            <masterLabel>Base</masterLabel>
+            <translation><!-- Base --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control en Ruta</masterLabel>
+            <translation><!-- Control en Ruta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estanques</masterLabel>
+            <translation><!-- Estanques --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Precio --></label>
+        <name>Tipo_Precio_CL__c</name>
+        <picklistValues>
+            <masterLabel>Precio Exportaciones sin Imptos.</masterLabel>
+            <translation><!-- Precio Exportaciones sin Imptos. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Fórmula o Contrato</masterLabel>
+            <translation><!-- Precio Fórmula o Contrato --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Lista</masterLabel>
+            <translation><!-- Precio Lista --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Shellcard</masterLabel>
+            <translation><!-- Precio Shellcard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Spot</masterLabel>
+            <translation><!-- Precio Spot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Zofri sin IVA</masterLabel>
+            <translation><!-- Precio Zofri sin IVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Zofri sin Imptos.</masterLabel>
+            <translation><!-- Precio Zofri sin Imptos. --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Precio --></label>
+        <name>Tipo_Precio_Combustible__c</name>
+        <picklistValues>
+            <masterLabel>Precio Exportaciones sin Imptos.</masterLabel>
+            <translation><!-- Precio Exportaciones sin Imptos. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Fórmula o Contrato</masterLabel>
+            <translation><!-- Precio Fórmula o Contrato --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Lista</masterLabel>
+            <translation><!-- Precio Lista --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Shellcard</masterLabel>
+            <translation><!-- Precio Shellcard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Spot</masterLabel>
+            <translation><!-- Precio Spot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Zofri sin IVA</masterLabel>
+            <translation><!-- Precio Zofri sin IVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Zofri sin Imptos.</masterLabel>
+            <translation><!-- Precio Zofri sin Imptos. --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Antiguedad --></label>
+        <name>Tipo_de_Antiguedad_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Lubricantes --></label>
+        <name>Tipo_de_Lubricantes__c</name>
+        <picklistValues>
+            <masterLabel>Adblue</masterLabel>
+            <translation><!-- Adblue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grasas y Especialidades</masterLabel>
+            <translation><!-- Grasas y Especialidades --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hidraulico</masterLabel>
+            <translation><!-- Hidraulico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lubricantes General</masterLabel>
+            <translation><!-- Lubricantes General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motor</masterLabel>
+            <translation><!-- Motor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rimula Express (Proyecto Granel)</masterLabel>
+            <translation><!-- Rimula Express (Proyecto Granel) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transmisión</masterLabel>
+            <translation><!-- Transmisión --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Precio --></label>
+        <name>Tipo_de_Precio__c</name>
+        <picklistValues>
+            <masterLabel>Exportaciones</masterLabel>
+            <translation><!-- Exportaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formula Price o Contrato</masterLabel>
+            <translation><!-- Formula Price o Contrato --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polinomio</masterLabel>
+            <translation><!-- Polinomio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Lista</masterLabel>
+            <translation><!-- Precio Lista --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Lista con Descuento</masterLabel>
+            <translation><!-- Precio Lista con Descuento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shellcard</masterLabel>
+            <translation><!-- Shellcard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spot</masterLabel>
+            <translation><!-- Spot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zofri IVA</masterLabel>
+            <translation><!-- Zofri IVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zofri IVA + IE</masterLabel>
+            <translation><!-- Zofri IVA + IE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Producto1 --></label>
+        <name>Tipo_de_Producto_Dimen_1__c</name>
+        <picklistValues>
+            <masterLabel>Asfalto</masterLabel>
+            <translation><!-- Asfalto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviación</masterLabel>
+            <translation><!-- Aviación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Combustibles</masterLabel>
+            <translation><!-- Combustibles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lubricantes</masterLabel>
+            <translation><!-- Lubricantes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Químicos</masterLabel>
+            <translation><!-- Químicos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repuestos</masterLabel>
+            <translation><!-- Repuestos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios</masterLabel>
+            <translation><!-- Servicios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shellcard</masterLabel>
+            <translation><!-- Shellcard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TeO</masterLabel>
+            <translation><!-- TeO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Producto2 --></label>
+        <name>Tipo_de_Producto_Dimen_2__c</name>
+        <picklistValues>
+            <masterLabel>Asfalto</masterLabel>
+            <translation><!-- Asfalto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviación</masterLabel>
+            <translation><!-- Aviación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Combustibles</masterLabel>
+            <translation><!-- Combustibles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lubricantes</masterLabel>
+            <translation><!-- Lubricantes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Químicos</masterLabel>
+            <translation><!-- Químicos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repuestos</masterLabel>
+            <translation><!-- Repuestos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios</masterLabel>
+            <translation><!-- Servicios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shellcard</masterLabel>
+            <translation><!-- Shellcard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TeO</masterLabel>
+            <translation><!-- TeO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Producto --></label>
+        <name>Tipo_de_Producto__c</name>
+        <picklistValues>
+            <masterLabel>Asfaltos</masterLabel>
+            <translation><!-- Asfaltos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviacion</masterLabel>
+            <translation><!-- Aviacion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ChileCompras</masterLabel>
+            <translation><!-- ChileCompras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Combustible</masterLabel>
+            <translation><!-- Combustible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fex</masterLabel>
+            <translation><!-- Fex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lubricantes</masterLabel>
+            <translation><!-- Lubricantes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Químicos</masterLabel>
+            <translation><!-- Químicos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repuestos</masterLabel>
+            <translation><!-- Repuestos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios</masterLabel>
+            <translation><!-- Servicios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shellcard Empresa Post-Pago</masterLabel>
+            <translation><!-- Shellcard Empresa Post-Pago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shellcard Empresa Pre-Pago</masterLabel>
+            <translation><!-- Shellcard Empresa Pre-Pago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shellcard Empresas</masterLabel>
+            <translation><!-- Shellcard Empresas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shellcard Institucional</masterLabel>
+            <translation><!-- Shellcard Institucional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shellcard Transporte</masterLabel>
+            <translation><!-- Shellcard Transporte --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Registro en numero --></label>
+        <name>Tipo_de_Registro_en_numero_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Suministro --></label>
+        <name>Tipo_de_Suministro__c</name>
+        <picklistValues>
+            <masterLabel>Embarcación</masterLabel>
+            <translation><!-- Embarcación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estanque igual o menor a 1.100 litros</masterLabel>
+            <translation><!-- Estanque igual o menor a 1.100 litros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estanque mayor a 1.100 litros</masterLabel>
+            <translation><!-- Estanque mayor a 1.100 litros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generador</masterLabel>
+            <translation><!-- Generador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maquinaria</masterLabel>
+            <translation><!-- Maquinaria --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Vehículos --></label>
+        <name>Tipo_de_Vehiculos__c</name>
+        <picklistValues>
+            <masterLabel>Ambulancia</masterLabel>
+            <translation><!-- Ambulancia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto</masterLabel>
+            <translation><!-- Auto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bicimoto</masterLabel>
+            <translation><!-- Bicimoto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bus</masterLabel>
+            <translation><!-- Bus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camioneta</masterLabel>
+            <translation><!-- Camioneta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camión</masterLabel>
+            <translation><!-- Camión --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cargador Frontal (Gato)</masterLabel>
+            <translation><!-- Cargador Frontal (Gato) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carro Bomba</masterLabel>
+            <translation><!-- Carro Bomba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casa Rodante</masterLabel>
+            <translation><!-- Casa Rodante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chasis</masterLabel>
+            <translation><!-- Chasis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chasis Cabina</masterLabel>
+            <translation><!-- Chasis Cabina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coche Mortuorio</masterLabel>
+            <translation><!-- Coche Mortuorio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cuatrimoto</masterLabel>
+            <translation><!-- Cuatrimoto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Embarcaciones</masterLabel>
+            <translation><!-- Embarcaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Furgón</masterLabel>
+            <translation><!-- Furgón --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jeep</masterLabel>
+            <translation><!-- Jeep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maquina Industrial</masterLabel>
+            <translation><!-- Maquina Industrial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maquinaria</masterLabel>
+            <translation><!-- Maquinaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MiniBus</masterLabel>
+            <translation><!-- MiniBus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MiniTruck</masterLabel>
+            <translation><!-- MiniTruck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moto</masterLabel>
+            <translation><!-- Moto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motoneta</masterLabel>
+            <translation><!-- Motoneta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rampla Frigorífica</masterLabel>
+            <translation><!-- Rampla Frigorífica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi Remolque</masterLabel>
+            <translation><!-- Semi Remolque --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Station Wagon</masterLabel>
+            <translation><!-- Station Wagon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tractor</masterLabel>
+            <translation><!-- Tractor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Canal Lubricantes --></label>
+        <name>TipodeCanalLubricantes__c</name>
+        <picklistValues>
+            <masterLabel>Cadena Retail (Auto/Camión/Agro)</masterLabel>
+            <translation><!-- Cadena Retail (Auto/Camión/Agro) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casas de Repuestos</masterLabel>
+            <translation><!-- Casas de Repuestos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ChileCompra</masterLabel>
+            <translation><!-- ChileCompra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Convenios de Marca/ OEM</masterLabel>
+            <translation><!-- Convenios de Marca/ OEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribuidor SLDP B2B</masterLabel>
+            <translation><!-- Distribuidor SLDP B2B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribuidor SLDP B2C</masterLabel>
+            <translation><!-- Distribuidor SLDP B2C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OCO (Gran Lubricentro)</masterLabel>
+            <translation><!-- OCO (Gran Lubricentro) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revendedores</masterLabel>
+            <translation><!-- Revendedores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taller Mecánico</masterLabel>
+            <translation><!-- Taller Mecánico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VDIR B2B</masterLabel>
+            <translation><!-- VDIR B2B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ventas Industriales</masterLabel>
+            <translation><!-- Ventas Industriales --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total --></label>
+        <name>Total_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Convencional --></label>
+        <name>Total_Convencional_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Drop Size --></label>
+        <name>Total_Drop_Size_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Especial --></label>
+        <name>Total_Especial_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total IVA --></label>
+        <name>Total_IVA_CL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Neto --></label>
+        <name>Total_Neto_CL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicar si la instalación tiene TE1 vigente (trámite eléctrico que exige la SEC para inscripción de punto industrial) --></help>
+        <label><!-- Trámite Eléctrico --></label>
+        <name>Tramite_Electrico__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si</masterLabel>
+            <translation><!-- Si --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Usar Campos? --></label>
+        <name>Usar_Campos__c</name>
+    </fields>
+    <fields>
+        <label><!-- VPN --></label>
+        <name>VPN_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validación Desarrollo --></label>
+        <name>Validacion_Desarrollo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta SPOT --></label>
+        <name>Venta_SPOT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ventana de Entrega --></label>
+        <name>Ventana_de_Entrega__c</name>
+        <picklistValues>
+            <masterLabel>LUNES A SÁBADO 8:00 a 20:00</masterLabel>
+            <translation><!-- LUNES A SÁBADO 8:00 a 20:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LUNES A SÁBADO 9:00 a 18:00</masterLabel>
+            <translation><!-- LUNES A SÁBADO 9:00 a 18:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LUNES A VIERNES 8:00 a 20:00</masterLabel>
+            <translation><!-- LUNES A VIERNES 8:00 a 20:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LUNES A VIERNES 9:00 a 15:00</masterLabel>
+            <translation><!-- LUNES A VIERNES 9:00 a 15:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LUNES A VIERNES 9:00 a 18:00</masterLabel>
+            <translation><!-- LUNES A VIERNES 9:00 a 18:00 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Volúmen mᶟ / Mes --></label>
+        <name>Volumen_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen C --></label>
+        <name>Volumen_Combustible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen Diésel [m3/mes] --></label>
+        <name>Volumen_Diesel_m3_mes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen Gasolinas [m3/mes] --></label>
+        <name>Volumen_Gasolinas_m3_mes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen lt / mes --></label>
+        <name>Volumen_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen Oportunidad Litros Año --></label>
+        <name>Volumen_Oportunidad_Litros_A_o__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen Productividad --></label>
+        <name>Volumen_Productividad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen Prospección --></label>
+        <name>Volumen_Prospecci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen por Tipo de Combustible / Zona --></label>
+        <name>Volumen_por_Tipo_de_Combustible_Zona__c</name>
+    </fields>
+    <fields>
+        <label><!-- prueba felipe --></label>
+        <name>prueba_felipe__c</name>
+    </fields>
+    <fields>
+        <label><!-- tipo registro cuenta --></label>
+        <name>tipo_registro_cuenta__c</name>
+    </fields>
+    <layouts>
+        <layout>Combustibles</layout>
+        <sections>
+            <label><!-- Información Comercial --></label>
+            <section>Información Comercial</section>
+        </sections>
+        <sections>
+            <label><!-- Información Operacional FEX --></label>
+            <section>Información Operacional FEX</section>
+        </sections>
+        <sections>
+            <label><!-- Información Operacional Shell Card --></label>
+            <section>Información Operacional Shell Card</section>
+        </sections>
+        <sections>
+            <label><!-- Ingeniería --></label>
+            <section>Ingeniería</section>
+        </sections>
+        <sections>
+            <label><!-- Módulo Inversiones Ingeniería --></label>
+            <section>Módulo Inversiones Ingeniería</section>
+        </sections>
+        <sections>
+            <label><!-- Otras Inversiones --></label>
+            <section>Otras Inversiones</section>
+        </sections>
+        <sections>
+            <label><!-- Shellcard Total --></label>
+            <section>Shellcard Total</section>
+        </sections>
+        <sections>
+            <label><!-- Totales --></label>
+            <section>Totales</section>
+        </sections>
+        <sections>
+            <label><!-- Totales y Manual o Aprobación (MOA) --></label>
+            <section>Totales y Manual o Aprobación (MOA)</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lubricantes</layout>
+        <sections>
+            <label><!-- Totales --></label>
+            <section>Totales</section>
+        </sections>
+        <sections>
+            <label><!-- Totales y Manual o Aprobación (MOA) --></label>
+            <section>Totales y Manual o Aprobación (MOA)</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Productos Industriales</layout>
+        <sections>
+            <label><!-- Módulo Inversiones Ingeniería --></label>
+            <section>Módulo Inversiones Ingeniería</section>
+        </sections>
+        <sections>
+            <label><!-- Otras Inversiones --></label>
+            <section>Otras Inversiones</section>
+        </sections>
+        <sections>
+            <label><!-- Shellcard Total --></label>
+            <section>Shellcard Total</section>
+        </sections>
+        <sections>
+            <label><!-- Shellcard/FEX --></label>
+            <section>Shellcard/FEX</section>
+        </sections>
+        <sections>
+            <label><!-- Totales --></label>
+            <section>Totales</section>
+        </sections>
+        <sections>
+            <label><!-- Totales y Manual o Aprobación (MOA) --></label>
+            <section>Totales y Manual o Aprobación (MOA)</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ShellCard Empresa</layout>
+        <sections>
+            <label><!-- Información Comercial --></label>
+            <section>Información Comercial</section>
+        </sections>
+        <sections>
+            <label><!-- Información Operacional Shell Card --></label>
+            <section>Información Operacional Shell Card</section>
+        </sections>
+        <sections>
+            <label><!-- Otras Inversiones --></label>
+            <section>Otras Inversiones</section>
+        </sections>
+        <sections>
+            <label><!-- Totales --></label>
+            <section>Totales</section>
+        </sections>
+        <sections>
+            <label><!-- Totales y Manual o Aprobación (MOA) --></label>
+            <section>Totales y Manual o Aprobación (MOA)</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Shellcard Total</layout>
+        <sections>
+            <label><!-- Ingeniería --></label>
+            <section>Ingeniería</section>
+        </sections>
+        <sections>
+            <label><!-- Módulo Inversiones Ingeniería --></label>
+            <section>Módulo Inversiones Ingeniería</section>
+        </sections>
+        <sections>
+            <label><!-- Otras Inversiones --></label>
+            <section>Otras Inversiones</section>
+        </sections>
+        <sections>
+            <label><!-- Shellcard Total --></label>
+            <section>Shellcard Total</section>
+        </sections>
+        <sections>
+            <label><!-- Shellcard/FEX --></label>
+            <section>Shellcard/FEX</section>
+        </sections>
+        <sections>
+            <label><!-- Totales --></label>
+            <section>Totales</section>
+        </sections>
+        <sections>
+            <label><!-- Totales y Manual o Aprobación (MOA) --></label>
+            <section>Totales y Manual o Aprobación (MOA)</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Telemarketing Shellcard Empresa</layout>
+        <sections>
+            <label><!-- Shellcard Total --></label>
+            <section>Shellcard Total</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Agregar Partida* --></label>
+        <name>Agregar_Partida</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Asfalto --></label>
+        <name>Asfalto</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Combustible --></label>
+        <name>Combustible</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Lubricante --></label>
+        <name>Lubricante</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Químicos --></label>
+        <name>Quimicos</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ShellCard Empresa --></label>
+        <name>ShellCard_Empresa</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Debe ser sólo numeros o puntos --></errorMessage>
+        <name>AFE_Solo_Numeros</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede crear esta oportunidad debido a que Ud. eligió un tipo de producto distinto al de la Cuenta asociada. Por ejemplo: Si la cuenta es de tipo &quot;Combustible&quot; Ud. debe crear sólo oportunidades de tipo &quot;Combustible&quot;. --></errorMessage>
+        <name>CreacionOportunidadRestriccionTipoRegist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe Completar el dato AFE en esta campo si existe Fecha de Ejecutar Construcción. --></errorMessage>
+        <name>Fecha_Ejecutar_Construccion_CompletarAFE</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sólo se puede cambiar ingresar un valor una vez y luego no se puede modificar. --></errorMessage>
+        <name>Fecha_Solicitud_Estimado_Costo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe ingresar el monto de inversión --></errorMessage>
+        <name>INVERSION_No_Tipo_requier_montoinversion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si INVERSION es No Tipo require ingresar una Descripcion --></errorMessage>
+        <name>INVERSION_No_Tipo_requiere_descripcion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si INVERSION es TIPO debe Seleccionar un valor en  campo Estanques --></errorMessage>
+        <name>INVERSION_Tipo_necesario_Estanques</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si INVERSION es Tipo debe seleccionar un valor en Marquesina --></errorMessage>
+        <name>INVERSION_Tipo_necesario_Marquesina</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si seleccion INVERSION Tipo, debe indicar el Numero de Estanques --></errorMessage>
+        <name>INVERSION_Tipo_necesario_NumeroEstanques</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede cambiar la Cuenta asignada a una Oportunidad, por favor vaya a la cuenta y cree un nueva Oportunidad. --></errorMessage>
+        <name>No_puede_Reasignar_Cuenta_a_Oportunidad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si la Cuenta de la Oportunidad no es Virtual , debe Asignarle Tipo de Facturación y Cuenta Relacionada antes de crear la Oportunidad, por favor vaya a la Cuenta y asigne los valores. --></errorMessage>
+        <name>SCE_Debe_crear_Cuenta_Relacionada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Para crear una Oportunidad ShellCard Empresa,  el Segmento de la Cuenta debe ser  Shellcard Empresa Post-Pago o ShellCard Empresa Pre-Pago o Shellcard Institucional, por favor verifiquelo. --></errorMessage>
+        <name>SCE_El_Segmento_debe_ser_Para_ShellCard</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Para crear Oportunidad ShellCard Empresa, el Tipo de Facturación de la Cuenta debe ser Factura. --></errorMessage>
+        <name>SCE_La_Cuenta_Debe_Ser_Boleta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe seleccionar INVERSION --></errorMessage>
+        <name>Se_debe_Seleccionar_INVERSION</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fecha de Construcción no debe ser menor a la fecha actual --></errorMessage>
+        <name>Validacion_Fecha_Construccion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fecha de Estimación no debe ser menor a la fecha actual --></errorMessage>
+        <name>Validacion_Fecha_Estimacion_de_costos</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fecha de Respuesta Construcción no debe ser menor a la fecha actual --></errorMessage>
+        <name>Validacion_Respuesta_Fecha_Construccion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fecha de Respuesta Estimación de Costo no debe ser menor a la fecha actual --></errorMessage>
+        <name>Validacion_Respuesta_Fecha_Costo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si el Tipo de Producto es TEO, debe Seleccionar una Localidad --></errorMessage>
+        <name>Validar_Seleccion_de_Localidad</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Nueva_Cotizacion_Combustible --></label>
+        <name>Nueva_Cotizacion_Combustible</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Nueva_Cotizacion_Lubricante --></label>
+        <name>Nueva_Cotizacion_Lubricante</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Nueva_Cotizacion_ShellCardEmpresa --></label>
+        <name>Nueva_Cotizacion_ShellCardEmpresa</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Nuevo_Call_Report_Minuta --></label>
+        <name>Nuevo_Call_Report_Minuta</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Nuevo_POPSA --></label>
+        <name>Nuevo_POPSA</name>
+    </webLinks>
+</CustomObjectTranslation>

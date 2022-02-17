@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>En línea</fullName>
+        <default>false</default>
+        <label>En línea</label>
+    </standardValue>
+    <standardValue>
+        <fullName>En pausa</fullName>
+        <default>false</default>
+        <label>En pausa</label>
+    </standardValue>
+    <standardValue>
+        <fullName>En suspensión</fullName>
+        <default>false</default>
+        <label>En suspensión</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sin conexión</fullName>
+        <default>false</default>
+        <label>Sin conexión</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No listo</fullName>
+        <default>false</default>
+        <label>No listo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Desactivar</fullName>
+        <default>false</default>
+        <label>Desactivar</label>
+    </standardValue>
+</StandardValueSet>

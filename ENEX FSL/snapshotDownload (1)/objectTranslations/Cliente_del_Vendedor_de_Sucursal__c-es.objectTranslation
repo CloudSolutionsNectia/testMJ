@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cliente del Vendedor de Sucursal</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Clientes del Vendedor de Sucursal</value>
+    </caseValues>
+    <fields>
+        <label><!-- Cantidad de Ventas B2B --></label>
+        <name>Cantidad_de_Ventas_B2B__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cantidad de Ventas B2C --></label>
+        <name>Cantidad_de_Ventas_B2C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Codigo Cliente --></label>
+        <name>Codigo_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comuna --></label>
+        <name>Comuna__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direccion --></label>
+        <name>Direccion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rut Cliente --></label>
+        <name>Rut_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segmento --></label>
+        <name>Segmento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sucursal Distribuidor --></label>
+        <name>Sucursal_Distribuidor__c</name>
+        <relationshipLabel><!-- Clientes del Vendedor de Sucursal --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ¿Tiene Ventas Ult. 6 Meses? --></label>
+        <name>Tiene_Ventas_Ult_6_Meses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendedor Sucursal Distribuidor --></label>
+        <name>Vendedor_Sucursal_Distribuidor__c</name>
+        <relationshipLabel><!-- Clientes del Vendedor de Sucursal --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Venta Abril Año Actual --></label>
+        <name>Venta_Abril_A_o_Actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Abril Año Anterior --></label>
+        <name>Venta_Abril_A_o_Anterior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Agosto Año Actual --></label>
+        <name>Venta_Agosto_A_o_Actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Agosto Año Anterior --></label>
+        <name>Venta_Agosto_A_o_Anterior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Diciembre Año Actual --></label>
+        <name>Venta_Diciembre_A_o_Actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Diciembre Año Anterior --></label>
+        <name>Venta_Diciembre_A_o_Anterior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Enero Año Actual --></label>
+        <name>Venta_Enero_A_o_Actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Enero Año Anterior --></label>
+        <name>Venta_Enero_A_o_Anterior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Febrero Año Actual --></label>
+        <name>Venta_Febrero_A_o_Actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Febrero Año Anterior --></label>
+        <name>Venta_Febrero_A_o_Anterior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Julio Año Actual --></label>
+        <name>Venta_Julio_A_o_Actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Julio Año Anterior --></label>
+        <name>Venta_Julio_A_o_Anterior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Junio Año Actual --></label>
+        <name>Venta_Junio_A_o_Actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Junio Año Anterior --></label>
+        <name>Venta_Junio_A_o_Anterior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Marzo Año Actual --></label>
+        <name>Venta_Marzo_A_o_Actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Marzo Año Anterior --></label>
+        <name>Venta_Marzo_A_o_Anterior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Mayo Año Actual --></label>
+        <name>Venta_Mayo_A_o_Actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Mayo Año Anterior --></label>
+        <name>Venta_Mayo_A_o_Anterior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Noviembre Año Actual --></label>
+        <name>Venta_Noviembre_A_o_Actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Noviembre Año Anterior --></label>
+        <name>Venta_Noviembre_A_o_Anterior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Octubre Año Actual --></label>
+        <name>Venta_Octubre_A_o_Actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Octubre Año Anterior --></label>
+        <name>Venta_Octubre_A_o_Anterior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Septiembre Año Actual --></label>
+        <name>Venta_Septiembre_A_o_Actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venta Septiembre Año Anterior --></label>
+        <name>Venta_Septiembre_A_o_Anterior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen Venta Año Actual --></label>
+        <name>Volumen_Venta_Ano_Actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen Venta Año Anterior --></label>
+        <name>Volumen_Venta_Ano_Anterior__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Cliente Distribuidor Lubricante</layout>
+        <sections>
+            <label><!-- Ventas --></label>
+            <section>Ventas</section>
+        </sections>
+        <sections>
+            <label><!-- Ventas / Volumen --></label>
+            <section>Ventas / Volumen</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

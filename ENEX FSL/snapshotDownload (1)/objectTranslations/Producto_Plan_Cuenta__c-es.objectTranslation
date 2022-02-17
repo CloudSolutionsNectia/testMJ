@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sub-Grupo Plan Cuenta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sub-Grupos Plan Cuenta</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Sub-Grupo Plan Cuenta</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

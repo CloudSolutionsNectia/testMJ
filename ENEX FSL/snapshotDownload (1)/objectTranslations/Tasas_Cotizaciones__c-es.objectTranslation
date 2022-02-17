@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tasas Cotizaciones</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tasas Cotizaciones</value>
+    </caseValues>
+    <fields>
+        <label><!-- Tasa Costo Financiero --></label>
+        <name>Tasa_Costo_Financiero__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tasa Riesgo Crédito Clasificación A --></label>
+        <name>Tasa_Riesgo_Credito_Clasificacion_A__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tasa Riesgo Crédito Clasificación B --></label>
+        <name>Tasa_Riesgo_Credito_Clasificacion_B__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tasa Riesgo Crédito Clasificación C --></label>
+        <name>Tasa_Riesgo_Credito_Clasificacion_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tasa Riesgo Crédito Segmento Asegurado --></label>
+        <name>Tasa_Riesgo_Credito_Segmento_Asegurado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tasa de Descuento Anual VPN --></label>
+        <name>Tasa_de_Descuento_Anual_VPN__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

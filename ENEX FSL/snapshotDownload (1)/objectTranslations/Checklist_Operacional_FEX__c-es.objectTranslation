@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Checklist Operacional FEX</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Checklist Operacional FEX</value>
+    </caseValues>
+    <fields>
+        <label><!-- Imágenes Camión --></label>
+        <name>Im_genes_Cami_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Imagen Uniforme --></label>
+        <name>Imagen_Uniforme__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ingresar Patente del Camión: --></label>
+        <name>Ingresar_Patente_del_Cami_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nota Accesorios --></label>
+        <name>Nota_Accesorios__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nota Infraestructura Camión --></label>
+        <name>Nota_Infraestructura_Cami_n_del__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nota Infraestructura Combustible --></label>
+        <name>Nota_Infraestructura_Combustible__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nota Otros --></label>
+        <name>Nota_Otros__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Planta FEX --></label>
+        <name>Planta_FEX__c</name>
+        <relationshipLabel><!-- Checklists Operacionales FEX --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Respuesta 1 --></label>
+        <name>Respuesta_1__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respuesta 2 --></label>
+        <name>Respuesta_2__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respuesta 3 --></label>
+        <name>Respuesta_3__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respuesta 4 --></label>
+        <name>Respuesta_4__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respuesta 5 --></label>
+        <name>Respuesta_5__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respuesta 6 --></label>
+        <name>Respuesta_6__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respuesta 7 --></label>
+        <name>Respuesta_7__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respuesta 1 --></label>
+        <name>Respuesta_W1__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respuesta 2 --></label>
+        <name>Respuesta_W2__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respuesta 3 --></label>
+        <name>Respuesta_W3__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respuesta 1 --></label>
+        <name>Respuesta_Y1__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respuesta 2 --></label>
+        <name>Respuesta_Y2__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respuesta 3 --></label>
+        <name>Respuesta_Y3__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respuesta 1 --></label>
+        <name>Respuesta_Z1__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respuesta 2 --></label>
+        <name>Respuesta_Z2__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respuesta 3 --></label>
+        <name>Respuesta_Z3__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ¿Tiene comentarios adicionales? --></label>
+        <name>Tiene_comentarios_adicionales__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1. --></label>
+        <name>W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. --></label>
+        <name>W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3 --></label>
+        <name>W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1. --></label>
+        <name>X1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. --></label>
+        <name>X2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3. --></label>
+        <name>X3__c</name>
+    </fields>
+    <fields>
+        <label><!-- 4. --></label>
+        <name>X4__c</name>
+    </fields>
+    <fields>
+        <label><!-- 5. --></label>
+        <name>X5__c</name>
+    </fields>
+    <fields>
+        <label><!-- 6. --></label>
+        <name>X6__c</name>
+    </fields>
+    <fields>
+        <label><!-- 7. --></label>
+        <name>X7__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1 --></label>
+        <name>Y1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. --></label>
+        <name>Y2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3. --></label>
+        <name>Y3__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1. --></label>
+        <name>Z1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. --></label>
+        <name>Z2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3 --></label>
+        <name>Z3__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Checklist Operacional FEX</layout>
+        <sections>
+            <label><!-- Accesorios --></label>
+            <section>Accesorios</section>
+        </sections>
+        <sections>
+            <label><!-- Comentarios --></label>
+            <section>Comentarios</section>
+        </sections>
+        <sections>
+            <label><!-- Infraestructura Camión --></label>
+            <section>Infraestructura Camión</section>
+        </sections>
+        <sections>
+            <label><!-- Infraestructura Sistema de Combustible --></label>
+            <section>Infraestructura Sistema de Combustible</section>
+        </sections>
+        <sections>
+            <label><!-- Otros --></label>
+            <section>Otros</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

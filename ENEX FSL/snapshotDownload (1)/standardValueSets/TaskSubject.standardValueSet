@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Comentario</fullName>
+        <default>false</default>
+        <label>Comentario</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cotizar Nuevo Prospecto</fullName>
+        <default>false</default>
+        <label>Cotizar Nuevo Prospecto</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Entrega de Solución al Cliente</fullName>
+        <default>false</default>
+        <label>Entrega de Solución al Cliente</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enviar Documento a Cliente</fullName>
+        <default>false</default>
+        <label>Enviar Documento a Cliente</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enviar Documento Interno ENEX</fullName>
+        <default>false</default>
+        <label>Enviar Documento Interno ENEX</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Llamado - DTC</fullName>
+        <default>false</default>
+        <label>Llamado - DTC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Otro</fullName>
+        <default>false</default>
+        <label>Otro</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Recepción de Respuesta</fullName>
+        <default>false</default>
+        <label>Recepción de Respuesta</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retipificación del Caso</fullName>
+        <default>false</default>
+        <label>Retipificación del Caso</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Solicitar mayor información</fullName>
+        <default>false</default>
+        <label>Solicitar mayor información</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Revisión Deuda JDE</fullName>
+        <default>false</default>
+        <label>Revisión Deuda JDE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Llamada de salida</fullName>
+        <default>false</default>
+        <label>Llamada de salida</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Llamada entrante</fullName>
+        <default>false</default>
+        <label>Llamada entrante</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Backoffice Shellcard Respuesta</fullName>
+        <default>false</default>
+        <label>Backoffice Shellcard Respuesta</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Solicitud de apoyo para reactivar</fullName>
+        <default>false</default>
+        <label>Solicitud de apoyo para reactivar</label>
+    </standardValue>
+</StandardValueSet>

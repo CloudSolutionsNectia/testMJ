@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Productos de Solicitud</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Productos de Solicitud</value>
+    </caseValues>
+    <fields>
+        <label><!-- Camisa Blanca M Corta --></label>
+        <name>Camisa_Blanca_M_Corta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Camisa Blanca M Larga --></label>
+        <name>Camisa_Blanca_M_Larga__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuello Micropolar --></label>
+        <name>Cuello_Micropolar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gorro Legionario --></label>
+        <name>Gorro_Legionario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gorro Micropolar --></label>
+        <name>Gorro_Micropolar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jardinero Térmico --></label>
+        <name>Jardinero_T_rmico__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jockey Lavado Beige --></label>
+        <name>Jockey_Lavado_Beige__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jockey --></label>
+        <name>Jockey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overol Lavado Azul --></label>
+        <name>Overol_Lavado_Azul__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overol Lavado Gris --></label>
+        <name>Overol_Lavado_Gris__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overol Lubricador Rojo --></label>
+        <name>Overol_Lubricador_Rojo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pantalón --></label>
+        <name>Pantal_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parka Térmica --></label>
+        <name>Parka_T_rmica__c</name>
+    </fields>
+    <fields>
+        <label><!-- Polera MC Algodón --></label>
+        <name>Polera_MC_Algod_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Polera ML Algodón --></label>
+        <name>Polera_ML_Algod_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pullover --></label>
+        <name>Pullover__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zapato Seguridad --></label>
+        <name>Zapato_Seguridad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zapatos Seguridad (Nuevos) --></label>
+        <name>Zapatos_Seguridad_Nuevos__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

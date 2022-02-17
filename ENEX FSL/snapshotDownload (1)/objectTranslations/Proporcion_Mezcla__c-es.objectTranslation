@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Proporción Mezcla</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Proporciones Mezclas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Densidad de Mezcla 1 --></label>
+        <name>Densidad_de_Mezcla_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Densidad de Mezcla 2 --></label>
+        <name>Densidad_de_Mezcla_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha --></label>
+        <name>Fecha__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Planta Producto Compuesto 1 Ref --></label>
+        <name>Nombre_Planta_Producto_Compuesto_1_Ref__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Planta Producto Compuesto 2 Ref --></label>
+        <name>Nombre_Planta_Producto_Compuesto_2_Ref__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Planta Producto Mezclado Ref --></label>
+        <name>Nombre_Planta_Producto_Mezclado_Ref__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planta Producto Compuesto 1 --></label>
+        <name>Planta_Producto_Compuesto_1__c</name>
+        <relationshipLabel><!-- Proporciones Mezclas (Planta Producto Compuesto 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Planta Producto Compuesto 2 --></label>
+        <name>Planta_Producto_Compuesto_2__c</name>
+        <relationshipLabel><!-- Proporciones Mezclas (Planta Producto Compuesto 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Planta Producto Mezclado --></label>
+        <name>Planta_Producto_Mezclado__c</name>
+        <relationshipLabel><!-- Proporciones Mezclas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Producto Compuesto 1 --></label>
+        <name>Producto_Compuesto_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producto Compuesto 2 --></label>
+        <name>Producto_Compuesto_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proporción 1 --></label>
+        <name>Proporcion_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proporción 2 --></label>
+        <name>Proporcion_2__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Proporción Mezcla</layout>
+        <sections>
+            <label><!-- Densidades --></label>
+            <section>Densidades</section>
+        </sections>
+        <sections>
+            <label><!-- Proporciones --></label>
+            <section>Proporciones</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

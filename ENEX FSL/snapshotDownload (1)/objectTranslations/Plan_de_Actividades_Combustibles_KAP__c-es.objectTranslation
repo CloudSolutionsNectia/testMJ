@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Plan de Actividades Combustibles (KAP)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Plan de Actividades Combustibles (KAP)</value>
+    </caseValues>
+    <fields>
+        <label><!-- Ciudad --></label>
+        <name>Ciudad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripcion de la Actividad --></label>
+        <name>Descripcion_de_la_Actividad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado --></label>
+        <name>Estado__c</name>
+        <picklistValues>
+            <masterLabel>Abierto</masterLabel>
+            <translation><!-- Abierto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ejecutado</masterLabel>
+            <translation><!-- Ejecutado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En Proceso</masterLabel>
+            <translation><!-- En Proceso --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fecha Inicio --></label>
+        <name>Fecha_Inicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Termino --></label>
+        <name>Fecha_Termino__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan de Actividades --></label>
+        <name>Plan_de_Actividades__c</name>
+        <picklistValues>
+            <masterLabel>Abastecimiento</masterLabel>
+            <translation><!-- Abastecimiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Activaciones</masterLabel>
+            <translation><!-- Activaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Branding</masterLabel>
+            <translation><!-- Branding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capacitaciones</masterLabel>
+            <translation><!-- Capacitaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inversiones</masterLabel>
+            <translation><!-- Inversiones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Levantamientos</masterLabel>
+            <translation><!-- Levantamientos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Producto (Upsell- Xsell)</masterLabel>
+            <translation><!-- Producto (Upsell- Xsell) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promociones</masterLabel>
+            <translation><!-- Promociones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reuniones de seguimientos trimestral</masterLabel>
+            <translation><!-- Reuniones de seguimientos trimestral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios</masterLabel>
+            <translation><!-- Servicios --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Plan de Cuenta --></label>
+        <name>Plan_de_Cuenta__c</name>
+        <relationshipLabel><!-- Plan de Actividades Combustibles (KAP) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Seguimiento --></label>
+        <name>Seguimiento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Soporte Requerido --></label>
+        <name>Soporte_Requerido__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Plan de Actividades Combustibles (KAP)</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

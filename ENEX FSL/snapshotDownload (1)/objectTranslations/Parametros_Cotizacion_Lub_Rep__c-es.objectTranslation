@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Parametro Cotizacion Lub - Rep</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Parametros Cotizaciones Lub - Rep</value>
+    </caseValues>
+    <fields>
+        <label><!-- Activo --></label>
+        <name>Activo__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSP --></label>
+        <name>BSP__c</name>
+    </fields>
+    <fields>
+        <label><!-- CATEGORIA --></label>
+        <name>CATEGORIA__c</name>
+    </fields>
+    <fields>
+        <label><!-- CODIGO --></label>
+        <name>CODIGO__c</name>
+    </fields>
+    <fields>
+        <label><!-- COSTO PRODUCTO ($/LT) --></label>
+        <name>COSTO_PRODUCTO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Almacenaje Antofagasta ($/LT) --></label>
+        <name>Costo_Almacenaje_Antofagasta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Almacenaje Concepcion ($/LT) --></label>
+        <name>Costo_Almacenaje_Concepcion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Almacenaje Copiapo ($/LT) --></label>
+        <name>Costo_Almacenaje_Copiapo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Almacenaje Coquimbo ($/LT) --></label>
+        <name>Costo_Almacenaje_Coquimbo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Almacenaje Iquique ($/LT) --></label>
+        <name>Costo_Almacenaje_Iquique__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Almacenaje Megalog ($/LT) --></label>
+        <name>Costo_Almacenaje_Megalog__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Almacenaje Puerto Aysen ($/LT) --></label>
+        <name>Costo_Almacenaje_Puerto_Aysen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Almacenaje Puerto Montt ($/LT) --></label>
+        <name>Costo_Almacenaje_Puerto_Montt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Almacenaje Punta Arenas ($/LT) --></label>
+        <name>Costo_Almacenaje_Punta_Arenas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Almacenaje San Antonio ($/LT) --></label>
+        <name>Costo_Almacenaje_San_Antonio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Flete Antofagasta ($/LT) --></label>
+        <name>Costo_Flete_Antofagasta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Flete Concepcion ($/LT) --></label>
+        <name>Costo_Flete_Concepcion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Flete Copiapo ($/LT) --></label>
+        <name>Costo_Flete_Copiapo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Flete Coquimbo ($/LT) --></label>
+        <name>Costo_Flete_Coquimbo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Flete Iquique ($/LT) --></label>
+        <name>Costo_Flete_Iquique__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Flete Megalog ($/LT) --></label>
+        <name>Costo_Flete_Megalog__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Flete Puerto Aysen ($/LT) --></label>
+        <name>Costo_Flete_Puerto_Aysen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Flete Puerto Montt ($/LT) --></label>
+        <name>Costo_Flete_Puerto_Montt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Flete Punta Arenas ($/LT) --></label>
+        <name>Costo_Flete_Punta_Arenas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Flete San Antonio ($/LT) --></label>
+        <name>Costo_Flete_San_Antonio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción --></label>
+        <name>Descripcion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distancia Antofagasta --></label>
+        <name>Distancia_Antofagasta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distancia Concepcion --></label>
+        <name>Distancia_Concepcion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distancia Copiapo --></label>
+        <name>Distancia_Copiapo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distancia Coquimbo --></label>
+        <name>Distancia_Coquimbo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distancia Iquique --></label>
+        <name>Distancia_Iquique__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distancia Megalog --></label>
+        <name>Distancia_Megalog__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distancia Puerto Aysen --></label>
+        <name>Distancia_Puerto_Aysen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distancia Puerto Montt --></label>
+        <name>Distancia_Puerto_Montt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distancia Punta Arenas --></label>
+        <name>Distancia_Punta_Arenas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distancia San Antonio --></label>
+        <name>Distancia_San_Antonio__c</name>
+    </fields>
+    <fields>
+        <label><!-- ENVASE (LTS/KGS) --></label>
+        <name>ENVASE_LTS_KGS__c</name>
+    </fields>
+    <fields>
+        <label><!-- ENVASE --></label>
+        <name>ENVASE__c</name>
+    </fields>
+    <fields>
+        <label><!-- FAMILIA --></label>
+        <name>FAMILIA__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOB --></label>
+        <name>LOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Llave --></label>
+        <name>Llave__c</name>
+    </fields>
+    <fields>
+        <label><!-- MOA --></label>
+        <name>MOA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merma Antofagasta --></label>
+        <name>Merma_Antofagasta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merma Concepcion --></label>
+        <name>Merma_Concepcion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merma Copiapo --></label>
+        <name>Merma_Copiapo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merma Coquimbo --></label>
+        <name>Merma_Coquimbo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merma Iquique --></label>
+        <name>Merma_Iquique__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merma Megalog --></label>
+        <name>Merma_Megalog__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merma Puerto Aysen --></label>
+        <name>Merma_Puerto_Aysen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merma Puerto Montt --></label>
+        <name>Merma_Puerto_Montt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merma Punta Arenas --></label>
+        <name>Merma_Punta_Arenas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merma San Antonio --></label>
+        <name>Merma_San_Antonio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nueva Puerto Montt --></label>
+        <name>Nueva_Puerto_Montt__c</name>
+    </fields>
+    <fields>
+        <label><!-- PACK DE VENTA --></label>
+        <name>PACK_DE_VENTA__c</name>
+    </fields>
+    <fields>
+        <label><!-- PACK (LTS TOTALES) --></label>
+        <name>PACK_LTS_TOTALES__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRECIO ENVASE --></label>
+        <name>PRECIO_ENVASE__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRECIO LITRO --></label>
+        <name>PRECIO_LITRO__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRECIO UNIDAD DE VENTA --></label>
+        <name>PRECIO_UNIDAD_DE_VENTA__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRODUCTO --></label>
+        <name>PRODUCTO__c</name>
+    </fields>
+    <fields>
+        <label><!-- SUBCATEGORIA --></label>
+        <name>SUBCATEGORIA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Antofagasta --></label>
+        <name>Stock_Antofagasta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Concepcion --></label>
+        <name>Stock_Concepcion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Copiapo --></label>
+        <name>Stock_Copiapo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Coquimbo --></label>
+        <name>Stock_Coquimbo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Iquique --></label>
+        <name>Stock_Iquique__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Megalog --></label>
+        <name>Stock_Megalog__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Puerto Aysen --></label>
+        <name>Stock_Puerto_Aysen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Puerto Montt --></label>
+        <name>Stock_Puerto_Montt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Punta Arenas --></label>
+        <name>Stock_Punta_Arenas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock San Antonio --></label>
+        <name>Stock_San_Antonio__c</name>
+    </fields>
+    <fields>
+        <label><!-- TIPO --></label>
+        <name>TIPO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Parametro --></label>
+        <name>Tipo_de_Parametro__c</name>
+        <picklistValues>
+            <masterLabel>Bodega para Envasado</masterLabel>
+            <translation><!-- Bodega para Envasado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bodega para Granel</masterLabel>
+            <translation><!-- Bodega para Granel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costo Almacenaje</masterLabel>
+            <translation><!-- Costo Almacenaje --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distancia</masterLabel>
+            <translation><!-- Distancia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lubricante</masterLabel>
+            <translation><!-- Lubricante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Transporte</masterLabel>
+            <translation><!-- Precio Transporte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repuesto</masterLabel>
+            <translation><!-- Repuesto --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UM --></label>
+        <name>UM__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Parametro Cotizacion Lub - Rep</layout>
+        <sections>
+            <label><!-- Costo Almacenaje --></label>
+            <section>Costo Almacenaje</section>
+        </sections>
+        <sections>
+            <label><!-- Costo Flete --></label>
+            <section>Costo Flete</section>
+        </sections>
+        <sections>
+            <label><!-- Distancia --></label>
+            <section>Distancia</section>
+        </sections>
+        <sections>
+            <label><!-- Merma --></label>
+            <section>Merma</section>
+        </sections>
+        <sections>
+            <label><!-- Stock --></label>
+            <section>Stock</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

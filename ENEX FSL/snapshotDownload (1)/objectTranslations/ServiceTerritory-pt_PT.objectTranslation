@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Caso --></label>
+        <name>Caso__c</name>
+        <relationshipLabel><!-- Territorios de servicios --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Hide Emergency Map --></label>
+        <name>FSL__Hide_Emergency_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal SLR HomeAddress Geolocation --></label>
+        <name>FSL__Internal_SLR_Geolocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Services To Drip Feed --></label>
+        <name>FSL__NumberOfServicesToDripFeed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Use enhanced scheduling and optimization --></label>
+        <name>FSL__O2_Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Cluster Min Size (Closed Pilot) --></label>
+        <name>FSL__Service_Cluster_Min_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Cluster Proximity (Closed Pilot) --></label>
+        <name>FSL__Service_Cluster_Proximity__c</name>
+    </fields>
+    <fields>
+        <label><!-- System Jobs --></label>
+        <name>FSL__System_Jobs__c</name>
+        <picklistValues>
+            <masterLabel>BATCH_ServicesDispatched</masterLabel>
+            <translation>BATCH_ServicesDispatched</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATCH_ServicesInJeopardy</masterLabel>
+            <translation>BATCH_ServicesInJeopardy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ChatterNotification</masterLabel>
+            <translation>ChatterNotification</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Territory Level --></label>
+        <name>FSL__TerritoryLevel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Región --></label>
+        <name>Regi_n__c</name>
+        <picklistValues>
+            <masterLabel>I Tarapacá</masterLabel>
+            <translation><!-- I Tarapacá --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>II Antofagasta</masterLabel>
+            <translation><!-- II Antofagasta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>III Atacama</masterLabel>
+            <translation><!-- III Atacama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IV Coquimbo</masterLabel>
+            <translation><!-- IV Coquimbo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IX  La Araucanía</masterLabel>
+            <translation><!-- IX  La Araucanía --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V Valparaíso</masterLabel>
+            <translation><!-- V Valparaíso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VI Libertador General Bernardo O’Higgins</masterLabel>
+            <translation><!-- VI Libertador General Bernardo O’Higgins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VII  Maule</masterLabel>
+            <translation><!-- VII  Maule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIII Biobío</masterLabel>
+            <translation><!-- VIII Biobío --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X Los Lagos</masterLabel>
+            <translation><!-- X Los Lagos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XI Aysén del General Carlos Ibáñez del Campo</masterLabel>
+            <translation><!-- XI Aysén del General Carlos Ibáñez del Campo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XII Magallanes y Antártica Chilena</masterLabel>
+            <translation><!-- XII Magallanes y Antártica Chilena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XIII Metropolitana de Santiago</masterLabel>
+            <translation><!-- XIII Metropolitana de Santiago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XIV Los Ríos</masterLabel>
+            <translation><!-- XIV Los Ríos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XV Arica y Parinacota</masterLabel>
+            <translation><!-- XV Arica y Parinacota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XVI Ñuble</masterLabel>
+            <translation><!-- XVI Ñuble --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

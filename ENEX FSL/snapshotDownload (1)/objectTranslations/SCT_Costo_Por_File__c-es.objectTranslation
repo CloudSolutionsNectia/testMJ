@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SCT Costo Por File</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SCT Costos Por File</value>
+    </caseValues>
+    <fields>
+        <label><!-- Almacenaje ($) --></label>
+        <name>Almacenaje__c</name>
+    </fields>
+    <fields>
+        <label><!-- Almacenaje unitario --></label>
+        <name>Almacenaje_unitario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comuna --></label>
+        <name>Comuna__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Total --></label>
+        <name>Costo_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo producto --></label>
+        <name>Costo_producto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detalle Grupo --></label>
+        <name>Detalle_Grupo__c</name>
+    </fields>
+    <fields>
+        <label><!-- FEPP --></label>
+        <name>FEPP__c</name>
+    </fields>
+    <fields>
+        <label><!-- File --></label>
+        <name>File__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grupo --></label>
+        <name>Grupo__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Region --></label>
+        <name>ID_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- IE --></label>
+        <name>IE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Orden Región --></label>
+        <name>Orden_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planta Producto --></label>
+        <name>Planta_Producto__c</name>
+        <relationshipLabel><!-- SCT Costos Por File --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Región --></label>
+        <name>Regi_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transporte ($) --></label>
+        <name>Transporte__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transporte unitario --></label>
+        <name>Transporte_unitario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen (Lt) --></label>
+        <name>Volumen_Lt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zona --></label>
+        <name>Zona__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato SCT Costo Por File</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

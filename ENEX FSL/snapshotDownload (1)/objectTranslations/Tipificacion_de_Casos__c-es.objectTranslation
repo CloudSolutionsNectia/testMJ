@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tipificación de Caso</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tipicaciones de Casos</value>
+    </caseValues>
+    <fields>
+        <label><!-- Buscar Primero --></label>
+        <name>Buscar_Primero__c</name>
+        <picklistValues>
+            <masterLabel>Bitumen</masterLabel>
+            <translation><!-- Bitumen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelar</masterLabel>
+            <translation><!-- Cancelar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Combustible</masterLabel>
+            <translation><!-- Combustible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lubricante</masterLabel>
+            <translation><!-- Lubricante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reclamo</masterLabel>
+            <translation><!-- Reclamo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ShellCard</masterLabel>
+            <translation><!-- ShellCard --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Motivo Solicitud --></label>
+        <name>Descripci_n_Motivo_de_Solicitud_CSC__c</name>
+        <relationshipLabel><!-- Tipicaciones de Casos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Grupo Servicio --></label>
+        <name>Grupo_Servicio_CSC__c</name>
+        <relationshipLabel><!-- Tipicaciones de Casos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Buscar Palabra --></label>
+        <name>Palabra__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peso --></label>
+        <name>Peso__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prioridad de Busqueda --></label>
+        <name>Prioridad_de_Busqueda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producto --></label>
+        <name>Producto_CSC__c</name>
+        <relationshipLabel><!-- Tipicaciones de Casos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Buscar Producto --></label>
+        <name>Producto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Servicio --></label>
+        <name>Servicio_CSC__c</name>
+        <relationshipLabel><!-- Tipicaciones de Casos --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

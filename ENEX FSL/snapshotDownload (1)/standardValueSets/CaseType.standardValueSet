@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>AGRADECIMIENTOS</fullName>
+        <default>false</default>
+        <label>AGRADECIMIENTOS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CONSULTA</fullName>
+        <default>false</default>
+        <label>CONSULTA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RECLAMO</fullName>
+        <default>false</default>
+        <label>RECLAMO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SOLICITUD DE VENTA</fullName>
+        <default>false</default>
+        <label>SOLICITUD DE VENTA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Traslado a mantenimiento</fullName>
+        <default>false</default>
+        <label>Traslado a mantenimiento</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Traslado a certificación</fullName>
+        <default>false</default>
+        <label>Traslado a certificación</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fuera de servicio para mantenimiento en faena</fullName>
+        <default>false</default>
+        <label>Fuera de servicio para mantenimiento en faena</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fuera de servicio a la espera de mantenimiento</fullName>
+        <default>false</default>
+        <label>Fuera de servicio a la espera de mantenimiento</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fuera de servicio por falla indeterminada.</fullName>
+        <default>false</default>
+        <label>Fuera de servicio por falla indeterminada.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fuera de servicio por plan de mantenimiento</fullName>
+        <default>false</default>
+        <label>Fuera de servicio por plan de mantenimiento</label>
+    </standardValue>
+</StandardValueSet>

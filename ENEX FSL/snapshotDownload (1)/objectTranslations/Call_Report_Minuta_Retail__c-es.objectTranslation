@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Minuta Retail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Minuta Retail</value>
+    </caseValues>
+    <fields>
+        <label><!-- Checklist Operacional --></label>
+        <name>Checklist_Operacional__c</name>
+        <relationshipLabel><!-- Minuta Retail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comentario 10 --></label>
+        <name>Comentario_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario 11 --></label>
+        <name>Comentario_11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario 1 --></label>
+        <name>Comentario_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario 2 --></label>
+        <name>Comentario_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario 3 --></label>
+        <name>Comentario_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario 4.1 --></label>
+        <name>Comentario_4_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario 4.2 --></label>
+        <name>Comentario_4_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario 4 --></label>
+        <name>Comentario_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario 5 --></label>
+        <name>Comentario_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario 6 --></label>
+        <name>Comentario_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario 7 --></label>
+        <name>Comentario_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario 8 --></label>
+        <name>Comentario_8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario 9 --></label>
+        <name>Comentario_9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentarios Adicionales --></label>
+        <name>Comentarios_Adicionales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contacto Retail --></label>
+        <name>Contacto_Retail__c</name>
+        <relationshipLabel><!-- Minuta Retail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contacto Visitado --></label>
+        <name>Contacto_Visitado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Es del Distribuidor --></label>
+        <name>Es_del_Distribuidor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Explicación Minuta --></label>
+        <name>Explicacion_Minuta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Compromiso 10 --></label>
+        <name>Fecha_Compromiso_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Compromiso 11 --></label>
+        <name>Fecha_Compromiso_11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Compromiso 1 --></label>
+        <name>Fecha_Compromiso_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Compromiso 2 --></label>
+        <name>Fecha_Compromiso_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Compromiso 3 --></label>
+        <name>Fecha_Compromiso_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Compromiso 4.1 --></label>
+        <name>Fecha_Compromiso_4_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Compromiso 4.2 --></label>
+        <name>Fecha_Compromiso_4_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Compromiso 4 --></label>
+        <name>Fecha_Compromiso_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Compromiso 5 --></label>
+        <name>Fecha_Compromiso_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Compromiso 6 --></label>
+        <name>Fecha_Compromiso_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Compromiso 7 --></label>
+        <name>Fecha_Compromiso_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Compromiso 8 --></label>
+        <name>Fecha_Compromiso_8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Compromiso 9 --></label>
+        <name>Fecha_Compromiso_9__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Estación de Servicio --></label>
+        <name>File_Estaci_n_de_Servicio__c</name>
+        <relationshipLabel><!-- Minuta Retail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IDEXTERNO FILE --></label>
+        <name>IDEXTERNO_FILE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minuta --></label>
+        <name>Minuta__c</name>
+    </fields>
+    <fields>
+        <label><!-- P10 --></label>
+        <name>P10__c</name>
+    </fields>
+    <fields>
+        <label><!-- P11 --></label>
+        <name>P11__c</name>
+    </fields>
+    <fields>
+        <label><!-- P1 --></label>
+        <name>P1__c</name>
+    </fields>
+    <fields>
+        <label><!-- P2 --></label>
+        <name>P2__c</name>
+    </fields>
+    <fields>
+        <label><!-- P3 --></label>
+        <name>P3__c</name>
+    </fields>
+    <fields>
+        <label><!-- P4 --></label>
+        <name>P4__c</name>
+    </fields>
+    <fields>
+        <label><!-- P5 --></label>
+        <name>P5__c</name>
+    </fields>
+    <fields>
+        <label><!-- P6 --></label>
+        <name>P6__c</name>
+    </fields>
+    <fields>
+        <label><!-- P7 --></label>
+        <name>P7__c</name>
+    </fields>
+    <fields>
+        <label><!-- P8 --></label>
+        <name>P8__c</name>
+    </fields>
+    <fields>
+        <label><!-- P9 --></label>
+        <name>P9__c</name>
+    </fields>
+    <fields>
+        <label><!-- P 4.1 --></label>
+        <name>P_4_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- P 4.2 --></label>
+        <name>P_4_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- R10 --></label>
+        <name>R10__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- R11 --></label>
+        <name>R11__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- R1 --></label>
+        <name>R1__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- R2 --></label>
+        <name>R2__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- R3 --></label>
+        <name>R3__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- R4.1 --></label>
+        <name>R4_1__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- R4.2 --></label>
+        <name>R4_2__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- R4 --></label>
+        <name>R4__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- R5 --></label>
+        <name>R5__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- R6 --></label>
+        <name>R6__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- R7 --></label>
+        <name>R7__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- R8 --></label>
+        <name>R8__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- R9 --></label>
+        <name>R9__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requiere GPS --></label>
+        <name>Requiere_GPS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario de SSMA --></label>
+        <name>comentario_de_SSMA__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Corta Call Report / Minuta Retail</layout>
+        <sections>
+            <label><!-- ACTIVIDADES VISITA CORTA --></label>
+            <section>ACTIVIDADES VISITA CORTA</section>
+        </sections>
+        <sections>
+            <label><!-- Información Adicional --></label>
+            <section>Información Adicional</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 1 --></label>
+            <section>Pregunta 1</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 2 --></label>
+            <section>Pregunta 2</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 3 --></label>
+            <section>Pregunta 3</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 4 --></label>
+            <section>Pregunta 4</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 5 --></label>
+            <section>Pregunta 5</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Larga Call Report / Minuta Retail</layout>
+        <sections>
+            <label><!-- ACTIVIDADES VISITA CORTA --></label>
+            <section>ACTIVIDADES VISITA CORTA</section>
+        </sections>
+        <sections>
+            <label><!-- Información Adicional --></label>
+            <section>Información Adicional</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 1 --></label>
+            <section>Pregunta 1</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 10 --></label>
+            <section>Pregunta 10</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 11 --></label>
+            <section>Pregunta 11</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 2 --></label>
+            <section>Pregunta 2</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 3 --></label>
+            <section>Pregunta 3</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 4 --></label>
+            <section>Pregunta 4</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 4.1 --></label>
+            <section>Pregunta 4.1</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 4.2 --></label>
+            <section>Pregunta 4.2</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 5 --></label>
+            <section>Pregunta 5</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 6 --></label>
+            <section>Pregunta 6</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 7 --></label>
+            <section>Pregunta 7</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 8 --></label>
+            <section>Pregunta 8</section>
+        </sections>
+        <sections>
+            <label><!-- Pregunta 9 --></label>
+            <section>Pregunta 9</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Minuta Estandar</layout>
+        <sections>
+            <label><!-- Minuta --></label>
+            <section>Minuta</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Minuta Retail</nameFieldLabel>
+    <recordTypes>
+        <description><!-- Visita por ranking --></description>
+        <label><!-- Corta --></label>
+        <name>Corta</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Estándar --></label>
+        <name>Estandar</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Reunión con Distribuidor --></description>
+        <label><!-- Larga --></label>
+        <name>Larga</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Enviar_Email --></label>
+        <name>Enviar_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

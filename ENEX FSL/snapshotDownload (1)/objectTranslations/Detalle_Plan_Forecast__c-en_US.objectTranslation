@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Detalle Plan Forecast</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Detalles Plan Forecast</value>
+    </caseValues>
+    <fields>
+        <label><!-- Plan Forecast --></label>
+        <name>Plan_Forecast__c</name>
+        <relationshipLabel><!-- Detalles Plan Forecast --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- % Volumen --></label>
+        <name>Por_Volumen__c</name>
+    </fields>
+    <fields>
+        <label><!-- % Proceed --></label>
+        <name>Porc_Proceed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proceed Planificado --></label>
+        <name>Proceed_Planificado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proceed Real --></label>
+        <name>Proceed_Real__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen Planificado --></label>
+        <name>Volumen_Planificado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen Real --></label>
+        <name>Volumen_Real__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

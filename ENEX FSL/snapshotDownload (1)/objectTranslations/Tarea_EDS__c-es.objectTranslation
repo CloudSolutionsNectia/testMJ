@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tarea EDS</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tareas EDS</value>
+    </caseValues>
+    <fields>
+        <label><!-- Asunto --></label>
+        <name>Asunto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Borrar --></label>
+        <name>Borrar__c</name>
+    </fields>
+    <fields>
+        <label><!-- ¿Cerrada dentro de SLA? --></label>
+        <name>Cerrada_dentro_de_SLA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentario de Cierre --></label>
+        <name>Comentario_de_Cierre__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentarios --></label>
+        <name>Comentarios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contacto Distribuidor --></label>
+        <name>Contacto_Distribuidor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Días Vencida --></label>
+        <name>Dias_Vencida__c</name>
+    </fields>
+    <fields>
+        <label><!-- Días de Incumplimiento --></label>
+        <name>Dias_de_Incumplimiento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ¿Es Visible? --></label>
+        <name>Es_Visible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado --></label>
+        <name>Estado__c</name>
+        <picklistValues>
+            <masterLabel>Cerrada</masterLabel>
+            <translation><!-- Cerrada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pendiente</masterLabel>
+            <translation><!-- Pendiente --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fecha de Cierre --></label>
+        <name>Fecha_de_Cierre__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de vencimiento --></label>
+        <name>Fecha_de_vencimiento__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Estación de Servicio --></label>
+        <name>File_Estaci_n_de_Servicio__c</name>
+        <relationshipLabel><!-- Tareas EDS --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Jefe de Zona --></label>
+        <name>Jefe_de_Zona__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link Informe Abreviado --></label>
+        <name>Link_Informe_Abreviado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link al Informe --></label>
+        <name>Link_al_Informe__c</name>
+    </fields>
+    <fields>
+        <label><!-- ¿Pendiente pero dentro de SLA? --></label>
+        <name>Pendiente_pero_dentro_de_SLA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pendiente y Dentro de SLA = 1 si no 0 --></label>
+        <name>Pendiente_y_Dentro_de_SLA_1_si_no_0__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pendiente y Fuera de SLA = 1 si no 0 --></label>
+        <name>Pendiente_y_Fuera_de_SLA_1_si_no_0__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prioridad --></label>
+        <name>Prioridad__c</name>
+        <picklistValues>
+            <masterLabel>ALTA</masterLabel>
+            <translation><!-- ALTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BAJA</masterLabel>
+            <translation><!-- BAJA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEDIA</masterLabel>
+            <translation><!-- MEDIA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Solicitada Por --></label>
+        <name>Solicitada_Por__c</name>
+        <relationshipLabel><!-- Tareas EDS --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Subgerente --></label>
+        <name>Subgerente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tema --></label>
+        <name>Tema__c</name>
+        <picklistValues>
+            <masterLabel>Cambio</masterLabel>
+            <translation><!-- Cambio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checklist</masterLabel>
+            <translation><!-- Checklist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR</masterLabel>
+            <translation><!-- DR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estanques</masterLabel>
+            <translation><!-- Estanques --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otro</masterLabel>
+            <translation><!-- Otro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio</masterLabel>
+            <translation><!-- Precio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock</masterLabel>
+            <translation><!-- Stock --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Tarea EDS</layout>
+        <sections>
+            <label><!-- Respuesta --></label>
+            <section>Respuesta</section>
+        </sections>
+        <sections>
+            <label><!-- SLA --></label>
+            <section>SLA</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- No puede cambiar la Estación de Servicio --></errorMessage>
+        <name>No_puede_cambiar_la_Estacion_de_Servicio</name>
+    </validationRules>
+</CustomObjectTranslation>

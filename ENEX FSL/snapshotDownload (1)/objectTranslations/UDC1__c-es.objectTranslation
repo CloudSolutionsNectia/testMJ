@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>UDC1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>UDC1s</value>
+    </caseValues>
+    <fields>
+        <label><!-- DESCRIPTION02 --></label>
+        <name>DESCRIPTION02__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ejecutivo de ventas --></label>
+        <name>Ejecutivo_de_ventas__c</name>
+        <picklistValues>
+            <masterLabel>Alexis Cuevas</masterLabel>
+            <translation><!-- Alexis Cuevas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ana Varela</masterLabel>
+            <translation><!-- Ana Varela --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barbara Urzúa</masterLabel>
+            <translation><!-- Barbara Urzúa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eduardo Ramirez</masterLabel>
+            <translation><!-- Eduardo Ramirez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eilleen Molina</masterLabel>
+            <translation><!-- Eilleen Molina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evelyn Guzman</masterLabel>
+            <translation><!-- Evelyn Guzman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luis Paez</masterLabel>
+            <translation><!-- Luis Paez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madeleine Arredondo</masterLabel>
+            <translation><!-- Madeleine Arredondo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Susana Paez</masterLabel>
+            <translation><!-- Susana Paez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ximena Vasquez</masterLabel>
+            <translation><!-- Ximena Vasquez --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IDEXTERNO --></label>
+        <name>IDEXTERNO__c</name>
+    </fields>
+    <fields>
+        <label><!-- IDSALESFORCE --></label>
+        <name>IDSALESFORCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ingeniero de Ventas1 --></label>
+        <name>Ingeniero_de_Ventas1__c</name>
+        <picklistValues>
+            <masterLabel>Christian Neira</masterLabel>
+            <translation><!-- Christian Neira --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manuel Castro</masterLabel>
+            <translation><!-- Manuel Castro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wilson Araya</masterLabel>
+            <translation><!-- Wilson Araya --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Meta Vendedor --></label>
+        <name>Meta_Vendedor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Negocio --></label>
+        <name>Negocio__c</name>
+        <picklistValues>
+            <masterLabel>B2B</masterLabel>
+            <translation><!-- B2B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2C</masterLabel>
+            <translation><!-- B2C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OEM</masterLabel>
+            <translation><!-- OEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RETAIL</masterLabel>
+            <translation><!-- RETAIL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SYSTEMCODE --></label>
+        <name>SYSTEMCODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- USERDEFINEDCODES --></label>
+        <name>USERDEFINEDCODES__c</name>
+    </fields>
+    <fields>
+        <label><!-- USERDEFINEDCODE --></label>
+        <name>USERDEFINEDCODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendedor Lubricantes --></label>
+        <name>Vendedor_Lubricantes__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato UDC</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

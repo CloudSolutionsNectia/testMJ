@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Cliente Nuevo</fullName>
+        <default>false</default>
+        <label>Cliente Nuevo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cliente Actual (X-Sell)</fullName>
+        <default>false</default>
+        <label>Cliente Actual (X-Sell)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cliente Actual (Up-Sell)</fullName>
+        <default>false</default>
+        <label>Cliente Actual (Up-Sell)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cliente Inactivo (Recuperar)</fullName>
+        <default>false</default>
+        <label>Cliente Inactivo (Recuperar)</label>
+    </standardValue>
+</StandardValueSet>

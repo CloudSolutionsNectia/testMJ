@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Historico Tarifa Flete Localidad</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Historico Tarifa Fletes Localidad</value>
+    </caseValues>
+    <fields>
+        <label><!-- Fecha Tarifa --></label>
+        <name>Fecha_Tarifa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flete --></label>
+        <name>Flete__c</name>
+        <relationshipLabel><!-- Historico Tarifa Fletes Localidad --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tarifa Flete --></label>
+        <name>Tarifa_Flete__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Historico Tarifa Flete Localidad</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

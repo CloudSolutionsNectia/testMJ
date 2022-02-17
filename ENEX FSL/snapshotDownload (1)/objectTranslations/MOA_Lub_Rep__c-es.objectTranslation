@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MOA Lub - Rep</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MOA Lubs - Reps</value>
+    </caseValues>
+    <fields>
+        <label><!-- Aprobador Distribuidor Monomarca (SLDP) --></label>
+        <name>Aprobador_Distribuidor_Monomarca_SLDP__c</name>
+        <relationshipLabel><!-- MOA Lubs - Reps (Aprobador Distribuidor Monomarca (SLDP)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aprobador  Distribuidor Multimarca --></label>
+        <name>Aprobador_Distribuidor_Multimarca__c</name>
+        <relationshipLabel><!-- MOA Lubs - Reps (Aprobador  Distribuidor Multimarca) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aprobador Industria-Minería --></label>
+        <name>Aprobador_Industria_Mineria__c</name>
+        <relationshipLabel><!-- MOA Lubs - Reps (Aprobador Industria-Minería) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aprobador Industria --></label>
+        <name>Aprobador_Industria__c</name>
+        <relationshipLabel><!-- MOA Lubs - Reps (Aprobador Industria) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aprobador OCO --></label>
+        <name>Aprobador_OCO__c</name>
+        <relationshipLabel><!-- MOA Lubs - Reps (Aprobador OCO) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aprobador Retail --></label>
+        <name>Aprobador_Retail__c</name>
+        <relationshipLabel><!-- MOA Lubs - Reps (Aprobador Retail) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aprobador Taller de marca (OEM) --></label>
+        <name>Aprobador_Taller_de_marca_OEM__c</name>
+        <relationshipLabel><!-- MOA Lubs - Reps (Aprobador Taller de marca (OEM)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aprobador VD B2B --></label>
+        <name>Aprobador_VD_B2B__c</name>
+        <relationshipLabel><!-- MOA Lubs - Reps (Aprobador VD B2B) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aprobador VD B2C --></label>
+        <name>Aprobador_VD_B2C__c</name>
+        <relationshipLabel><!-- MOA Lubs - Reps (Aprobador VD B2C) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Distribuidor Monomarca (SLDP) --></label>
+        <name>Distribuidor_Monomarca_SLDP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribuidor Multimarca --></label>
+        <name>Distribuidor_Multimarca__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industria-Minería --></label>
+        <name>Industria_Mineria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industria --></label>
+        <name>Industria__c</name>
+    </fields>
+    <fields>
+        <label><!-- LoB --></label>
+        <name>LoB__c</name>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation><!-- Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industry</masterLabel>
+            <translation><!-- Industry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transport</masterLabel>
+            <translation><!-- Transport --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- OCO --></label>
+        <name>OCO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retail --></label>
+        <name>Retail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taller de marca (OEM) --></label>
+        <name>Taller_de_marca_OEM__c</name>
+    </fields>
+    <fields>
+        <label><!-- VD B2B --></label>
+        <name>VD_B2B__c</name>
+    </fields>
+    <fields>
+        <label><!-- VD B2C --></label>
+        <name>VD_B2C__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato MOA Lub - Rep</layout>
+        <sections>
+            <label><!-- Distribuidor Monomarca (SLDP) --></label>
+            <section>Distribuidor Monomarca (SLDP)</section>
+        </sections>
+        <sections>
+            <label><!-- Distribuidor Multimarca --></label>
+            <section>Distribuidor Multimarca</section>
+        </sections>
+        <sections>
+            <label><!-- Industria --></label>
+            <section>Industria</section>
+        </sections>
+        <sections>
+            <label><!-- Industria-Minería --></label>
+            <section>Industria-Minería</section>
+        </sections>
+        <sections>
+            <label><!-- OCO --></label>
+            <section>OCO</section>
+        </sections>
+        <sections>
+            <label><!-- Retail --></label>
+            <section>Retail</section>
+        </sections>
+        <sections>
+            <label><!-- Taller de marca (OEM) --></label>
+            <section>Taller de marca (OEM)</section>
+        </sections>
+        <sections>
+            <label><!-- VD B2B --></label>
+            <section>VD B2B</section>
+        </sections>
+        <sections>
+            <label><!-- VD B2C --></label>
+            <section>VD B2C</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

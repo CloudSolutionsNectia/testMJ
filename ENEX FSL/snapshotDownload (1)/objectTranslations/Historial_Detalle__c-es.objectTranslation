@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SCT Historia Detalle Producto Cotizacion</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SCT Historia Detalle Producto Cotizacion</value>
+    </caseValues>
+    <fields>
+        <label><!-- Almacenaje unitario --></label>
+        <name>Almacenaje_unitario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comision --></label>
+        <name>Comision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo Total --></label>
+        <name>Costo_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Costo producto --></label>
+        <name>Costo_producto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripcion --></label>
+        <name>Descripcion__c</name>
+    </fields>
+    <fields>
+        <label><!-- IE --></label>
+        <name>IE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio de Venta --></label>
+        <name>Precio_de_Venta__c</name>
+    </fields>
+    <fields>
+        <label><!-- SCT Detalle Producto Cotizacion --></label>
+        <name>SCT_Detalle_Producto_Cotizacion__c</name>
+        <relationshipLabel><!-- SCT Historia Detalle Producto Cotizacion --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transporte unitario --></label>
+        <name>Transporte_unitario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volumen --></label>
+        <name>Volumen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zona --></label>
+        <name>Zona__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

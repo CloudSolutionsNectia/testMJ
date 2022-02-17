@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Almacén</fullName>
+        <default>true</default>
+        <label>Almacén</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sitio</fullName>
+        <default>false</default>
+        <label>Sitio</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Furgón</fullName>
+        <default>false</default>
+        <label>Furgón</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Planta</fullName>
+        <default>false</default>
+        <label>Planta</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Virtual</fullName>
+        <default>false</default>
+        <label>Virtual</label>
+    </standardValue>
+</StandardValueSet>
